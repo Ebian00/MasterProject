@@ -1,0 +1,607 @@
+{
+  "numberOfJobs" : 100,
+  "numberOfMachines" : 10,
+  "intervallLenghts" : 100,
+  "maxWeight" : 20,
+  "listOfJobs" : [ {
+    "jobNumber" : 1,
+    "jobWeight" : 6,
+    "startTime" : 60,
+    "finishTime" : 78,
+    "jobsOnMachine" : [ 10, 2, 3 ]
+  }, {
+    "jobNumber" : 2,
+    "jobWeight" : 9,
+    "startTime" : 31,
+    "finishTime" : 57,
+    "jobsOnMachine" : [ 6, 1, 4, 3, 8 ]
+  }, {
+    "jobNumber" : 3,
+    "jobWeight" : 14,
+    "startTime" : 59,
+    "finishTime" : 75,
+    "jobsOnMachine" : [ 9, 6, 1, 2, 4 ]
+  }, {
+    "jobNumber" : 4,
+    "jobWeight" : 9,
+    "startTime" : 28,
+    "finishTime" : 100,
+    "jobsOnMachine" : [ 3, 10 ]
+  }, {
+    "jobNumber" : 5,
+    "jobWeight" : 10,
+    "startTime" : 23,
+    "finishTime" : 70,
+    "jobsOnMachine" : [ 3, 8, 2 ]
+  }, {
+    "jobNumber" : 6,
+    "jobWeight" : 3,
+    "startTime" : 95,
+    "finishTime" : 97,
+    "jobsOnMachine" : [ 7, 4, 9, 10 ]
+  }, {
+    "jobNumber" : 7,
+    "jobWeight" : 20,
+    "startTime" : 70,
+    "finishTime" : 71,
+    "jobsOnMachine" : [ 10 ]
+  }, {
+    "jobNumber" : 8,
+    "jobWeight" : 11,
+    "startTime" : 75,
+    "finishTime" : 88,
+    "jobsOnMachine" : [ 2, 3, 9, 7, 1 ]
+  }, {
+    "jobNumber" : 9,
+    "jobWeight" : 5,
+    "startTime" : 57,
+    "finishTime" : 70,
+    "jobsOnMachine" : [ 1, 3, 8, 9, 10 ]
+  }, {
+    "jobNumber" : 10,
+    "jobWeight" : 9,
+    "startTime" : 14,
+    "finishTime" : 78,
+    "jobsOnMachine" : [ 6 ]
+  }, {
+    "jobNumber" : 11,
+    "jobWeight" : 7,
+    "startTime" : 83,
+    "finishTime" : 87,
+    "jobsOnMachine" : [ 5, 3, 10, 9 ]
+  }, {
+    "jobNumber" : 12,
+    "jobWeight" : 20,
+    "startTime" : 30,
+    "finishTime" : 95,
+    "jobsOnMachine" : [ 8, 6, 1 ]
+  }, {
+    "jobNumber" : 13,
+    "jobWeight" : 18,
+    "startTime" : 37,
+    "finishTime" : 48,
+    "jobsOnMachine" : [ 1, 10, 9, 5, 6 ]
+  }, {
+    "jobNumber" : 14,
+    "jobWeight" : 9,
+    "startTime" : 33,
+    "finishTime" : 99,
+    "jobsOnMachine" : [ 10, 2 ]
+  }, {
+    "jobNumber" : 15,
+    "jobWeight" : 18,
+    "startTime" : 19,
+    "finishTime" : 81,
+    "jobsOnMachine" : [ 7, 2, 8, 5, 9 ]
+  }, {
+    "jobNumber" : 16,
+    "jobWeight" : 2,
+    "startTime" : 0,
+    "finishTime" : 63,
+    "jobsOnMachine" : [ 5 ]
+  }, {
+    "jobNumber" : 17,
+    "jobWeight" : 16,
+    "startTime" : 96,
+    "finishTime" : 97,
+    "jobsOnMachine" : [ 6, 7, 4 ]
+  }, {
+    "jobNumber" : 18,
+    "jobWeight" : 19,
+    "startTime" : 71,
+    "finishTime" : 84,
+    "jobsOnMachine" : [ 9 ]
+  }, {
+    "jobNumber" : 19,
+    "jobWeight" : 5,
+    "startTime" : 44,
+    "finishTime" : 95,
+    "jobsOnMachine" : [ 6, 8 ]
+  }, {
+    "jobNumber" : 20,
+    "jobWeight" : 14,
+    "startTime" : 21,
+    "finishTime" : 95,
+    "jobsOnMachine" : [ 1, 6, 4, 8 ]
+  }, {
+    "jobNumber" : 21,
+    "jobWeight" : 10,
+    "startTime" : 26,
+    "finishTime" : 77,
+    "jobsOnMachine" : [ 1, 2, 5 ]
+  }, {
+    "jobNumber" : 22,
+    "jobWeight" : 4,
+    "startTime" : 68,
+    "finishTime" : 69,
+    "jobsOnMachine" : [ 5 ]
+  }, {
+    "jobNumber" : 23,
+    "jobWeight" : 15,
+    "startTime" : 94,
+    "finishTime" : 96,
+    "jobsOnMachine" : [ 9, 5, 8, 6, 7 ]
+  }, {
+    "jobNumber" : 24,
+    "jobWeight" : 3,
+    "startTime" : 95,
+    "finishTime" : 100,
+    "jobsOnMachine" : [ 10, 6, 9 ]
+  }, {
+    "jobNumber" : 25,
+    "jobWeight" : 13,
+    "startTime" : 23,
+    "finishTime" : 24,
+    "jobsOnMachine" : [ 8, 10, 6, 5, 1 ]
+  }, {
+    "jobNumber" : 26,
+    "jobWeight" : 17,
+    "startTime" : 96,
+    "finishTime" : 97,
+    "jobsOnMachine" : [ 1, 2, 4, 7 ]
+  }, {
+    "jobNumber" : 27,
+    "jobWeight" : 14,
+    "startTime" : 65,
+    "finishTime" : 99,
+    "jobsOnMachine" : [ 7 ]
+  }, {
+    "jobNumber" : 28,
+    "jobWeight" : 6,
+    "startTime" : 64,
+    "finishTime" : 65,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 29,
+    "jobWeight" : 13,
+    "startTime" : 54,
+    "finishTime" : 87,
+    "jobsOnMachine" : [ 4 ]
+  }, {
+    "jobNumber" : 30,
+    "jobWeight" : 19,
+    "startTime" : 88,
+    "finishTime" : 100,
+    "jobsOnMachine" : [ 8, 1, 10 ]
+  }, {
+    "jobNumber" : 31,
+    "jobWeight" : 16,
+    "startTime" : 74,
+    "finishTime" : 95,
+    "jobsOnMachine" : [ 1, 2, 5, 6 ]
+  }, {
+    "jobNumber" : 32,
+    "jobWeight" : 18,
+    "startTime" : 77,
+    "finishTime" : 82,
+    "jobsOnMachine" : [ 5 ]
+  }, {
+    "jobNumber" : 33,
+    "jobWeight" : 16,
+    "startTime" : 74,
+    "finishTime" : 98,
+    "jobsOnMachine" : [ 4, 8, 1, 9, 6 ]
+  }, {
+    "jobNumber" : 34,
+    "jobWeight" : 11,
+    "startTime" : 30,
+    "finishTime" : 43,
+    "jobsOnMachine" : [ 2, 5, 3, 10, 8 ]
+  }, {
+    "jobNumber" : 35,
+    "jobWeight" : 6,
+    "startTime" : 88,
+    "finishTime" : 92,
+    "jobsOnMachine" : [ 5 ]
+  }, {
+    "jobNumber" : 36,
+    "jobWeight" : 12,
+    "startTime" : 52,
+    "finishTime" : 71,
+    "jobsOnMachine" : [ 1 ]
+  }, {
+    "jobNumber" : 37,
+    "jobWeight" : 6,
+    "startTime" : 29,
+    "finishTime" : 93,
+    "jobsOnMachine" : [ 10 ]
+  }, {
+    "jobNumber" : 38,
+    "jobWeight" : 8,
+    "startTime" : 4,
+    "finishTime" : 76,
+    "jobsOnMachine" : [ 1 ]
+  }, {
+    "jobNumber" : 39,
+    "jobWeight" : 15,
+    "startTime" : 41,
+    "finishTime" : 66,
+    "jobsOnMachine" : [ 3, 10, 4 ]
+  }, {
+    "jobNumber" : 40,
+    "jobWeight" : 9,
+    "startTime" : 76,
+    "finishTime" : 85,
+    "jobsOnMachine" : [ 1, 10, 6, 9 ]
+  }, {
+    "jobNumber" : 41,
+    "jobWeight" : 18,
+    "startTime" : 98,
+    "finishTime" : 99,
+    "jobsOnMachine" : [ 7, 2, 10, 8, 4 ]
+  }, {
+    "jobNumber" : 42,
+    "jobWeight" : 8,
+    "startTime" : 44,
+    "finishTime" : 95,
+    "jobsOnMachine" : [ 5, 10, 7 ]
+  }, {
+    "jobNumber" : 43,
+    "jobWeight" : 2,
+    "startTime" : 16,
+    "finishTime" : 68,
+    "jobsOnMachine" : [ 8, 2, 7 ]
+  }, {
+    "jobNumber" : 44,
+    "jobWeight" : 15,
+    "startTime" : 51,
+    "finishTime" : 79,
+    "jobsOnMachine" : [ 9, 5, 7, 6 ]
+  }, {
+    "jobNumber" : 45,
+    "jobWeight" : 2,
+    "startTime" : 88,
+    "finishTime" : 92,
+    "jobsOnMachine" : [ 9, 7 ]
+  }, {
+    "jobNumber" : 46,
+    "jobWeight" : 20,
+    "startTime" : 53,
+    "finishTime" : 72,
+    "jobsOnMachine" : [ 9, 7 ]
+  }, {
+    "jobNumber" : 47,
+    "jobWeight" : 6,
+    "startTime" : 51,
+    "finishTime" : 53,
+    "jobsOnMachine" : [ 5, 2, 1, 3 ]
+  }, {
+    "jobNumber" : 48,
+    "jobWeight" : 6,
+    "startTime" : 38,
+    "finishTime" : 94,
+    "jobsOnMachine" : [ 7 ]
+  }, {
+    "jobNumber" : 49,
+    "jobWeight" : 2,
+    "startTime" : 55,
+    "finishTime" : 77,
+    "jobsOnMachine" : [ 1, 5 ]
+  }, {
+    "jobNumber" : 50,
+    "jobWeight" : 16,
+    "startTime" : 61,
+    "finishTime" : 71,
+    "jobsOnMachine" : [ 1, 9 ]
+  }, {
+    "jobNumber" : 51,
+    "jobWeight" : 20,
+    "startTime" : 33,
+    "finishTime" : 99,
+    "jobsOnMachine" : [ 1, 5, 3 ]
+  }, {
+    "jobNumber" : 52,
+    "jobWeight" : 17,
+    "startTime" : 17,
+    "finishTime" : 50,
+    "jobsOnMachine" : [ 4, 2, 3, 10, 8 ]
+  }, {
+    "jobNumber" : 53,
+    "jobWeight" : 20,
+    "startTime" : 52,
+    "finishTime" : 93,
+    "jobsOnMachine" : [ 2, 1, 3 ]
+  }, {
+    "jobNumber" : 54,
+    "jobWeight" : 8,
+    "startTime" : 20,
+    "finishTime" : 70,
+    "jobsOnMachine" : [ 9, 2, 10, 7 ]
+  }, {
+    "jobNumber" : 55,
+    "jobWeight" : 16,
+    "startTime" : 84,
+    "finishTime" : 99,
+    "jobsOnMachine" : [ 6, 3, 2, 1, 8 ]
+  }, {
+    "jobNumber" : 56,
+    "jobWeight" : 18,
+    "startTime" : 11,
+    "finishTime" : 71,
+    "jobsOnMachine" : [ 10, 4 ]
+  }, {
+    "jobNumber" : 57,
+    "jobWeight" : 4,
+    "startTime" : 47,
+    "finishTime" : 75,
+    "jobsOnMachine" : [ 5, 9 ]
+  }, {
+    "jobNumber" : 58,
+    "jobWeight" : 13,
+    "startTime" : 10,
+    "finishTime" : 27,
+    "jobsOnMachine" : [ 7, 6, 3 ]
+  }, {
+    "jobNumber" : 59,
+    "jobWeight" : 1,
+    "startTime" : 89,
+    "finishTime" : 95,
+    "jobsOnMachine" : [ 9, 10 ]
+  }, {
+    "jobNumber" : 60,
+    "jobWeight" : 15,
+    "startTime" : 25,
+    "finishTime" : 36,
+    "jobsOnMachine" : [ 3, 2, 9, 8, 1 ]
+  }, {
+    "jobNumber" : 61,
+    "jobWeight" : 3,
+    "startTime" : 67,
+    "finishTime" : 70,
+    "jobsOnMachine" : [ 3, 4, 6 ]
+  }, {
+    "jobNumber" : 62,
+    "jobWeight" : 15,
+    "startTime" : 3,
+    "finishTime" : 24,
+    "jobsOnMachine" : [ 10, 9, 3, 2 ]
+  }, {
+    "jobNumber" : 63,
+    "jobWeight" : 9,
+    "startTime" : 84,
+    "finishTime" : 87,
+    "jobsOnMachine" : [ 10, 7 ]
+  }, {
+    "jobNumber" : 64,
+    "jobWeight" : 6,
+    "startTime" : 56,
+    "finishTime" : 82,
+    "jobsOnMachine" : [ 8, 3 ]
+  }, {
+    "jobNumber" : 65,
+    "jobWeight" : 4,
+    "startTime" : 62,
+    "finishTime" : 76,
+    "jobsOnMachine" : [ 2, 5, 7, 4 ]
+  }, {
+    "jobNumber" : 66,
+    "jobWeight" : 19,
+    "startTime" : 74,
+    "finishTime" : 92,
+    "jobsOnMachine" : [ 2, 8 ]
+  }, {
+    "jobNumber" : 67,
+    "jobWeight" : 16,
+    "startTime" : 92,
+    "finishTime" : 96,
+    "jobsOnMachine" : [ 7, 4, 6, 5, 1 ]
+  }, {
+    "jobNumber" : 68,
+    "jobWeight" : 4,
+    "startTime" : 25,
+    "finishTime" : 73,
+    "jobsOnMachine" : [ 7, 4, 9, 5, 1 ]
+  }, {
+    "jobNumber" : 69,
+    "jobWeight" : 2,
+    "startTime" : 73,
+    "finishTime" : 81,
+    "jobsOnMachine" : [ 6, 8, 7, 4 ]
+  }, {
+    "jobNumber" : 70,
+    "jobWeight" : 2,
+    "startTime" : 11,
+    "finishTime" : 67,
+    "jobsOnMachine" : [ 2, 3, 4 ]
+  }, {
+    "jobNumber" : 71,
+    "jobWeight" : 18,
+    "startTime" : 64,
+    "finishTime" : 78,
+    "jobsOnMachine" : [ 2, 8, 6 ]
+  }, {
+    "jobNumber" : 72,
+    "jobWeight" : 18,
+    "startTime" : 69,
+    "finishTime" : 74,
+    "jobsOnMachine" : [ 3, 5, 7, 1, 8 ]
+  }, {
+    "jobNumber" : 73,
+    "jobWeight" : 19,
+    "startTime" : 37,
+    "finishTime" : 55,
+    "jobsOnMachine" : [ 10, 1, 2, 3 ]
+  }, {
+    "jobNumber" : 74,
+    "jobWeight" : 11,
+    "startTime" : 22,
+    "finishTime" : 26,
+    "jobsOnMachine" : [ 4, 6, 10, 5 ]
+  }, {
+    "jobNumber" : 75,
+    "jobWeight" : 9,
+    "startTime" : 62,
+    "finishTime" : 67,
+    "jobsOnMachine" : [ 4, 1, 2 ]
+  }, {
+    "jobNumber" : 76,
+    "jobWeight" : 12,
+    "startTime" : 64,
+    "finishTime" : 74,
+    "jobsOnMachine" : [ 6, 10, 1, 7 ]
+  }, {
+    "jobNumber" : 77,
+    "jobWeight" : 11,
+    "startTime" : 43,
+    "finishTime" : 79,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 78,
+    "jobWeight" : 14,
+    "startTime" : 74,
+    "finishTime" : 88,
+    "jobsOnMachine" : [ 9, 2, 3, 6, 1 ]
+  }, {
+    "jobNumber" : 79,
+    "jobWeight" : 6,
+    "startTime" : 75,
+    "finishTime" : 91,
+    "jobsOnMachine" : [ 2, 3, 10, 8 ]
+  }, {
+    "jobNumber" : 80,
+    "jobWeight" : 15,
+    "startTime" : 76,
+    "finishTime" : 96,
+    "jobsOnMachine" : [ 10, 5, 4 ]
+  }, {
+    "jobNumber" : 81,
+    "jobWeight" : 14,
+    "startTime" : 42,
+    "finishTime" : 92,
+    "jobsOnMachine" : [ 4, 9, 7, 10, 2 ]
+  }, {
+    "jobNumber" : 82,
+    "jobWeight" : 13,
+    "startTime" : 66,
+    "finishTime" : 70,
+    "jobsOnMachine" : [ 8, 2, 1, 9, 6 ]
+  }, {
+    "jobNumber" : 83,
+    "jobWeight" : 19,
+    "startTime" : 39,
+    "finishTime" : 82,
+    "jobsOnMachine" : [ 9, 7, 3 ]
+  }, {
+    "jobNumber" : 84,
+    "jobWeight" : 15,
+    "startTime" : 20,
+    "finishTime" : 52,
+    "jobsOnMachine" : [ 6 ]
+  }, {
+    "jobNumber" : 85,
+    "jobWeight" : 3,
+    "startTime" : 23,
+    "finishTime" : 50,
+    "jobsOnMachine" : [ 3 ]
+  }, {
+    "jobNumber" : 86,
+    "jobWeight" : 6,
+    "startTime" : 67,
+    "finishTime" : 69,
+    "jobsOnMachine" : [ 8, 1, 7, 2, 6 ]
+  }, {
+    "jobNumber" : 87,
+    "jobWeight" : 14,
+    "startTime" : 19,
+    "finishTime" : 81,
+    "jobsOnMachine" : [ 6, 2, 8 ]
+  }, {
+    "jobNumber" : 88,
+    "jobWeight" : 6,
+    "startTime" : 68,
+    "finishTime" : 89,
+    "jobsOnMachine" : [ 8, 6, 1 ]
+  }, {
+    "jobNumber" : 89,
+    "jobWeight" : 8,
+    "startTime" : 19,
+    "finishTime" : 75,
+    "jobsOnMachine" : [ 6, 3, 7 ]
+  }, {
+    "jobNumber" : 90,
+    "jobWeight" : 19,
+    "startTime" : 41,
+    "finishTime" : 46,
+    "jobsOnMachine" : [ 5, 1, 8, 10, 3 ]
+  }, {
+    "jobNumber" : 91,
+    "jobWeight" : 16,
+    "startTime" : 3,
+    "finishTime" : 58,
+    "jobsOnMachine" : [ 10, 7, 2, 8, 9 ]
+  }, {
+    "jobNumber" : 92,
+    "jobWeight" : 1,
+    "startTime" : 33,
+    "finishTime" : 49,
+    "jobsOnMachine" : [ 3, 8, 9 ]
+  }, {
+    "jobNumber" : 93,
+    "jobWeight" : 7,
+    "startTime" : 51,
+    "finishTime" : 77,
+    "jobsOnMachine" : [ 5, 4 ]
+  }, {
+    "jobNumber" : 94,
+    "jobWeight" : 15,
+    "startTime" : 18,
+    "finishTime" : 88,
+    "jobsOnMachine" : [ 4, 5, 2 ]
+  }, {
+    "jobNumber" : 95,
+    "jobWeight" : 16,
+    "startTime" : 80,
+    "finishTime" : 100,
+    "jobsOnMachine" : [ 5, 3, 7, 8, 1 ]
+  }, {
+    "jobNumber" : 96,
+    "jobWeight" : 5,
+    "startTime" : 71,
+    "finishTime" : 95,
+    "jobsOnMachine" : [ 8, 6, 5 ]
+  }, {
+    "jobNumber" : 97,
+    "jobWeight" : 4,
+    "startTime" : 77,
+    "finishTime" : 94,
+    "jobsOnMachine" : [ 6, 5, 2, 9, 1 ]
+  }, {
+    "jobNumber" : 98,
+    "jobWeight" : 10,
+    "startTime" : 62,
+    "finishTime" : 63,
+    "jobsOnMachine" : [ 9, 8, 2 ]
+  }, {
+    "jobNumber" : 99,
+    "jobWeight" : 9,
+    "startTime" : 83,
+    "finishTime" : 84,
+    "jobsOnMachine" : [ 2, 1, 9, 3 ]
+  }, {
+    "jobNumber" : 100,
+    "jobWeight" : 4,
+    "startTime" : 97,
+    "finishTime" : 98,
+    "jobsOnMachine" : [ 4, 2, 5 ]
+  } ]
+}
