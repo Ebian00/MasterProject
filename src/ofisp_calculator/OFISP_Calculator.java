@@ -79,11 +79,11 @@ public class OFISP_Calculator {
 			
 
 
-			// Set objective: maximize x + y + 2 z
+			// Set objective: maximize x1.1 + x1.2  + x2.1 ....
 			int numberOfObjectiveVariables = 0;
 			GRBLinExpr expr = new GRBLinExpr();
 			for (int i =0; i < numberOfJobs; ++i) {
-				int weight = jsonInstanz.getListOfJobs().get(i).getJobWeight();
+				int weight = jsonInstanz.getListOfJobs().get(i).getJobProfit();
 				List<GRBVar> list = objectiveVariables.get(i);
 				int lenght = list.size();
 				for(int j = 0; j <lenght; ++j) {
@@ -151,15 +151,16 @@ public class OFISP_Calculator {
 						jobOutput.setFinishTime(jobInput.getFinishTime());
 						jobOutput.setStartTime(jobInput.getStartTime());
 						jobOutput.setJobNumber(jobInput.getJobNumber());
-						jobOutput.setJobWeight(jobInput.getJobWeight());
+						jobOutput.setJobProfit(jobInput.getJobProfit());
 						jobOutput.setMachine(jobInput.getJobsOnMachine()[j]);
 						listOfJobsOutput.add(jobOutput);
+						
 					}
 				}
 			
 			}
 			 
-		 JsonOutput jsonOutput = new JsonOutput(numberOfJobs,numberOfMachines,numberOfInterval,model.get(GRB.DoubleAttr.ObjVal),listOfJobsOutput);
+		 JsonOutput jsonOutput = new JsonOutput(numberOfJobs,numberOfMachines,numberOfInterval,model.get(GRB.DoubleAttr.ObjVal),jsonInstanz.getType(),jsonInstanz.getDescription(),listOfJobsOutput);
 		    ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 		    try {
 		    	writer.writeValue(Paths.get(outputPath+outputName+ ".json").toFile(), jsonOutput);

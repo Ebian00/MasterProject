@@ -10,22 +10,30 @@ public class JsonOutput {
 	int numberOfJobs;
 	int numberOfMachines;
 	int intervallLenghts;
-	double value;
+	double objective;
+	String type;
+	String description;
 	List<JobOutput> listOfJobs = new ArrayList<JobOutput>();
 	
  public JsonOutput() {
 		super();
 	}
 
-	public JsonOutput(int numberOfJobs, int numberOfMachines, int intervallLenghts, double value,
-			List<JobOutput> listOfJobs) {
-		super();
-		this.numberOfJobs = numberOfJobs;
-		this.numberOfMachines = numberOfMachines;
-		this.intervallLenghts = intervallLenghts;
-		this.value = value;
-		this.listOfJobs = listOfJobs;
-	}
+	
+
+	public JsonOutput(int numberOfJobs, int numberOfMachines, int intervallLenghts, double objective, String type,
+		String description, List<JobOutput> listOfJobs) {
+	super();
+	this.numberOfJobs = numberOfJobs;
+	this.numberOfMachines = numberOfMachines;
+	this.intervallLenghts = intervallLenghts;
+	this.objective = objective;
+	this.type = type;
+	this.description = description;
+	this.listOfJobs = listOfJobs;
+}
+
+
 
 	public int getNumberOfJobs() {
 		return numberOfJobs;
@@ -51,12 +59,12 @@ public class JsonOutput {
 		this.intervallLenghts = intervallLenghts;
 	}
 
-	public double getValue() {
-		return value;
+	public double getObjective() {
+		return objective;
 	}
 
-	public void setValue(double value) {
-		this.value = value;
+	public void setObjective(double value) {
+		this.objective = value;
 	}
 
 	public List<JobOutput> getListOfJobs() {

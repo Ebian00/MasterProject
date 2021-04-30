@@ -8,37 +8,33 @@ public class JsonInstanz {
 	int numberOfJobs;
 	int numberOfMachines;
 	int intervallLenghts;
-	int maxWeight;
 	String type;
-	int corrolation = 0;
-	public JsonInstanz(int numberOfJobs, int numberOfMachines, int intervallLenghts, int maxWeight,
-			List<JobInput> listOfJobs, String type, int corrolation) {
+	String description;
+	List<JobInput> listOfJobs = new ArrayList<JobInput>();
+	
+	public JsonInstanz(int numberOfJobs, int numberOfMachines, int intervallLenghts, String type, String description,
+			List<JobInput> listOfJobs) {
 		super();
 		this.numberOfJobs = numberOfJobs;
 		this.numberOfMachines = numberOfMachines;
 		this.intervallLenghts = intervallLenghts;
-		this.maxWeight = maxWeight;
 		this.type = type;
-		this.corrolation = corrolation;
+		this.description = description;
 		this.listOfJobs = listOfJobs;
 	}
 
-	List<JobInput> listOfJobs = new ArrayList<JobInput>();
+
+
+
+
+
+	
 	
  public JsonInstanz() {
 		super();
 	}
 
-	public JsonInstanz(int numberOfJobs, int numberOfMachines, int intervallLenghts, int maxWeight,
-			List<JobInput> listOfJobs, String type) {
-		super();
-		this.numberOfJobs = numberOfJobs;
-		this.numberOfMachines = numberOfMachines;
-		this.intervallLenghts = intervallLenghts;
-		this.maxWeight = maxWeight;
-		this.listOfJobs = listOfJobs;
-		this.type = type;
-	}
+	
 
 	public int getNumberOfJobs() {
 		return numberOfJobs;
@@ -64,14 +60,6 @@ public class JsonInstanz {
 		this.intervallLenghts = intervallLenghts;
 	}
 
-	public int getMaxWeight() {
-		return maxWeight;
-	}
-
-	public void setMaxWeight(int maxWeight) {
-		this.maxWeight = maxWeight;
-	}
-
 	public List<JobInput> getListOfJobs() {
 		return listOfJobs;
 	}
@@ -88,11 +76,12 @@ public class JsonInstanz {
 		this.type = type;
 	}
 
-	public int getCorrolation() {
-		return corrolation;
+	
+	public String getDescription() {
+		return description;
 	}
 
-	public void setCorrolation(int corrolation) {
-		this.corrolation = corrolation;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 }

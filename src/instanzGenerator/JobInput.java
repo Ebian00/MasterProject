@@ -10,11 +10,11 @@ public class JobInput {
 		// TODO Auto-generated constructor stub
 	}
 	int jobNumber;
-	int jobWeight;
+	int jobProfit;
 	int startTime;
 	@Override
 	public String toString() {
-		return "JobInput [jobNumber=" + jobNumber + ", jobWeight=" + jobWeight + ", startTime=" + startTime
+		return "JobInput [jobNumber=" + jobNumber + ", jobWeight=" + jobProfit + ", startTime=" + startTime
 				+ ", finishTime=" + finishTime + ", jobsOnMachine=" + Arrays.toString(jobsOnMachine) + "]";
 	}
 	int finishTime;
@@ -25,19 +25,19 @@ public class JobInput {
 	public void setJobNumber(int jobNumber) {
 		this.jobNumber = jobNumber;
 	}
-	public int getJobWeight() {
-		return jobWeight;
+	public int getJobProfit() {
+		return jobProfit;
 	}
-	public void setJobWeight(int jobWeight) {
-		this.jobWeight = jobWeight;
+	public void setJobProfit(int jobWeight) {
+		this.jobProfit = jobWeight;
 	}
 	public int getStartTime() {
 		return startTime;
 	}
-	public JobInput(int jobNumber, int jobWeight, int startTime, int finishTime, int[] jobsOnMachine) {
+	public JobInput(int jobNumber, int jobProfit, int startTime, int finishTime, int[] jobsOnMachine) {
 		super();
 		this.jobNumber = jobNumber;
-		this.jobWeight = jobWeight;
+		this.jobProfit = jobProfit;
 		this.startTime = startTime;
 		this.finishTime = finishTime;
 		this.jobsOnMachine = jobsOnMachine;

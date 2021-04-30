@@ -35,17 +35,14 @@ import instanzGenerator.JsonInstanz;
 import ofisp_calculator.JobOutput;
 import ofisp_calculator.JsonOutput;
 
-public class GreedyHeuristicMaxWeight {
+public class GreedyHeuristicMaxProfit {
 
 	public static void calculateGreedy(String instancePath, String outputPath, String outputName,boolean calculateMashineConflict,
 			boolean calculatePrioWithJobOnMashine, boolean calculateMaxJobConflict ) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please enter the path to the test instance!");
-		String filePaht = "./OFISPInstances/OFISPInstance5000IntervalWeight.json";
 		JsonInstanzWithPrio jsonInstanz = null;
 		ObjectMapper mapper = new ObjectMapper();
 		try {
-			jsonInstanz = mapper.readValue(new File(filePaht), JsonInstanzWithPrio.class);
+			jsonInstanz = mapper.readValue(new File(instancePath), JsonInstanzWithPrio.class);
 		} catch (JsonParseException e1) {
 			e1.printStackTrace();
 		} catch (JsonMappingException e1) {
@@ -96,7 +93,7 @@ public class GreedyHeuristicMaxWeight {
 		
 	
 		JsonOutput jsonOutput = new JsonOutput(numberOfJobs, numberOfMachines, numberOfInterval,
-				Objective, listOfJobsOutput);
+				Objective,jsonInstanz.getType(),jsonInstanz.getDescription(), listOfJobsOutput);
 		ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 		try {
 			writer.writeValue(Paths.get(outputPath+outputName+ ".json").toFile(), jsonOutput);
@@ -228,7 +225,7 @@ public class GreedyHeuristicMaxWeight {
 				jobOutput.setFinishTime(job.getFinishTime());
 				jobOutput.setStartTime(job.getStartTime());
 				jobOutput.setJobNumber(job.getJobNumber());
-				jobOutput.setJobWeight(job.getJobWeight());
+				jobOutput.setJobProfit(job.getJobWeight());
 				jobOutput.setMachine(machineNumber);
 				listOfJobsOutput.add(jobOutput);
 				objective += job.getJobWeight();
@@ -237,7 +234,8 @@ public class GreedyHeuristicMaxWeight {
 		return objective;
 	}
 
-	public static int calculateInstanceWithMachineConflict(int numberOfJobs, int numberOfMashines, int intevallLength,List<JobWithPrio> listOfJobs, Map<Integer, Integer> machineConflict, List<JobOutput> listOfJobsOutput) {
+	public static int calculateInstanceWithMachineConflict(int numberOfJobs, int numberOfMashines, int intevallLength,
+			List<JobWithPrio> listOfJobs, Map<Integer, Integer> machineConflict, List<JobOutput> listOfJobsOutput) {
 		Map<Integer, Map<Integer, Integer>> jobOverlaping = new LinkedHashMap<Integer, Map<Integer, Integer>>();
 		int objective = 0;
 		for (int i = 1; i <= numberOfMashines; ++i) {
@@ -253,7 +251,7 @@ public class GreedyHeuristicMaxWeight {
 			for (int i = 0; i < machines.size(); ++i) {
 				sorted.put(machines.get(i), machineConflict.get(machines.get(i)));
 			}
-			sorted = sorted.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+			sorted = sorted.entrySet().stream().sorted(Map.Entry.comparingByValue())
 					.collect(Collectors.toMap(Entry::getKey, Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
 			List<Integer> machineSorted = new ArrayList<Integer>();
 			sorted.forEach((key, value) -> {
@@ -282,10 +280,9 @@ public class GreedyHeuristicMaxWeight {
 				jobOutput.setFinishTime(job.getFinishTime());
 				jobOutput.setStartTime(job.getStartTime());
 				jobOutput.setJobNumber(job.getJobNumber());
-				jobOutput.setJobWeight(job.getJobWeight());
+				jobOutput.setJobProfit(job.getJobWeight());
 				jobOutput.setMachine(currentMachine);
 				listOfJobsOutput.add(jobOutput);
-				objective += job.getJobWeight();
 				objective += job.getJobWeight();
 				for (Integer m : machineSorted) {
 					machineConflict.put(m, sorted.get(m) - 1);

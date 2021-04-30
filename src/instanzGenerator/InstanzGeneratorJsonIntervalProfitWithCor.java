@@ -1,17 +1,11 @@
 package instanzGenerator;
 
-import java.io.BufferedWriter;
-import java.io.ByteArrayOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.StringWriter;
-import java.lang.reflect.Array;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
-import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -22,16 +16,18 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
-public class InstanzGeneratorJsonWeight {
+public class InstanzGeneratorJsonIntervalProfitWithCor {
 
-	public static void generateInstanceWithIntevalWeight(int numberOfJobs, int numberOfMashines ,int numberOfInterval,
-			int jobOnMaxMachines, String fileName,String path) {
+	public static void generateInstanceWithIntevalCorrolationProfit(int numberOfJobs, int numberOfMashines ,int numberOfInterval,
+			int jobOnMaxMachines,int corrolation, String fileName,String path) {
 		 
-		 String type = "Interval Weight";
-
+		 String type = "Interval Corrolation provit ";
+		 String description = "this is an Interval corrolation profit instance with " + numberOfJobs+ "jobs and "+ numberOfMashines 
+				 +" machines and an interval lenght of" + numberOfInterval+ ". the corrolation for this instance is " + corrolation;
 		 Random random = new Random();
+		
 		 List<JobInput> listOfJobs = new ArrayList<JobInput>();
-
+	
 		 List<int[]> jobsOnMachine = new ArrayList<int[]>();
 		 Integer [][] matrix = new Integer [numberOfJobs][3] ;
 	
@@ -57,9 +53,11 @@ public class InstanzGeneratorJsonWeight {
 			 int difference = random.nextInt(numberOfInterval - matrix[i][1] + 1);
 			 matrix[i][2]=(difference)==0? difference + matrix[i][1]+ 1:difference + matrix[i][1];
 		 }
-		 //assign a weight to a job
+		 //assign a profit to a job
 		 for(int i = 0; i<numberOfJobs; ++i) {
-			 matrix[i][0]=matrix[i][2]-matrix[i][1];
+			 int tempProfit=matrix[i][2]-matrix[i][1];
+			 int profitPercentage = (int)tempProfit/corrolation;
+			 matrix[i][0] = random.nextBoolean()?tempProfit + profitPercentage:tempProfit-profitPercentage; 
 		 }
 		 for (int i = 1; i <= matrix.length; i++) {
 			    	listOfJobs.add(new JobInput(i,matrix[i-1][0],matrix[i-1][1],matrix[i-1][2],jobsOnMachine.get(i-1)));
@@ -67,7 +65,7 @@ public class InstanzGeneratorJsonWeight {
 			    
 			}
 		 
-		 JsonInstanz jsonInstanz = new JsonInstanz(numberOfJobs,numberOfMashines,numberOfInterval,0,listOfJobs,type);
+		 JsonInstanz jsonInstanz = new JsonInstanz(numberOfJobs,numberOfMashines,numberOfInterval,type,description,listOfJobs);
 		     ObjectMapper mapper = new ObjectMapper();
 		    ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 		    try {

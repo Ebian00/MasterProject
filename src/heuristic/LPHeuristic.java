@@ -94,7 +94,7 @@ public class LPHeuristic {
 			int numberOfObjectiveVariables = 0;
 			GRBLinExpr expr = new GRBLinExpr();
 			for (int i = 0; i < numberOfJobs; ++i) {
-				int weight = jsonInstanz.getListOfJobs().get(i).getJobWeight();
+				int weight = jsonInstanz.getListOfJobs().get(i).getJobProfit();
 				List<GRBVar> list = objectiveVariables.get(i);
 				int lenght = list.size();
 				for (int j = 0; j < lenght; ++j) {
@@ -143,7 +143,7 @@ public class LPHeuristic {
 				}
 
 			}
-
+		    model.write(numberOfJobs + "Heuristik-Model-Output.mst");
 			model.optimize();
 
 			List<GRBVar> choosenJobs = new ArrayList<GRBVar>();
@@ -188,7 +188,7 @@ public class LPHeuristic {
 					jsonInstanz.getIntervallLenghts(), choosenJobs, brockenJobs, jsonInstanz, listOfJobsOutput);
 
 			JsonOutput jsonOutput = new JsonOutput(numberOfJobs, numberOfMachines, numberOfInterval,
-					Objective, listOfJobsOutput);
+					Objective, jsonInstanz.getType(),jsonInstanz.getDescription(),listOfJobsOutput);
 			ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 			try {
 				writer.writeValue(Paths
@@ -252,10 +252,10 @@ public class LPHeuristic {
 			jobOutput.setFinishTime(job.getFinishTime());
 			jobOutput.setStartTime(job.getStartTime());
 			jobOutput.setJobNumber(job.getJobNumber());
-			jobOutput.setJobWeight(job.getJobWeight());
+			jobOutput.setJobProfit(job.getJobProfit());
 			jobOutput.setMachine(machineNumber);
 			listOfJobsOutput.add(jobOutput);
-			objective += job.getJobWeight();
+			objective += job.getJobProfit();
 		}
 
 		// check if the broken variables by the lp relaxation can be assigned to a
@@ -307,14 +307,14 @@ public class LPHeuristic {
 				}
 				if (jobAssinged) {
 					listOfCalculatedJobs.put(jobNumber, true);
-					objective += job.getJobWeight();
+					objective += job.getJobProfit();
 					JobOutput jobOutput = new JobOutput();
 					jobOutput.setJobNumber(job.getJobNumber());
 
 					jobOutput.setFinishTime(job.getFinishTime());
 					jobOutput.setStartTime(job.getStartTime());
 					jobOutput.setJobNumber(job.getJobNumber());
-					jobOutput.setJobWeight(job.getJobWeight());
+					jobOutput.setJobProfit(job.getJobProfit());
 					jobOutput.setMachine(machineNumber);
 					listOfJobsOutput.add(jobOutput);
 

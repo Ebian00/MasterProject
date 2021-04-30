@@ -1,10 +1,10 @@
 package main;
 
-import heuristic.GreedyHeuristicMaxWeight;
+import heuristic.GreedyHeuristicMaxProfit;
 import heuristic.LPHeuristic;
-import instanzGenerator.InstanzGeneratorJsonRandomWeight;
-import instanzGenerator.InstanzGeneratorJsonWeight;
-import instanzGenerator.InstanzGeneratorJsonWeightWithCor;
+import instanzGenerator.InstanzGeneratorJsonRandomProfit;
+import instanzGenerator.InstanzGeneratorJsonIntervalProfit;
+import instanzGenerator.InstanzGeneratorJsonIntervalProfitWithCor;
 import ofisp_calculator.OFISP_Calculator;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
@@ -15,19 +15,19 @@ import picocli.CommandLine.Option;
 public class OFISP implements Runnable {
 
 	@Option(names = { "-lph",
-			"--solveLPHeuristic" }, defaultValue = "0", description = "calculates an instance with the lp heristic")
+			"--solveLPHeuristic" }, defaultValue = "false", description = "calculates an instance with the lp heristic")
 	boolean lpHeuristic;
-	@Option(names = { "-g",
-			"--greedy" }, defaultValue = "0", description = "calculates an instance with the greedy heristic")
+	@Option(names = { "-gh",
+			"--greedy" }, defaultValue = "false", description = "calculates an instance with the greedy heristic")
 	boolean greedy;
 	@Option(names = { "-cmc",
-			"--calculateMachineConflict" }, defaultValue = "0", description = "defines whether a greedy should use the calculateMachineConflict contraint")
+			"--calculateMachineConflict" }, defaultValue = "false", description = "defines whether a greedy should use the calculateMachineConflict contraint")
 	boolean calculateMachineConflict;
 	@Option(names = { "-cpjm",
-			"--calculatePrioWithJobOnMachine" }, defaultValue = "0", description = "defines whether a greedy should use the calculatePrioWithJobOnMachine contraint")
+			"--calculatePrioWithJobOnMachine" }, defaultValue = "false", description = "defines whether a greedy should use the calculatePrioWithJobOnMachine contraint")
 	boolean calculatePrioWithJobOnMachine;
 	@Option(names = { "-cmjc",
-			"--calculateMaxJobConflict" }, defaultValue = "0", description = "defines whether a greedy should use the calculateMaxJobConflict contraint")
+			"--calculateMaxJobConflict" }, defaultValue = "false", description = "defines whether a greedy should use the calculateMaxJobConflict contraint")
 	boolean calculateMaxJobConflict;
 	@Option(names = { "-f", "--file" }, description = "name of the file to be generated or to be read")
 	String fileName;
@@ -69,12 +69,12 @@ public class OFISP implements Runnable {
 			"--solve" }, arity = "3", description = "this is the command to calculate an OFISP instance. 3 parameter in the following sequence are needed"
 					+ "1. path of the instance file, 2. path of the output file, 3. name of the file")
 	String[] calculateOFISPInstance;
-	@Option(names = { "-lphc",
+	@Option(names = { "-slphc",
 			"--solveLPHeuristicCompact" }, arity = "3", description = "this is the command to calculate solve an instance with"
 					+ "a lp heuristic. 3 parameter in the following sequence are needed"
 					+ "1. path of the instance file, 2. path of the output file, 3. name of the output file")
 	String[] lpHeuristicCompact;
-	@Option(names = { "-lphc",
+	@Option(names = { "-sghc",
 			"--solveGreedyHeuristicCompact" }, arity = "6", description = "this is the command to calculate solve an instance with"
 					+ "the greedy heuristic.6 parameter in the following sequence are needed, for the last three parameter you have to choose 0 or 1. if you want the constraint to be calculated take 1 else 0"
 					+ "1. path of the instance file, 2. path of the output file, 3. name of the output file, 4. whether to calculate the machine conflict constraint, 5. whether to calculate the number of jobs on a machine constraint, "
@@ -148,7 +148,7 @@ public class OFISP implements Runnable {
 				System.out.println("Error: could not parse the outputPath, please give a valid path");
 				return;
 			}
-			InstanzGeneratorJsonRandomWeight.generateInstanceWithRandomWeight(numberOfJobs, numberOfMachines,
+			InstanzGeneratorJsonRandomProfit.generateInstanceWithRandomProfit(numberOfJobs, numberOfMachines,
 					numberOfIntevals, maxWeightDistribution, jobOnMaxMachine, fileName, outputPath);
 		} else if (configurationsForIntervalWeight != null) {
 			int numberOfJobs = 0;
@@ -198,7 +198,7 @@ public class OFISP implements Runnable {
 				System.out.println("Error: could not parse the outputPath, please give a valid path");
 				return;
 			}
-			InstanzGeneratorJsonWeight.generateInstanceWithIntevalWeight(numberOfJobs, numberOfMachines,
+			InstanzGeneratorJsonIntervalProfit.generateInstanceWithIntevalProfit(numberOfJobs, numberOfMachines,
 					numberOfIntevals, jobOnMaxMachine, fileName, outputPath);
 
 		} else if (configurationsForIntervalCorrolationWeight != null) {
@@ -257,7 +257,7 @@ public class OFISP implements Runnable {
 				System.out.println("Error: could not parse the outputPath, please give a valid path");
 				return;
 			}
-			InstanzGeneratorJsonWeightWithCor.generateInstanceWithIntevalCorrolationWeight(numberOfJobs,numberOfMachines,numberOfIntevals,jobOnMaxMachine,corrolation,fileName,outputPath);
+			InstanzGeneratorJsonIntervalProfitWithCor.generateInstanceWithIntevalCorrolationProfit(numberOfJobs,numberOfMachines,numberOfIntevals,jobOnMaxMachine,corrolation,fileName,outputPath);
 
 		} else if (calculateOFISPInstance != null) {
 			
@@ -315,43 +315,43 @@ public class OFISP implements Runnable {
 			boolean prioWithJobOnMachine;
 			boolean maxJobConflict;
 			try {
-				inputPath = greedyHeuristicCompact[1].toString();
+				inputPath = greedyHeuristicCompact[0].toString();
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the input path, please give a valid path");
 				return;
 			}
 			try {
-				outputPath = greedyHeuristicCompact[2].toString();
+				outputPath = greedyHeuristicCompact[1].toString();
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the output path, please give a output path as string");
 				return;
 			}
 			try {
-				fileName = greedyHeuristicCompact[3].toString();
+				fileName = greedyHeuristicCompact[2].toString();
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the filename, please give a filename as string");
 				return;
 			}
 			try {
-				machineConflict = greedyHeuristicCompact[4].equals("0") ? false : true;
+				machineConflict = greedyHeuristicCompact[3].equals("0") ? false : true;
 			} catch (Exception e) {
 				machineConflict = false;
 				System.out.println("Error: could not set the calculateMashineConflict constraint, the constraint will be set to false");
 			}
 			try {
-				prioWithJobOnMachine = greedyHeuristicCompact[5].equals("0") ? false : true;
+				prioWithJobOnMachine = greedyHeuristicCompact[4].equals("0") ? false : true;
 			} catch (Exception e) {
 				prioWithJobOnMachine = false;
 				System.out.println("Error: could not set the calculatePrioWithJobOnMashine constraint, the constraint will be set to false");
 			}
 			try {
-				maxJobConflict = greedyHeuristicCompact[6].equals("0") ? false : true;
+				maxJobConflict = greedyHeuristicCompact[5].equals("0") ? false : true;
 			} catch (Exception e) {
 				maxJobConflict = false;
 				System.out.println("Error: could not set the calculateMaxJobConflict constraint, the constraint will be set to false");
 				
 			}
-			GreedyHeuristicMaxWeight.calculateGreedy(inputPath, outputPath,
+			GreedyHeuristicMaxProfit.calculateGreedy(inputPath, outputPath,
 					fileName, machineConflict,
 					prioWithJobOnMachine,
 					maxJobConflict);
@@ -422,7 +422,7 @@ public class OFISP implements Runnable {
 			maxJobConflict = false;
 			System.out.println("Error: could not set the calculateMaxJobConflict constraint, the constraint will be set to false");
 		}
-		GreedyHeuristicMaxWeight.calculateGreedy(inputPath, outputPath,file, machineConflict,prioWithJobOnMachine,maxJobConflict);
+		GreedyHeuristicMaxProfit.calculateGreedy(inputPath, outputPath,file, machineConflict,prioWithJobOnMachine,maxJobConflict);
 		} else {
 			System.out.println("Please choose a command or call help.");
 		}

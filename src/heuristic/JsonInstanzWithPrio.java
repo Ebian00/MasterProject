@@ -8,22 +8,28 @@ public class JsonInstanzWithPrio {
 	int numberOfJobs;
 	int numberOfMachines;
 	int intervallLenghts;
-	int maxWeight;
+	String type;
+	String description;
 	List<JobWithPrio> listOfJobs = new ArrayList<JobWithPrio>();
 	
  public JsonInstanzWithPrio() {
 		super();
 	}
 
-	public JsonInstanzWithPrio(int numberOfJobs, int numberOfMachines, int intervallLenghts, int maxWeight,
-			List<JobWithPrio> listOfJobs) {
-		super();
-		this.numberOfJobs = numberOfJobs;
-		this.numberOfMachines = numberOfMachines;
-		this.intervallLenghts = intervallLenghts;
-		this.maxWeight = maxWeight;
-		this.listOfJobs = listOfJobs;
-	}
+
+
+	public JsonInstanzWithPrio(int numberOfJobs, int numberOfMachines, int intervallLenghts, String type,
+		String description, List<JobWithPrio> listOfJobs) {
+	super();
+	this.numberOfJobs = numberOfJobs;
+	this.numberOfMachines = numberOfMachines;
+	this.intervallLenghts = intervallLenghts;
+	this.type = type;
+	this.description = description;
+	this.listOfJobs = listOfJobs;
+}
+
+
 
 	public int getNumberOfJobs() {
 		return numberOfJobs;
@@ -49,13 +55,7 @@ public class JsonInstanzWithPrio {
 		this.intervallLenghts = intervallLenghts;
 	}
 
-	public int getMaxWeight() {
-		return maxWeight;
-	}
-
-	public void setMaxWeight(int maxWeight) {
-		this.maxWeight = maxWeight;
-	}
+	
 
 	public List<JobWithPrio> getListOfJobs() {
 		return listOfJobs;
@@ -63,5 +63,29 @@ public class JsonInstanzWithPrio {
 
 	public void setListOfJobs(List<JobWithPrio> listOfJobs) {
 		this.listOfJobs = listOfJobs;
+	}
+
+
+
+	public String getType() {
+		return type;
+	}
+
+
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+
+
+	public String getDescription() {
+		return description;
+	}
+
+
+
+	public void setDescription(String description) {
+		this.description = description;
 	}
 }

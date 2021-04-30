@@ -15,10 +15,10 @@ public class JobWithPrio {
 		super();
 	}
 	int jobNumber;
-	public JobWithPrio(int jobNumber, int jobWeight, int startTime, int finishTime, int jobPrio, Integer[] jobsOnMachine) {
+	public JobWithPrio(int jobNumber, int jobProfit, int startTime, int finishTime, int jobPrio, Integer[] jobsOnMachine) {
 		super();
 		this.jobNumber = jobNumber;
-		this.jobWeight = jobWeight;
+		this.jobWeight = jobProfit;
 		this.startTime = startTime;
 		this.finishTime = finishTime;
 		this.jobPrio = jobPrio;

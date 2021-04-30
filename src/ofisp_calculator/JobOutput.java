@@ -9,7 +9,7 @@ public class JobOutput {
 		// TODO Auto-generated constructor stub
 	}
 	int jobNumber;
-	int jobWeight;
+	int jobProfit;
 	int startTime;
 	int finishTime;
 	int machine;
@@ -19,11 +19,11 @@ public class JobOutput {
 	public void setJobNumber(int jobNumber) {
 		this.jobNumber = jobNumber;
 	}
-	public int getJobWeight() {
-		return jobWeight;
+	public int getJobProfit() {
+		return jobProfit;
 	}
-	public void setJobWeight(int jobWeight) {
-		this.jobWeight = jobWeight;
+	public void setJobProfit(int jobWeight) {
+		this.jobProfit = jobWeight;
 	}
 	public int getStartTime() {
 		return startTime;
@@ -31,7 +31,7 @@ public class JobOutput {
 	public JobOutput(int jobNumber, int jobWeight, int startTime, int finishTime, int jobsOnMachine) {
 		super();
 		this.jobNumber = jobNumber;
-		this.jobWeight = jobWeight;
+		this.jobProfit = jobWeight;
 		this.startTime = startTime;
 		this.finishTime = finishTime;
 		this.machine = jobsOnMachine;
