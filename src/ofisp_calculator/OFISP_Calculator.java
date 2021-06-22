@@ -25,10 +25,12 @@ public class OFISP_Calculator {
 	public static void calculateInstance(String instancePath, String outputPath, String outputName) {
 		
 		JsonInstanz jsonInstanz = null;
+		System.out.println("we are in the gurobi and the variables are :" + instancePath + " and " + outputPath + " and " +outputName);
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			 jsonInstanz = mapper.readValue(new File(instancePath), JsonInstanz.class);
 		} catch (JsonParseException e1) {
+			System.out.println("file could not be read or found");
 			e1.printStackTrace();
 		} catch (JsonMappingException e1) {
 			e1.printStackTrace();
@@ -39,7 +41,7 @@ public class OFISP_Calculator {
 		try {
 			int numberOfJobs = jsonInstanz.getNumberOfJobs();
 			 int numberOfMachines= jsonInstanz.getNumberOfMachines();
-			 int numberOfInterval= jsonInstanz.getIntervallLenghts();
+			 int numberOfInterval= jsonInstanz.getIntervalLenghts();
 			// Create empty environment, set options, and start
 			GRBEnv env = new GRBEnv(true);
 			env.set("logFile", "MasterProjekt.log");
@@ -96,7 +98,7 @@ public class OFISP_Calculator {
 			
 			// Add the constraints that a job can only be done by one machine : x12 + x14 + x16 <=1 
 			int size = objectiveVariables.size();
-			System.out.println("number of objective variables : " + numberOfObjectiveVariables);
+			//System.out.println("number of objective variables : " + numberOfObjectiveVariables);
 			
 			for (int i =0; i < size; ++i) {
 				expr = new GRBLinExpr();
@@ -131,7 +133,7 @@ public class OFISP_Calculator {
 		}
 				
 			}
-			System.out.println("total number of constraints : " + totalNumberOfConstraints);
+			//System.out.println("total number of constraints : " + totalNumberOfConstraints);
 
 		
 		
@@ -173,7 +175,6 @@ public class OFISP_Calculator {
 			}
 		
 
-			System.out.println("the value is : " + model.get(GRB.DoubleAttr.ObjVal));
 
 			// Dispose of model and environment
 			model.dispose();

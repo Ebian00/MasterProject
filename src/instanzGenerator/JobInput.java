@@ -12,9 +12,10 @@ public class JobInput {
 	int jobNumber;
 	int jobProfit;
 	int startTime;
+	
 	@Override
 	public String toString() {
-		return "JobInput [jobNumber=" + jobNumber + ", jobWeight=" + jobProfit + ", startTime=" + startTime
+		return "JobInput [jobNumber=" + jobNumber + ", jobProfit=" + jobProfit + ", startTime=" + startTime
 				+ ", finishTime=" + finishTime + ", jobsOnMachine=" + Arrays.toString(jobsOnMachine) + "]";
 	}
 	int finishTime;

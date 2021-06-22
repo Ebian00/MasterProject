@@ -21,9 +21,9 @@ public class InstanzGeneratorJsonIntervalProfitWithCor {
 	public static void generateInstanceWithIntevalCorrolationProfit(int numberOfJobs, int numberOfMashines ,int numberOfInterval,
 			int jobOnMaxMachines,int corrolation, String fileName,String path) {
 		 
-		 String type = "Interval Corrolation provit ";
-		 String description = "this is an Interval corrolation profit instance with " + numberOfJobs+ "jobs and "+ numberOfMashines 
-				 +" machines and an interval lenght of" + numberOfInterval+ ". the corrolation for this instance is " + corrolation;
+		 String type = "Interval-Corrolation-Profit instance ";
+		 String description = "this is an Interval corrolation profit instance with " + numberOfJobs+ " jobs and "+ numberOfMashines 
+				 +" machines and an interval lenght of" + numberOfInterval+  ". The maximum job on a mashine is " + jobOnMaxMachines + ". The corrolation for this instance is " + corrolation + ".";
 		 Random random = new Random();
 		
 		 List<JobInput> listOfJobs = new ArrayList<JobInput>();
@@ -82,7 +82,7 @@ public class InstanzGeneratorJsonIntervalProfitWithCor {
 		    
 
 		
-			    System.out.println("Doneeeeeee");
+		    System.out.println("the instance "+ fileName + " was saved in "+ path + " .");
 			
 	}
 

@@ -35,7 +35,7 @@ import instanzGenerator.JsonInstanz;
 import ofisp_calculator.JobOutput;
 import ofisp_calculator.JsonOutput;
 
-public class GreedyHeuristicMaxProfit {
+public class Greedy {
 
 	public static void calculateGreedy(String instancePath, String outputPath, String outputName,boolean calculateMashineConflict,
 			boolean calculatePrioWithJobOnMashine, boolean calculateMaxJobConflict ) {

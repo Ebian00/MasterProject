@@ -7,17 +7,17 @@ public class JsonInstanz {
 
 	int numberOfJobs;
 	int numberOfMachines;
-	int intervallLenghts;
+	int intervalLenghts;
 	String type;
 	String description;
 	List<JobInput> listOfJobs = new ArrayList<JobInput>();
 	
-	public JsonInstanz(int numberOfJobs, int numberOfMachines, int intervallLenghts, String type, String description,
+	public JsonInstanz(int numberOfJobs, int numberOfMachines, int intervalLenghts, String type, String description,
 			List<JobInput> listOfJobs) {
 		super();
 		this.numberOfJobs = numberOfJobs;
 		this.numberOfMachines = numberOfMachines;
-		this.intervallLenghts = intervallLenghts;
+		this.intervalLenghts = intervalLenghts;
 		this.type = type;
 		this.description = description;
 		this.listOfJobs = listOfJobs;
@@ -52,12 +52,12 @@ public class JsonInstanz {
 		this.numberOfMachines = numberOfMachines;
 	}
 
-	public int getIntervallLenghts() {
-		return intervallLenghts;
+	public int getIntervalLenghts() {
+		return intervalLenghts;
 	}
 
 	public void setIntervallLenghts(int intervallLenghts) {
-		this.intervallLenghts = intervallLenghts;
+		this.intervalLenghts = intervallLenghts;
 	}
 
 	public List<JobInput> getListOfJobs() {

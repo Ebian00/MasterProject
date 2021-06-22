@@ -27,9 +27,9 @@ public class InstanzGeneratorJsonIntervalProfit {
 	public static void generateInstanceWithIntevalProfit(int numberOfJobs, int numberOfMashines ,int numberOfInterval,
 			int jobOnMaxMachines, String fileName,String path) {
 		 
-		 String type = "Interval Profit";
-		 String description = "this is an interval profit instance with " + numberOfJobs+ "jobs and "+ numberOfMashines 
-				 +" machines and an interval lenght of" + numberOfInterval;
+		 String type = "Interval-Profit instance";
+		 String description = "this is an interval profit instance with " + numberOfJobs+ " jobs and "+ numberOfMashines 
+				 +" machines and an interval lenght of " + numberOfInterval + ". The maximum job on a mashine is " + jobOnMaxMachines;
 		 	
 		 Random random = new Random();
 		 List<JobInput> listOfJobs = new ArrayList<JobInput>();
@@ -86,7 +86,7 @@ public class InstanzGeneratorJsonIntervalProfit {
 		    
 
 		
-			    System.out.println("Doneeeeeee");
+		    System.out.println("the instance "+ fileName + " was saved in "+ path + " .");
 			
 	}
 

@@ -6,14 +6,11 @@ import java.nio.file.Paths;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
-import java.util.Scanner;
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
@@ -47,7 +44,7 @@ public class LPHeuristic {
 		try {
 			int numberOfJobs = jsonInstanz.getNumberOfJobs();
 			int numberOfMachines = jsonInstanz.getNumberOfMachines();
-			int numberOfInterval = jsonInstanz.getIntervallLenghts();
+			int numberOfInterval = jsonInstanz.getIntervalLenghts();
 			// Create empty environment, set options, and start
 			GRBEnv env = new GRBEnv(true);
 			env.set("logFile", "MasterProjekt.log");
@@ -143,7 +140,7 @@ public class LPHeuristic {
 				}
 
 			}
-		    model.write(numberOfJobs + "Heuristik-Model-Output.mst");
+		    //model.write(numberOfJobs + "Heuristik-Model-Output.mst");
 			model.optimize();
 
 			List<GRBVar> choosenJobs = new ArrayList<GRBVar>();
@@ -185,14 +182,14 @@ public class LPHeuristic {
 
 			List<JobOutput> listOfJobsOutput = new ArrayList<JobOutput>();
 			int Objective = calculateInstance(numberOfJobs, jsonInstanz.getNumberOfMachines(),
-					jsonInstanz.getIntervallLenghts(), choosenJobs, brockenJobs, jsonInstanz, listOfJobsOutput);
+					jsonInstanz.getIntervalLenghts(), choosenJobs, brockenJobs, jsonInstanz, listOfJobsOutput);
 
 			JsonOutput jsonOutput = new JsonOutput(numberOfJobs, numberOfMachines, numberOfInterval,
 					Objective, jsonInstanz.getType(),jsonInstanz.getDescription(),listOfJobsOutput);
 			ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 			try {
 				writer.writeValue(Paths
-						.get("./OFISPInstancesOutput/OFISPInstance" + numberOfJobs + "Heuristik-Output.json")
+						.get(outputPath+outputName+ ".json")
 						.toFile(), jsonOutput);
 			} catch (JsonGenerationException e) {
 				e.printStackTrace();
@@ -278,12 +275,12 @@ public class LPHeuristic {
 			} catch (GRBException e) {
 				e.printStackTrace();
 			}
-			int jobNumber = Integer.parseInt(variable[0]) - 1;
+			int jobNumber = Integer.parseInt(variable[0]) ;
 			if (!listOfCalculatedJobs.get(jobNumber)) {
 
 				int machineNumber = Integer.parseInt(variable[1]);
-				JobInput job = jsonInstanz.getListOfJobs().get(jobNumber);
-				System.out.println(" Job Number in JsonInstanz : " + job.getJobNumber());
+				JobInput job = jsonInstanz.getListOfJobs().get(jobNumber-1);
+				//System.out.println(" Job Number in JsonInstanz : " + job.getJobNumber());
 
 				boolean occupied = true;
 				boolean jobAssinged = false;
@@ -296,7 +293,7 @@ public class LPHeuristic {
 						}
 						if (occupied) {
 
-							System.out.println("brocken job " + job.getJobNumber() + " has been taken to the solution");
+//							System.out.println("brocken job " + job.getJobNumber() + " has been taken to the solution");
 							for (int j = job.getStartTime(); j < job.getFinishTime(); ++j) {
 								jobOverlaping.get(currentMachine).put(j, 1);
 

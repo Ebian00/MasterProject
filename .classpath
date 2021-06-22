@@ -17,14 +17,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Ebian/.m2/repository/com/gurobi/gurobi.jar/0.0.1-SNAPSHOT/gurobi.jar-0.0.1-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.gurobi"/>
-			<attribute name="maven.artifactId" value="gurobi.jar"/>
-			<attribute name="maven.version" value="0.0.1-SNAPSHOT"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
