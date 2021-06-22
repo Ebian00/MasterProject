@@ -47,7 +47,7 @@ public class LPHeuristic {
 			int numberOfInterval = jsonInstanz.getIntervalLenghts();
 			// Create empty environment, set options, and start
 			GRBEnv env = new GRBEnv(true);
-			env.set("logFile", "MasterProjekt.log");
+//			env.set("logFile", "MasterProjekt.log");
 			env.start();
 
 			// Create empty model
@@ -105,7 +105,7 @@ public class LPHeuristic {
 			// Add the constraints that a job can only be done by one machine : x12 + x14 +
 			// x16 <=1
 			int size = objectiveVariables.size();
-			System.out.println("number of objective variables : " + numberOfObjectiveVariables);
+			//System.out.println("number of objective variables : " + numberOfObjectiveVariables);
 
 			for (int i = 0; i < size; ++i) {
 				expr = new GRBLinExpr();

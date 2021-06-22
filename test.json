@@ -1,0 +1,6008 @@
+{
+  "numberOfJobs" : 1000,
+  "numberOfMachines" : 20,
+  "intervalLenghts" : 1000,
+  "type" : "Interval-Profit instance",
+  "description" : "this is an interval profit instance with 1000 jobs and 20 machines and an interval lenght of 1000. The maximum job on a mashine is 10",
+  "listOfJobs" : [ {
+    "jobNumber" : 1,
+    "jobProfit" : 168,
+    "startTime" : 797,
+    "finishTime" : 965,
+    "jobsOnMachine" : [ 2, 6, 15, 9 ]
+  }, {
+    "jobNumber" : 2,
+    "jobProfit" : 20,
+    "startTime" : 972,
+    "finishTime" : 992,
+    "jobsOnMachine" : [ 4, 15, 8, 11, 12, 7, 10, 13, 19, 1 ]
+  }, {
+    "jobNumber" : 3,
+    "jobProfit" : 538,
+    "startTime" : 426,
+    "finishTime" : 964,
+    "jobsOnMachine" : [ 6, 18, 8, 12, 10, 4, 2, 19, 5, 16 ]
+  }, {
+    "jobNumber" : 4,
+    "jobProfit" : 5,
+    "startTime" : 653,
+    "finishTime" : 658,
+    "jobsOnMachine" : [ 13, 16, 4, 10, 7, 3, 2, 19, 9 ]
+  }, {
+    "jobNumber" : 5,
+    "jobProfit" : 165,
+    "startTime" : 832,
+    "finishTime" : 997,
+    "jobsOnMachine" : [ 4, 15, 3, 11 ]
+  }, {
+    "jobNumber" : 6,
+    "jobProfit" : 229,
+    "startTime" : 655,
+    "finishTime" : 884,
+    "jobsOnMachine" : [ 5, 13 ]
+  }, {
+    "jobNumber" : 7,
+    "jobProfit" : 322,
+    "startTime" : 447,
+    "finishTime" : 769,
+    "jobsOnMachine" : [ 15, 8, 3, 7, 13, 17, 6 ]
+  }, {
+    "jobNumber" : 8,
+    "jobProfit" : 495,
+    "startTime" : 152,
+    "finishTime" : 647,
+    "jobsOnMachine" : [ 9, 4, 6, 3, 5, 14, 17, 7 ]
+  }, {
+    "jobNumber" : 9,
+    "jobProfit" : 377,
+    "startTime" : 585,
+    "finishTime" : 962,
+    "jobsOnMachine" : [ 14, 13, 2, 19, 6, 16, 15 ]
+  }, {
+    "jobNumber" : 10,
+    "jobProfit" : 501,
+    "startTime" : 399,
+    "finishTime" : 900,
+    "jobsOnMachine" : [ 7, 3 ]
+  }, {
+    "jobNumber" : 11,
+    "jobProfit" : 228,
+    "startTime" : 10,
+    "finishTime" : 238,
+    "jobsOnMachine" : [ 4, 10, 17, 2, 20, 6, 5, 11, 9 ]
+  }, {
+    "jobNumber" : 12,
+    "jobProfit" : 60,
+    "startTime" : 446,
+    "finishTime" : 506,
+    "jobsOnMachine" : [ 5, 19, 13 ]
+  }, {
+    "jobNumber" : 13,
+    "jobProfit" : 5,
+    "startTime" : 592,
+    "finishTime" : 597,
+    "jobsOnMachine" : [ 12, 20, 13, 10 ]
+  }, {
+    "jobNumber" : 14,
+    "jobProfit" : 61,
+    "startTime" : 846,
+    "finishTime" : 907,
+    "jobsOnMachine" : [ 9, 15, 20, 6, 16, 5, 11, 2 ]
+  }, {
+    "jobNumber" : 15,
+    "jobProfit" : 425,
+    "startTime" : 169,
+    "finishTime" : 594,
+    "jobsOnMachine" : [ 3, 1, 2, 8, 17, 10, 18, 19, 16, 9 ]
+  }, {
+    "jobNumber" : 16,
+    "jobProfit" : 388,
+    "startTime" : 272,
+    "finishTime" : 660,
+    "jobsOnMachine" : [ 4, 2, 15, 16 ]
+  }, {
+    "jobNumber" : 17,
+    "jobProfit" : 55,
+    "startTime" : 373,
+    "finishTime" : 428,
+    "jobsOnMachine" : [ 10, 18, 13, 5, 7, 19 ]
+  }, {
+    "jobNumber" : 18,
+    "jobProfit" : 60,
+    "startTime" : 838,
+    "finishTime" : 898,
+    "jobsOnMachine" : [ 18, 19, 17, 8 ]
+  }, {
+    "jobNumber" : 19,
+    "jobProfit" : 216,
+    "startTime" : 741,
+    "finishTime" : 957,
+    "jobsOnMachine" : [ 3, 10, 15, 1, 18, 2, 6, 16, 17 ]
+  }, {
+    "jobNumber" : 20,
+    "jobProfit" : 324,
+    "startTime" : 649,
+    "finishTime" : 973,
+    "jobsOnMachine" : [ 19 ]
+  }, {
+    "jobNumber" : 21,
+    "jobProfit" : 36,
+    "startTime" : 791,
+    "finishTime" : 827,
+    "jobsOnMachine" : [ 10, 13, 5, 6, 2, 16, 18, 7 ]
+  }, {
+    "jobNumber" : 22,
+    "jobProfit" : 249,
+    "startTime" : 214,
+    "finishTime" : 463,
+    "jobsOnMachine" : [ 18, 9, 10, 17, 2, 4, 15, 8, 16 ]
+  }, {
+    "jobNumber" : 23,
+    "jobProfit" : 181,
+    "startTime" : 509,
+    "finishTime" : 690,
+    "jobsOnMachine" : [ 18 ]
+  }, {
+    "jobNumber" : 24,
+    "jobProfit" : 260,
+    "startTime" : 740,
+    "finishTime" : 1000,
+    "jobsOnMachine" : [ 18, 17, 16, 15, 11, 14, 20, 4, 9 ]
+  }, {
+    "jobNumber" : 25,
+    "jobProfit" : 615,
+    "startTime" : 93,
+    "finishTime" : 708,
+    "jobsOnMachine" : [ 3, 9 ]
+  }, {
+    "jobNumber" : 26,
+    "jobProfit" : 145,
+    "startTime" : 332,
+    "finishTime" : 477,
+    "jobsOnMachine" : [ 16, 10, 20, 15, 6, 1 ]
+  }, {
+    "jobNumber" : 27,
+    "jobProfit" : 26,
+    "startTime" : 15,
+    "finishTime" : 41,
+    "jobsOnMachine" : [ 9, 20, 12, 5, 15, 8, 13, 17, 16, 3 ]
+  }, {
+    "jobNumber" : 28,
+    "jobProfit" : 274,
+    "startTime" : 554,
+    "finishTime" : 828,
+    "jobsOnMachine" : [ 6, 19 ]
+  }, {
+    "jobNumber" : 29,
+    "jobProfit" : 305,
+    "startTime" : 544,
+    "finishTime" : 849,
+    "jobsOnMachine" : [ 5, 14 ]
+  }, {
+    "jobNumber" : 30,
+    "jobProfit" : 292,
+    "startTime" : 647,
+    "finishTime" : 939,
+    "jobsOnMachine" : [ 10 ]
+  }, {
+    "jobNumber" : 31,
+    "jobProfit" : 578,
+    "startTime" : 370,
+    "finishTime" : 948,
+    "jobsOnMachine" : [ 8, 18, 16, 1, 6, 7 ]
+  }, {
+    "jobNumber" : 32,
+    "jobProfit" : 277,
+    "startTime" : 196,
+    "finishTime" : 473,
+    "jobsOnMachine" : [ 5, 11, 14, 19, 8, 3, 4, 6, 10 ]
+  }, {
+    "jobNumber" : 33,
+    "jobProfit" : 408,
+    "startTime" : 492,
+    "finishTime" : 900,
+    "jobsOnMachine" : [ 14, 10, 6, 17, 16, 18, 9, 13, 5 ]
+  }, {
+    "jobNumber" : 34,
+    "jobProfit" : 413,
+    "startTime" : 102,
+    "finishTime" : 515,
+    "jobsOnMachine" : [ 20, 2, 3, 7 ]
+  }, {
+    "jobNumber" : 35,
+    "jobProfit" : 946,
+    "startTime" : 33,
+    "finishTime" : 979,
+    "jobsOnMachine" : [ 17, 11, 7, 19, 13, 12, 9, 14, 20, 3 ]
+  }, {
+    "jobNumber" : 36,
+    "jobProfit" : 43,
+    "startTime" : 827,
+    "finishTime" : 870,
+    "jobsOnMachine" : [ 2, 12, 4, 17, 8, 7, 15 ]
+  }, {
+    "jobNumber" : 37,
+    "jobProfit" : 82,
+    "startTime" : 637,
+    "finishTime" : 719,
+    "jobsOnMachine" : [ 15, 11 ]
+  }, {
+    "jobNumber" : 38,
+    "jobProfit" : 73,
+    "startTime" : 749,
+    "finishTime" : 822,
+    "jobsOnMachine" : [ 2, 18, 14, 15, 9, 3, 11, 8, 20, 10 ]
+  }, {
+    "jobNumber" : 39,
+    "jobProfit" : 194,
+    "startTime" : 722,
+    "finishTime" : 916,
+    "jobsOnMachine" : [ 10, 12, 20, 6, 8, 17 ]
+  }, {
+    "jobNumber" : 40,
+    "jobProfit" : 485,
+    "startTime" : 252,
+    "finishTime" : 737,
+    "jobsOnMachine" : [ 4 ]
+  }, {
+    "jobNumber" : 41,
+    "jobProfit" : 141,
+    "startTime" : 820,
+    "finishTime" : 961,
+    "jobsOnMachine" : [ 9, 1, 2, 10 ]
+  }, {
+    "jobNumber" : 42,
+    "jobProfit" : 368,
+    "startTime" : 461,
+    "finishTime" : 829,
+    "jobsOnMachine" : [ 9, 7, 13, 8, 19, 1, 4, 18, 14, 5 ]
+  }, {
+    "jobNumber" : 43,
+    "jobProfit" : 157,
+    "startTime" : 367,
+    "finishTime" : 524,
+    "jobsOnMachine" : [ 19, 2 ]
+  }, {
+    "jobNumber" : 44,
+    "jobProfit" : 99,
+    "startTime" : 360,
+    "finishTime" : 459,
+    "jobsOnMachine" : [ 20, 16, 9 ]
+  }, {
+    "jobNumber" : 45,
+    "jobProfit" : 368,
+    "startTime" : 493,
+    "finishTime" : 861,
+    "jobsOnMachine" : [ 7, 11, 9, 1, 13, 15, 20, 16 ]
+  }, {
+    "jobNumber" : 46,
+    "jobProfit" : 352,
+    "startTime" : 518,
+    "finishTime" : 870,
+    "jobsOnMachine" : [ 7, 8 ]
+  }, {
+    "jobNumber" : 47,
+    "jobProfit" : 54,
+    "startTime" : 929,
+    "finishTime" : 983,
+    "jobsOnMachine" : [ 17, 13, 18, 3 ]
+  }, {
+    "jobNumber" : 48,
+    "jobProfit" : 91,
+    "startTime" : 440,
+    "finishTime" : 531,
+    "jobsOnMachine" : [ 2, 13, 18, 9, 20, 19 ]
+  }, {
+    "jobNumber" : 49,
+    "jobProfit" : 657,
+    "startTime" : 193,
+    "finishTime" : 850,
+    "jobsOnMachine" : [ 17, 13, 19, 3, 18, 7, 9, 16, 2, 14 ]
+  }, {
+    "jobNumber" : 50,
+    "jobProfit" : 46,
+    "startTime" : 759,
+    "finishTime" : 805,
+    "jobsOnMachine" : [ 15, 2, 4, 20, 3 ]
+  }, {
+    "jobNumber" : 51,
+    "jobProfit" : 29,
+    "startTime" : 898,
+    "finishTime" : 927,
+    "jobsOnMachine" : [ 11 ]
+  }, {
+    "jobNumber" : 52,
+    "jobProfit" : 362,
+    "startTime" : 449,
+    "finishTime" : 811,
+    "jobsOnMachine" : [ 20, 15, 9, 10 ]
+  }, {
+    "jobNumber" : 53,
+    "jobProfit" : 382,
+    "startTime" : 91,
+    "finishTime" : 473,
+    "jobsOnMachine" : [ 16, 10, 11, 2, 18 ]
+  }, {
+    "jobNumber" : 54,
+    "jobProfit" : 38,
+    "startTime" : 701,
+    "finishTime" : 739,
+    "jobsOnMachine" : [ 15, 3, 19, 13, 10, 1, 2, 18 ]
+  }, {
+    "jobNumber" : 55,
+    "jobProfit" : 438,
+    "startTime" : 64,
+    "finishTime" : 502,
+    "jobsOnMachine" : [ 2, 13, 15, 4, 11, 1 ]
+  }, {
+    "jobNumber" : 56,
+    "jobProfit" : 646,
+    "startTime" : 244,
+    "finishTime" : 890,
+    "jobsOnMachine" : [ 20, 16, 19, 12, 13 ]
+  }, {
+    "jobNumber" : 57,
+    "jobProfit" : 325,
+    "startTime" : 341,
+    "finishTime" : 666,
+    "jobsOnMachine" : [ 6, 13, 15, 9, 17, 2, 19, 1 ]
+  }, {
+    "jobNumber" : 58,
+    "jobProfit" : 566,
+    "startTime" : 264,
+    "finishTime" : 830,
+    "jobsOnMachine" : [ 17, 4, 14, 9, 3, 8, 7, 18 ]
+  }, {
+    "jobNumber" : 59,
+    "jobProfit" : 25,
+    "startTime" : 772,
+    "finishTime" : 797,
+    "jobsOnMachine" : [ 19, 5, 1, 8, 2, 7 ]
+  }, {
+    "jobNumber" : 60,
+    "jobProfit" : 273,
+    "startTime" : 629,
+    "finishTime" : 902,
+    "jobsOnMachine" : [ 19, 10, 1, 12, 17 ]
+  }, {
+    "jobNumber" : 61,
+    "jobProfit" : 13,
+    "startTime" : 872,
+    "finishTime" : 885,
+    "jobsOnMachine" : [ 13, 17 ]
+  }, {
+    "jobNumber" : 62,
+    "jobProfit" : 126,
+    "startTime" : 770,
+    "finishTime" : 896,
+    "jobsOnMachine" : [ 13, 6, 2, 8, 3, 20 ]
+  }, {
+    "jobNumber" : 63,
+    "jobProfit" : 297,
+    "startTime" : 408,
+    "finishTime" : 705,
+    "jobsOnMachine" : [ 14, 7, 10, 17, 3, 20, 15, 5, 6, 2 ]
+  }, {
+    "jobNumber" : 64,
+    "jobProfit" : 300,
+    "startTime" : 565,
+    "finishTime" : 865,
+    "jobsOnMachine" : [ 16, 4, 9, 3, 14 ]
+  }, {
+    "jobNumber" : 65,
+    "jobProfit" : 13,
+    "startTime" : 642,
+    "finishTime" : 655,
+    "jobsOnMachine" : [ 7, 2, 18, 5 ]
+  }, {
+    "jobNumber" : 66,
+    "jobProfit" : 9,
+    "startTime" : 976,
+    "finishTime" : 985,
+    "jobsOnMachine" : [ 20, 9, 7, 4, 2 ]
+  }, {
+    "jobNumber" : 67,
+    "jobProfit" : 32,
+    "startTime" : 957,
+    "finishTime" : 989,
+    "jobsOnMachine" : [ 10, 12, 1, 13, 8, 7, 17, 9, 18, 19 ]
+  }, {
+    "jobNumber" : 68,
+    "jobProfit" : 87,
+    "startTime" : 721,
+    "finishTime" : 808,
+    "jobsOnMachine" : [ 10, 16, 18, 4, 5, 13, 9, 11, 8 ]
+  }, {
+    "jobNumber" : 69,
+    "jobProfit" : 520,
+    "startTime" : 113,
+    "finishTime" : 633,
+    "jobsOnMachine" : [ 2, 12, 5, 7, 11, 14, 18, 16 ]
+  }, {
+    "jobNumber" : 70,
+    "jobProfit" : 5,
+    "startTime" : 961,
+    "finishTime" : 966,
+    "jobsOnMachine" : [ 4, 14, 17, 18, 12, 13, 10 ]
+  }, {
+    "jobNumber" : 71,
+    "jobProfit" : 66,
+    "startTime" : 918,
+    "finishTime" : 984,
+    "jobsOnMachine" : [ 10, 4, 5, 6, 12, 7, 9, 15, 8, 17 ]
+  }, {
+    "jobNumber" : 72,
+    "jobProfit" : 120,
+    "startTime" : 576,
+    "finishTime" : 696,
+    "jobsOnMachine" : [ 15, 2, 20 ]
+  }, {
+    "jobNumber" : 73,
+    "jobProfit" : 130,
+    "startTime" : 357,
+    "finishTime" : 487,
+    "jobsOnMachine" : [ 10, 9, 5, 20, 7, 4, 16, 14, 12 ]
+  }, {
+    "jobNumber" : 74,
+    "jobProfit" : 66,
+    "startTime" : 763,
+    "finishTime" : 829,
+    "jobsOnMachine" : [ 11, 18 ]
+  }, {
+    "jobNumber" : 75,
+    "jobProfit" : 116,
+    "startTime" : 762,
+    "finishTime" : 878,
+    "jobsOnMachine" : [ 19, 15, 1, 3, 5, 18, 8, 4 ]
+  }, {
+    "jobNumber" : 76,
+    "jobProfit" : 567,
+    "startTime" : 276,
+    "finishTime" : 843,
+    "jobsOnMachine" : [ 10, 13, 11, 18, 2, 7, 9 ]
+  }, {
+    "jobNumber" : 77,
+    "jobProfit" : 954,
+    "startTime" : 6,
+    "finishTime" : 960,
+    "jobsOnMachine" : [ 12, 8, 4 ]
+  }, {
+    "jobNumber" : 78,
+    "jobProfit" : 231,
+    "startTime" : 758,
+    "finishTime" : 989,
+    "jobsOnMachine" : [ 10, 5, 3, 11, 12, 18 ]
+  }, {
+    "jobNumber" : 79,
+    "jobProfit" : 719,
+    "startTime" : 33,
+    "finishTime" : 752,
+    "jobsOnMachine" : [ 9, 5, 7, 4, 8, 1 ]
+  }, {
+    "jobNumber" : 80,
+    "jobProfit" : 531,
+    "startTime" : 339,
+    "finishTime" : 870,
+    "jobsOnMachine" : [ 5, 16, 14, 3, 8, 18, 17 ]
+  }, {
+    "jobNumber" : 81,
+    "jobProfit" : 36,
+    "startTime" : 958,
+    "finishTime" : 994,
+    "jobsOnMachine" : [ 5, 12, 18, 16, 19, 20 ]
+  }, {
+    "jobNumber" : 82,
+    "jobProfit" : 85,
+    "startTime" : 905,
+    "finishTime" : 990,
+    "jobsOnMachine" : [ 19, 14, 4, 7, 2, 15, 5, 12, 16, 13 ]
+  }, {
+    "jobNumber" : 83,
+    "jobProfit" : 49,
+    "startTime" : 602,
+    "finishTime" : 651,
+    "jobsOnMachine" : [ 13, 9, 10, 7, 1, 20, 12 ]
+  }, {
+    "jobNumber" : 84,
+    "jobProfit" : 105,
+    "startTime" : 838,
+    "finishTime" : 943,
+    "jobsOnMachine" : [ 11, 16, 9, 15, 1, 19 ]
+  }, {
+    "jobNumber" : 85,
+    "jobProfit" : 589,
+    "startTime" : 132,
+    "finishTime" : 721,
+    "jobsOnMachine" : [ 6, 11, 7, 13, 19, 16, 18 ]
+  }, {
+    "jobNumber" : 86,
+    "jobProfit" : 28,
+    "startTime" : 948,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 1, 17, 16, 8, 5 ]
+  }, {
+    "jobNumber" : 87,
+    "jobProfit" : 725,
+    "startTime" : 21,
+    "finishTime" : 746,
+    "jobsOnMachine" : [ 6, 5, 19, 7, 1, 3, 13, 4, 14 ]
+  }, {
+    "jobNumber" : 88,
+    "jobProfit" : 76,
+    "startTime" : 504,
+    "finishTime" : 580,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 89,
+    "jobProfit" : 504,
+    "startTime" : 284,
+    "finishTime" : 788,
+    "jobsOnMachine" : [ 4, 15, 6, 17 ]
+  }, {
+    "jobNumber" : 90,
+    "jobProfit" : 24,
+    "startTime" : 919,
+    "finishTime" : 943,
+    "jobsOnMachine" : [ 18, 16 ]
+  }, {
+    "jobNumber" : 91,
+    "jobProfit" : 404,
+    "startTime" : 406,
+    "finishTime" : 810,
+    "jobsOnMachine" : [ 11 ]
+  }, {
+    "jobNumber" : 92,
+    "jobProfit" : 122,
+    "startTime" : 667,
+    "finishTime" : 789,
+    "jobsOnMachine" : [ 5 ]
+  }, {
+    "jobNumber" : 93,
+    "jobProfit" : 380,
+    "startTime" : 247,
+    "finishTime" : 627,
+    "jobsOnMachine" : [ 15, 11 ]
+  }, {
+    "jobNumber" : 94,
+    "jobProfit" : 728,
+    "startTime" : 48,
+    "finishTime" : 776,
+    "jobsOnMachine" : [ 18, 4, 1, 11, 19 ]
+  }, {
+    "jobNumber" : 95,
+    "jobProfit" : 384,
+    "startTime" : 515,
+    "finishTime" : 899,
+    "jobsOnMachine" : [ 14, 13, 20, 18, 9, 17, 1 ]
+  }, {
+    "jobNumber" : 96,
+    "jobProfit" : 598,
+    "startTime" : 25,
+    "finishTime" : 623,
+    "jobsOnMachine" : [ 12, 17, 6, 4, 14 ]
+  }, {
+    "jobNumber" : 97,
+    "jobProfit" : 12,
+    "startTime" : 958,
+    "finishTime" : 970,
+    "jobsOnMachine" : [ 3, 15, 7, 20, 2, 6, 9, 4 ]
+  }, {
+    "jobNumber" : 98,
+    "jobProfit" : 103,
+    "startTime" : 777,
+    "finishTime" : 880,
+    "jobsOnMachine" : [ 3, 14, 4, 20, 6, 2, 1, 15, 18, 8 ]
+  }, {
+    "jobNumber" : 99,
+    "jobProfit" : 448,
+    "startTime" : 457,
+    "finishTime" : 905,
+    "jobsOnMachine" : [ 19, 9, 4, 12, 17, 1, 10, 11 ]
+  }, {
+    "jobNumber" : 100,
+    "jobProfit" : 62,
+    "startTime" : 733,
+    "finishTime" : 795,
+    "jobsOnMachine" : [ 4, 20, 10, 18, 11, 12 ]
+  }, {
+    "jobNumber" : 101,
+    "jobProfit" : 169,
+    "startTime" : 534,
+    "finishTime" : 703,
+    "jobsOnMachine" : [ 17, 12, 6 ]
+  }, {
+    "jobNumber" : 102,
+    "jobProfit" : 149,
+    "startTime" : 842,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 11, 7, 10, 17, 6 ]
+  }, {
+    "jobNumber" : 103,
+    "jobProfit" : 142,
+    "startTime" : 665,
+    "finishTime" : 807,
+    "jobsOnMachine" : [ 3 ]
+  }, {
+    "jobNumber" : 104,
+    "jobProfit" : 368,
+    "startTime" : 437,
+    "finishTime" : 805,
+    "jobsOnMachine" : [ 15, 5, 2, 7, 9, 12, 4, 18, 10, 13 ]
+  }, {
+    "jobNumber" : 105,
+    "jobProfit" : 302,
+    "startTime" : 110,
+    "finishTime" : 412,
+    "jobsOnMachine" : [ 12, 7, 2 ]
+  }, {
+    "jobNumber" : 106,
+    "jobProfit" : 458,
+    "startTime" : 514,
+    "finishTime" : 972,
+    "jobsOnMachine" : [ 14, 11, 15, 17 ]
+  }, {
+    "jobNumber" : 107,
+    "jobProfit" : 13,
+    "startTime" : 933,
+    "finishTime" : 946,
+    "jobsOnMachine" : [ 11, 13, 4 ]
+  }, {
+    "jobNumber" : 108,
+    "jobProfit" : 302,
+    "startTime" : 85,
+    "finishTime" : 387,
+    "jobsOnMachine" : [ 5, 19, 13, 20, 9 ]
+  }, {
+    "jobNumber" : 109,
+    "jobProfit" : 31,
+    "startTime" : 962,
+    "finishTime" : 993,
+    "jobsOnMachine" : [ 18, 8, 1, 16, 2, 15, 14, 12 ]
+  }, {
+    "jobNumber" : 110,
+    "jobProfit" : 55,
+    "startTime" : 832,
+    "finishTime" : 887,
+    "jobsOnMachine" : [ 6, 5 ]
+  }, {
+    "jobNumber" : 111,
+    "jobProfit" : 53,
+    "startTime" : 738,
+    "finishTime" : 791,
+    "jobsOnMachine" : [ 12, 3, 19, 14, 10, 20 ]
+  }, {
+    "jobNumber" : 112,
+    "jobProfit" : 358,
+    "startTime" : 633,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 9 ]
+  }, {
+    "jobNumber" : 113,
+    "jobProfit" : 170,
+    "startTime" : 641,
+    "finishTime" : 811,
+    "jobsOnMachine" : [ 10 ]
+  }, {
+    "jobNumber" : 114,
+    "jobProfit" : 249,
+    "startTime" : 412,
+    "finishTime" : 661,
+    "jobsOnMachine" : [ 1 ]
+  }, {
+    "jobNumber" : 115,
+    "jobProfit" : 781,
+    "startTime" : 215,
+    "finishTime" : 996,
+    "jobsOnMachine" : [ 20, 2, 9 ]
+  }, {
+    "jobNumber" : 116,
+    "jobProfit" : 147,
+    "startTime" : 829,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 4, 11, 13, 1, 3, 7 ]
+  }, {
+    "jobNumber" : 117,
+    "jobProfit" : 66,
+    "startTime" : 580,
+    "finishTime" : 646,
+    "jobsOnMachine" : [ 9, 2 ]
+  }, {
+    "jobNumber" : 118,
+    "jobProfit" : 32,
+    "startTime" : 964,
+    "finishTime" : 996,
+    "jobsOnMachine" : [ 11, 14, 6, 18, 7, 15, 10, 5, 8 ]
+  }, {
+    "jobNumber" : 119,
+    "jobProfit" : 740,
+    "startTime" : 219,
+    "finishTime" : 959,
+    "jobsOnMachine" : [ 8, 20, 4, 3 ]
+  }, {
+    "jobNumber" : 120,
+    "jobProfit" : 348,
+    "startTime" : 135,
+    "finishTime" : 483,
+    "jobsOnMachine" : [ 16, 14, 3, 6, 20, 10, 7, 17 ]
+  }, {
+    "jobNumber" : 121,
+    "jobProfit" : 605,
+    "startTime" : 368,
+    "finishTime" : 973,
+    "jobsOnMachine" : [ 2, 20, 1, 17, 16, 14, 19, 6, 9 ]
+  }, {
+    "jobNumber" : 122,
+    "jobProfit" : 788,
+    "startTime" : 69,
+    "finishTime" : 857,
+    "jobsOnMachine" : [ 11, 19, 3, 14, 7, 8, 1 ]
+  }, {
+    "jobNumber" : 123,
+    "jobProfit" : 146,
+    "startTime" : 750,
+    "finishTime" : 896,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 124,
+    "jobProfit" : 304,
+    "startTime" : 361,
+    "finishTime" : 665,
+    "jobsOnMachine" : [ 9, 15, 13, 3, 12 ]
+  }, {
+    "jobNumber" : 125,
+    "jobProfit" : 7,
+    "startTime" : 150,
+    "finishTime" : 157,
+    "jobsOnMachine" : [ 4, 16, 13, 15, 18, 6, 9 ]
+  }, {
+    "jobNumber" : 126,
+    "jobProfit" : 85,
+    "startTime" : 797,
+    "finishTime" : 882,
+    "jobsOnMachine" : [ 9, 8, 20, 13, 19 ]
+  }, {
+    "jobNumber" : 127,
+    "jobProfit" : 107,
+    "startTime" : 876,
+    "finishTime" : 983,
+    "jobsOnMachine" : [ 5 ]
+  }, {
+    "jobNumber" : 128,
+    "jobProfit" : 647,
+    "startTime" : 9,
+    "finishTime" : 656,
+    "jobsOnMachine" : [ 6 ]
+  }, {
+    "jobNumber" : 129,
+    "jobProfit" : 541,
+    "startTime" : 366,
+    "finishTime" : 907,
+    "jobsOnMachine" : [ 2, 20, 10, 19, 13, 11, 8, 15, 6, 1 ]
+  }, {
+    "jobNumber" : 130,
+    "jobProfit" : 85,
+    "startTime" : 406,
+    "finishTime" : 491,
+    "jobsOnMachine" : [ 11, 8, 9, 1 ]
+  }, {
+    "jobNumber" : 131,
+    "jobProfit" : 343,
+    "startTime" : 598,
+    "finishTime" : 941,
+    "jobsOnMachine" : [ 2, 20, 3, 16, 6, 19 ]
+  }, {
+    "jobNumber" : 132,
+    "jobProfit" : 65,
+    "startTime" : 240,
+    "finishTime" : 305,
+    "jobsOnMachine" : [ 11, 13, 14, 16 ]
+  }, {
+    "jobNumber" : 133,
+    "jobProfit" : 63,
+    "startTime" : 887,
+    "finishTime" : 950,
+    "jobsOnMachine" : [ 5 ]
+  }, {
+    "jobNumber" : 134,
+    "jobProfit" : 8,
+    "startTime" : 895,
+    "finishTime" : 903,
+    "jobsOnMachine" : [ 9, 6 ]
+  }, {
+    "jobNumber" : 135,
+    "jobProfit" : 415,
+    "startTime" : 388,
+    "finishTime" : 803,
+    "jobsOnMachine" : [ 5, 8, 13 ]
+  }, {
+    "jobNumber" : 136,
+    "jobProfit" : 251,
+    "startTime" : 419,
+    "finishTime" : 670,
+    "jobsOnMachine" : [ 1, 15, 11 ]
+  }, {
+    "jobNumber" : 137,
+    "jobProfit" : 197,
+    "startTime" : 655,
+    "finishTime" : 852,
+    "jobsOnMachine" : [ 13, 10, 16, 3, 1 ]
+  }, {
+    "jobNumber" : 138,
+    "jobProfit" : 213,
+    "startTime" : 445,
+    "finishTime" : 658,
+    "jobsOnMachine" : [ 8, 5 ]
+  }, {
+    "jobNumber" : 139,
+    "jobProfit" : 594,
+    "startTime" : 121,
+    "finishTime" : 715,
+    "jobsOnMachine" : [ 3, 13, 6, 9, 12, 11, 1, 5, 10, 7 ]
+  }, {
+    "jobNumber" : 140,
+    "jobProfit" : 647,
+    "startTime" : 167,
+    "finishTime" : 814,
+    "jobsOnMachine" : [ 14, 4, 13, 17, 5, 10, 15, 3, 20, 16 ]
+  }, {
+    "jobNumber" : 141,
+    "jobProfit" : 135,
+    "startTime" : 801,
+    "finishTime" : 936,
+    "jobsOnMachine" : [ 18, 9, 1, 12, 6 ]
+  }, {
+    "jobNumber" : 142,
+    "jobProfit" : 8,
+    "startTime" : 751,
+    "finishTime" : 759,
+    "jobsOnMachine" : [ 10, 2, 1, 19, 8, 20, 4, 5 ]
+  }, {
+    "jobNumber" : 143,
+    "jobProfit" : 301,
+    "startTime" : 182,
+    "finishTime" : 483,
+    "jobsOnMachine" : [ 20, 18, 9, 3, 2, 4, 16 ]
+  }, {
+    "jobNumber" : 144,
+    "jobProfit" : 14,
+    "startTime" : 962,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 15, 10, 20 ]
+  }, {
+    "jobNumber" : 145,
+    "jobProfit" : 838,
+    "startTime" : 21,
+    "finishTime" : 859,
+    "jobsOnMachine" : [ 19, 11 ]
+  }, {
+    "jobNumber" : 146,
+    "jobProfit" : 401,
+    "startTime" : 571,
+    "finishTime" : 972,
+    "jobsOnMachine" : [ 1 ]
+  }, {
+    "jobNumber" : 147,
+    "jobProfit" : 156,
+    "startTime" : 696,
+    "finishTime" : 852,
+    "jobsOnMachine" : [ 12, 9, 20, 5, 8, 15, 1, 14, 17, 11 ]
+  }, {
+    "jobNumber" : 148,
+    "jobProfit" : 60,
+    "startTime" : 805,
+    "finishTime" : 865,
+    "jobsOnMachine" : [ 5, 11, 6, 12, 14, 13, 19, 16, 1, 3 ]
+  }, {
+    "jobNumber" : 149,
+    "jobProfit" : 109,
+    "startTime" : 233,
+    "finishTime" : 342,
+    "jobsOnMachine" : [ 7, 6, 17 ]
+  }, {
+    "jobNumber" : 150,
+    "jobProfit" : 937,
+    "startTime" : 48,
+    "finishTime" : 985,
+    "jobsOnMachine" : [ 1, 9, 10, 17, 12, 14, 5, 16, 11 ]
+  }, {
+    "jobNumber" : 151,
+    "jobProfit" : 125,
+    "startTime" : 169,
+    "finishTime" : 294,
+    "jobsOnMachine" : [ 19, 6, 2, 15 ]
+  }, {
+    "jobNumber" : 152,
+    "jobProfit" : 113,
+    "startTime" : 745,
+    "finishTime" : 858,
+    "jobsOnMachine" : [ 19, 4, 6, 9, 1, 17, 5 ]
+  }, {
+    "jobNumber" : 153,
+    "jobProfit" : 68,
+    "startTime" : 632,
+    "finishTime" : 700,
+    "jobsOnMachine" : [ 13, 16 ]
+  }, {
+    "jobNumber" : 154,
+    "jobProfit" : 189,
+    "startTime" : 668,
+    "finishTime" : 857,
+    "jobsOnMachine" : [ 20 ]
+  }, {
+    "jobNumber" : 155,
+    "jobProfit" : 436,
+    "startTime" : 529,
+    "finishTime" : 965,
+    "jobsOnMachine" : [ 14, 1, 8, 11 ]
+  }, {
+    "jobNumber" : 156,
+    "jobProfit" : 17,
+    "startTime" : 461,
+    "finishTime" : 478,
+    "jobsOnMachine" : [ 11, 16, 1, 7, 12, 2, 15, 6 ]
+  }, {
+    "jobNumber" : 157,
+    "jobProfit" : 740,
+    "startTime" : 157,
+    "finishTime" : 897,
+    "jobsOnMachine" : [ 17, 12, 3 ]
+  }, {
+    "jobNumber" : 158,
+    "jobProfit" : 41,
+    "startTime" : 840,
+    "finishTime" : 881,
+    "jobsOnMachine" : [ 19, 20, 3, 13 ]
+  }, {
+    "jobNumber" : 159,
+    "jobProfit" : 272,
+    "startTime" : 215,
+    "finishTime" : 487,
+    "jobsOnMachine" : [ 10, 6, 9, 17, 13, 18, 7 ]
+  }, {
+    "jobNumber" : 160,
+    "jobProfit" : 54,
+    "startTime" : 938,
+    "finishTime" : 992,
+    "jobsOnMachine" : [ 18, 2, 16, 9, 3, 20 ]
+  }, {
+    "jobNumber" : 161,
+    "jobProfit" : 625,
+    "startTime" : 248,
+    "finishTime" : 873,
+    "jobsOnMachine" : [ 11, 5, 17, 6, 9 ]
+  }, {
+    "jobNumber" : 162,
+    "jobProfit" : 58,
+    "startTime" : 914,
+    "finishTime" : 972,
+    "jobsOnMachine" : [ 8, 18, 3, 7, 15, 20, 4, 2, 6, 13 ]
+  }, {
+    "jobNumber" : 163,
+    "jobProfit" : 37,
+    "startTime" : 888,
+    "finishTime" : 925,
+    "jobsOnMachine" : [ 1, 18, 5, 10, 14, 4 ]
+  }, {
+    "jobNumber" : 164,
+    "jobProfit" : 7,
+    "startTime" : 767,
+    "finishTime" : 774,
+    "jobsOnMachine" : [ 6, 17 ]
+  }, {
+    "jobNumber" : 165,
+    "jobProfit" : 843,
+    "startTime" : 60,
+    "finishTime" : 903,
+    "jobsOnMachine" : [ 7, 9 ]
+  }, {
+    "jobNumber" : 166,
+    "jobProfit" : 337,
+    "startTime" : 442,
+    "finishTime" : 779,
+    "jobsOnMachine" : [ 2, 8, 20, 13, 11, 7, 15, 17 ]
+  }, {
+    "jobNumber" : 167,
+    "jobProfit" : 149,
+    "startTime" : 750,
+    "finishTime" : 899,
+    "jobsOnMachine" : [ 14, 7, 12, 13, 20, 15 ]
+  }, {
+    "jobNumber" : 168,
+    "jobProfit" : 146,
+    "startTime" : 210,
+    "finishTime" : 356,
+    "jobsOnMachine" : [ 9, 18 ]
+  }, {
+    "jobNumber" : 169,
+    "jobProfit" : 2,
+    "startTime" : 868,
+    "finishTime" : 870,
+    "jobsOnMachine" : [ 6, 10, 7, 15, 18, 8, 19, 14, 1, 5 ]
+  }, {
+    "jobNumber" : 170,
+    "jobProfit" : 123,
+    "startTime" : 679,
+    "finishTime" : 802,
+    "jobsOnMachine" : [ 6, 5, 7 ]
+  }, {
+    "jobNumber" : 171,
+    "jobProfit" : 681,
+    "startTime" : 60,
+    "finishTime" : 741,
+    "jobsOnMachine" : [ 6, 7, 12, 15, 19, 5 ]
+  }, {
+    "jobNumber" : 172,
+    "jobProfit" : 334,
+    "startTime" : 136,
+    "finishTime" : 470,
+    "jobsOnMachine" : [ 18, 15, 9, 5, 11, 7, 3 ]
+  }, {
+    "jobNumber" : 173,
+    "jobProfit" : 325,
+    "startTime" : 376,
+    "finishTime" : 701,
+    "jobsOnMachine" : [ 5, 12, 15, 8 ]
+  }, {
+    "jobNumber" : 174,
+    "jobProfit" : 120,
+    "startTime" : 506,
+    "finishTime" : 626,
+    "jobsOnMachine" : [ 16, 12, 2, 19, 18, 4 ]
+  }, {
+    "jobNumber" : 175,
+    "jobProfit" : 257,
+    "startTime" : 527,
+    "finishTime" : 784,
+    "jobsOnMachine" : [ 7, 15, 13 ]
+  }, {
+    "jobNumber" : 176,
+    "jobProfit" : 140,
+    "startTime" : 226,
+    "finishTime" : 366,
+    "jobsOnMachine" : [ 18, 6, 16, 12, 13, 11, 1 ]
+  }, {
+    "jobNumber" : 177,
+    "jobProfit" : 28,
+    "startTime" : 477,
+    "finishTime" : 505,
+    "jobsOnMachine" : [ 18, 6, 15, 3, 11, 4 ]
+  }, {
+    "jobNumber" : 178,
+    "jobProfit" : 504,
+    "startTime" : 211,
+    "finishTime" : 715,
+    "jobsOnMachine" : [ 3, 4, 10 ]
+  }, {
+    "jobNumber" : 179,
+    "jobProfit" : 97,
+    "startTime" : 471,
+    "finishTime" : 568,
+    "jobsOnMachine" : [ 3 ]
+  }, {
+    "jobNumber" : 180,
+    "jobProfit" : 33,
+    "startTime" : 958,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 6, 8, 16, 9, 14, 5, 1, 2, 20, 11 ]
+  }, {
+    "jobNumber" : 181,
+    "jobProfit" : 643,
+    "startTime" : 161,
+    "finishTime" : 804,
+    "jobsOnMachine" : [ 11, 9, 20, 2, 5, 16, 14, 7, 12, 6 ]
+  }, {
+    "jobNumber" : 182,
+    "jobProfit" : 56,
+    "startTime" : 158,
+    "finishTime" : 214,
+    "jobsOnMachine" : [ 12, 1, 10, 18, 13, 19, 4, 20 ]
+  }, {
+    "jobNumber" : 183,
+    "jobProfit" : 553,
+    "startTime" : 236,
+    "finishTime" : 789,
+    "jobsOnMachine" : [ 14, 12, 15, 18, 13, 17 ]
+  }, {
+    "jobNumber" : 184,
+    "jobProfit" : 243,
+    "startTime" : 463,
+    "finishTime" : 706,
+    "jobsOnMachine" : [ 6, 4, 2, 20, 3 ]
+  }, {
+    "jobNumber" : 185,
+    "jobProfit" : 240,
+    "startTime" : 459,
+    "finishTime" : 699,
+    "jobsOnMachine" : [ 3 ]
+  }, {
+    "jobNumber" : 186,
+    "jobProfit" : 73,
+    "startTime" : 713,
+    "finishTime" : 786,
+    "jobsOnMachine" : [ 17, 9, 3, 15, 20, 14, 7, 18, 13, 8 ]
+  }, {
+    "jobNumber" : 187,
+    "jobProfit" : 61,
+    "startTime" : 877,
+    "finishTime" : 938,
+    "jobsOnMachine" : [ 9, 1, 2, 14, 10, 19, 7, 3, 18, 6 ]
+  }, {
+    "jobNumber" : 188,
+    "jobProfit" : 386,
+    "startTime" : 371,
+    "finishTime" : 757,
+    "jobsOnMachine" : [ 12, 9, 19, 6, 10, 4, 5, 2, 15, 17 ]
+  }, {
+    "jobNumber" : 189,
+    "jobProfit" : 238,
+    "startTime" : 211,
+    "finishTime" : 449,
+    "jobsOnMachine" : [ 15, 14, 11, 10, 17, 4, 19, 5, 7, 20 ]
+  }, {
+    "jobNumber" : 190,
+    "jobProfit" : 6,
+    "startTime" : 868,
+    "finishTime" : 874,
+    "jobsOnMachine" : [ 8, 15, 20, 6 ]
+  }, {
+    "jobNumber" : 191,
+    "jobProfit" : 395,
+    "startTime" : 95,
+    "finishTime" : 490,
+    "jobsOnMachine" : [ 18, 2, 11 ]
+  }, {
+    "jobNumber" : 192,
+    "jobProfit" : 511,
+    "startTime" : 289,
+    "finishTime" : 800,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 193,
+    "jobProfit" : 265,
+    "startTime" : 383,
+    "finishTime" : 648,
+    "jobsOnMachine" : [ 19, 14, 17, 15, 6, 11, 12, 10 ]
+  }, {
+    "jobNumber" : 194,
+    "jobProfit" : 304,
+    "startTime" : 570,
+    "finishTime" : 874,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 195,
+    "jobProfit" : 120,
+    "startTime" : 795,
+    "finishTime" : 915,
+    "jobsOnMachine" : [ 20, 18, 13 ]
+  }, {
+    "jobNumber" : 196,
+    "jobProfit" : 1,
+    "startTime" : 954,
+    "finishTime" : 955,
+    "jobsOnMachine" : [ 3, 6, 18, 14, 20 ]
+  }, {
+    "jobNumber" : 197,
+    "jobProfit" : 8,
+    "startTime" : 809,
+    "finishTime" : 817,
+    "jobsOnMachine" : [ 6, 10 ]
+  }, {
+    "jobNumber" : 198,
+    "jobProfit" : 60,
+    "startTime" : 250,
+    "finishTime" : 310,
+    "jobsOnMachine" : [ 13, 7, 1, 8, 11, 15, 20, 12 ]
+  }, {
+    "jobNumber" : 199,
+    "jobProfit" : 713,
+    "startTime" : 201,
+    "finishTime" : 914,
+    "jobsOnMachine" : [ 7, 1, 9 ]
+  }, {
+    "jobNumber" : 200,
+    "jobProfit" : 348,
+    "startTime" : 436,
+    "finishTime" : 784,
+    "jobsOnMachine" : [ 8, 11 ]
+  }, {
+    "jobNumber" : 201,
+    "jobProfit" : 157,
+    "startTime" : 407,
+    "finishTime" : 564,
+    "jobsOnMachine" : [ 8, 14, 16, 18 ]
+  }, {
+    "jobNumber" : 202,
+    "jobProfit" : 346,
+    "startTime" : 172,
+    "finishTime" : 518,
+    "jobsOnMachine" : [ 8, 15, 2, 7, 17, 20, 11, 10, 6, 13 ]
+  }, {
+    "jobNumber" : 203,
+    "jobProfit" : 185,
+    "startTime" : 791,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 20, 3, 10, 15, 9, 11, 4, 18, 13, 14 ]
+  }, {
+    "jobNumber" : 204,
+    "jobProfit" : 1,
+    "startTime" : 985,
+    "finishTime" : 986,
+    "jobsOnMachine" : [ 10, 4, 5, 13, 14, 3, 2 ]
+  }, {
+    "jobNumber" : 205,
+    "jobProfit" : 386,
+    "startTime" : 412,
+    "finishTime" : 798,
+    "jobsOnMachine" : [ 1, 2, 14 ]
+  }, {
+    "jobNumber" : 206,
+    "jobProfit" : 851,
+    "startTime" : 101,
+    "finishTime" : 952,
+    "jobsOnMachine" : [ 19, 18 ]
+  }, {
+    "jobNumber" : 207,
+    "jobProfit" : 478,
+    "startTime" : 120,
+    "finishTime" : 598,
+    "jobsOnMachine" : [ 15, 14, 18 ]
+  }, {
+    "jobNumber" : 208,
+    "jobProfit" : 42,
+    "startTime" : 714,
+    "finishTime" : 756,
+    "jobsOnMachine" : [ 10, 19 ]
+  }, {
+    "jobNumber" : 209,
+    "jobProfit" : 281,
+    "startTime" : 395,
+    "finishTime" : 676,
+    "jobsOnMachine" : [ 2, 17, 20, 15, 1, 4, 5, 11, 16, 18 ]
+  }, {
+    "jobNumber" : 210,
+    "jobProfit" : 630,
+    "startTime" : 280,
+    "finishTime" : 910,
+    "jobsOnMachine" : [ 17, 6, 10, 18, 14, 13, 2 ]
+  }, {
+    "jobNumber" : 211,
+    "jobProfit" : 99,
+    "startTime" : 522,
+    "finishTime" : 621,
+    "jobsOnMachine" : [ 4, 6, 8, 10, 18, 1, 15 ]
+  }, {
+    "jobNumber" : 212,
+    "jobProfit" : 50,
+    "startTime" : 129,
+    "finishTime" : 179,
+    "jobsOnMachine" : [ 13, 20, 16, 1, 4, 15 ]
+  }, {
+    "jobNumber" : 213,
+    "jobProfit" : 208,
+    "startTime" : 257,
+    "finishTime" : 465,
+    "jobsOnMachine" : [ 8, 18, 3, 20 ]
+  }, {
+    "jobNumber" : 214,
+    "jobProfit" : 99,
+    "startTime" : 852,
+    "finishTime" : 951,
+    "jobsOnMachine" : [ 16, 9, 14, 7, 17, 1 ]
+  }, {
+    "jobNumber" : 215,
+    "jobProfit" : 191,
+    "startTime" : 731,
+    "finishTime" : 922,
+    "jobsOnMachine" : [ 5, 3, 16, 19, 1, 7, 13, 20, 15, 11 ]
+  }, {
+    "jobNumber" : 216,
+    "jobProfit" : 267,
+    "startTime" : 622,
+    "finishTime" : 889,
+    "jobsOnMachine" : [ 5, 1 ]
+  }, {
+    "jobNumber" : 217,
+    "jobProfit" : 841,
+    "startTime" : 114,
+    "finishTime" : 955,
+    "jobsOnMachine" : [ 14, 15, 6 ]
+  }, {
+    "jobNumber" : 218,
+    "jobProfit" : 39,
+    "startTime" : 152,
+    "finishTime" : 191,
+    "jobsOnMachine" : [ 20, 16, 14, 7, 12, 8, 13, 1, 4 ]
+  }, {
+    "jobNumber" : 219,
+    "jobProfit" : 366,
+    "startTime" : 616,
+    "finishTime" : 982,
+    "jobsOnMachine" : [ 7, 3, 9, 20, 17, 2, 4, 15, 16, 10 ]
+  }, {
+    "jobNumber" : 220,
+    "jobProfit" : 144,
+    "startTime" : 793,
+    "finishTime" : 937,
+    "jobsOnMachine" : [ 5, 16, 6, 13, 1, 14, 4, 17, 2 ]
+  }, {
+    "jobNumber" : 221,
+    "jobProfit" : 380,
+    "startTime" : 585,
+    "finishTime" : 965,
+    "jobsOnMachine" : [ 10, 2, 6, 9, 15, 16, 13, 8 ]
+  }, {
+    "jobNumber" : 222,
+    "jobProfit" : 461,
+    "startTime" : 244,
+    "finishTime" : 705,
+    "jobsOnMachine" : [ 16, 19, 2, 13, 5, 12, 17, 11, 4, 15 ]
+  }, {
+    "jobNumber" : 223,
+    "jobProfit" : 21,
+    "startTime" : 926,
+    "finishTime" : 947,
+    "jobsOnMachine" : [ 17 ]
+  }, {
+    "jobNumber" : 224,
+    "jobProfit" : 434,
+    "startTime" : 530,
+    "finishTime" : 964,
+    "jobsOnMachine" : [ 16, 19, 7 ]
+  }, {
+    "jobNumber" : 225,
+    "jobProfit" : 310,
+    "startTime" : 689,
+    "finishTime" : 999,
+    "jobsOnMachine" : [ 14, 15, 11, 19, 17 ]
+  }, {
+    "jobNumber" : 226,
+    "jobProfit" : 390,
+    "startTime" : 417,
+    "finishTime" : 807,
+    "jobsOnMachine" : [ 7, 13, 5, 16, 8, 9, 15, 20, 17, 11 ]
+  }, {
+    "jobNumber" : 227,
+    "jobProfit" : 324,
+    "startTime" : 75,
+    "finishTime" : 399,
+    "jobsOnMachine" : [ 12, 10, 9, 18, 14, 17 ]
+  }, {
+    "jobNumber" : 228,
+    "jobProfit" : 104,
+    "startTime" : 459,
+    "finishTime" : 563,
+    "jobsOnMachine" : [ 17, 5, 3, 16, 6, 1, 14 ]
+  }, {
+    "jobNumber" : 229,
+    "jobProfit" : 395,
+    "startTime" : 300,
+    "finishTime" : 695,
+    "jobsOnMachine" : [ 15, 7, 2, 10, 1 ]
+  }, {
+    "jobNumber" : 230,
+    "jobProfit" : 87,
+    "startTime" : 795,
+    "finishTime" : 882,
+    "jobsOnMachine" : [ 13, 10, 19, 8, 7, 3 ]
+  }, {
+    "jobNumber" : 231,
+    "jobProfit" : 1,
+    "startTime" : 702,
+    "finishTime" : 703,
+    "jobsOnMachine" : [ 4, 18, 6 ]
+  }, {
+    "jobNumber" : 232,
+    "jobProfit" : 299,
+    "startTime" : 463,
+    "finishTime" : 762,
+    "jobsOnMachine" : [ 12, 11, 14, 6, 7, 16, 20 ]
+  }, {
+    "jobNumber" : 233,
+    "jobProfit" : 589,
+    "startTime" : 293,
+    "finishTime" : 882,
+    "jobsOnMachine" : [ 18, 10, 8 ]
+  }, {
+    "jobNumber" : 234,
+    "jobProfit" : 598,
+    "startTime" : 347,
+    "finishTime" : 945,
+    "jobsOnMachine" : [ 17, 11, 18, 7, 20, 4, 15, 6, 14, 9 ]
+  }, {
+    "jobNumber" : 235,
+    "jobProfit" : 302,
+    "startTime" : 254,
+    "finishTime" : 556,
+    "jobsOnMachine" : [ 15, 18 ]
+  }, {
+    "jobNumber" : 236,
+    "jobProfit" : 131,
+    "startTime" : 604,
+    "finishTime" : 735,
+    "jobsOnMachine" : [ 15, 7, 16, 8, 9 ]
+  }, {
+    "jobNumber" : 237,
+    "jobProfit" : 78,
+    "startTime" : 607,
+    "finishTime" : 685,
+    "jobsOnMachine" : [ 20, 2, 18, 17 ]
+  }, {
+    "jobNumber" : 238,
+    "jobProfit" : 434,
+    "startTime" : 508,
+    "finishTime" : 942,
+    "jobsOnMachine" : [ 16, 20, 2, 18, 1 ]
+  }, {
+    "jobNumber" : 239,
+    "jobProfit" : 240,
+    "startTime" : 253,
+    "finishTime" : 493,
+    "jobsOnMachine" : [ 1, 9 ]
+  }, {
+    "jobNumber" : 240,
+    "jobProfit" : 742,
+    "startTime" : 119,
+    "finishTime" : 861,
+    "jobsOnMachine" : [ 18, 14, 8, 17, 11, 6 ]
+  }, {
+    "jobNumber" : 241,
+    "jobProfit" : 27,
+    "startTime" : 678,
+    "finishTime" : 705,
+    "jobsOnMachine" : [ 18 ]
+  }, {
+    "jobNumber" : 242,
+    "jobProfit" : 155,
+    "startTime" : 625,
+    "finishTime" : 780,
+    "jobsOnMachine" : [ 18, 20, 8, 5, 6, 19, 11, 15, 17, 9 ]
+  }, {
+    "jobNumber" : 243,
+    "jobProfit" : 532,
+    "startTime" : 468,
+    "finishTime" : 1000,
+    "jobsOnMachine" : [ 3, 7, 1, 2, 13, 9, 6, 10, 20, 16 ]
+  }, {
+    "jobNumber" : 244,
+    "jobProfit" : 284,
+    "startTime" : 184,
+    "finishTime" : 468,
+    "jobsOnMachine" : [ 7, 8, 20, 6, 3, 1 ]
+  }, {
+    "jobNumber" : 245,
+    "jobProfit" : 287,
+    "startTime" : 665,
+    "finishTime" : 952,
+    "jobsOnMachine" : [ 13, 8, 10, 1, 15, 4, 19, 18 ]
+  }, {
+    "jobNumber" : 246,
+    "jobProfit" : 293,
+    "startTime" : 123,
+    "finishTime" : 416,
+    "jobsOnMachine" : [ 11, 12, 8 ]
+  }, {
+    "jobNumber" : 247,
+    "jobProfit" : 193,
+    "startTime" : 737,
+    "finishTime" : 930,
+    "jobsOnMachine" : [ 17, 10, 20, 7, 18, 16, 15 ]
+  }, {
+    "jobNumber" : 248,
+    "jobProfit" : 875,
+    "startTime" : 52,
+    "finishTime" : 927,
+    "jobsOnMachine" : [ 9 ]
+  }, {
+    "jobNumber" : 249,
+    "jobProfit" : 284,
+    "startTime" : 420,
+    "finishTime" : 704,
+    "jobsOnMachine" : [ 14, 13, 16, 15, 9, 1, 12, 7, 10 ]
+  }, {
+    "jobNumber" : 250,
+    "jobProfit" : 107,
+    "startTime" : 838,
+    "finishTime" : 945,
+    "jobsOnMachine" : [ 15, 1, 9, 12 ]
+  }, {
+    "jobNumber" : 251,
+    "jobProfit" : 49,
+    "startTime" : 148,
+    "finishTime" : 197,
+    "jobsOnMachine" : [ 19, 3, 12, 4, 1 ]
+  }, {
+    "jobNumber" : 252,
+    "jobProfit" : 584,
+    "startTime" : 360,
+    "finishTime" : 944,
+    "jobsOnMachine" : [ 14, 10, 13, 18, 16, 19, 6, 7, 15 ]
+  }, {
+    "jobNumber" : 253,
+    "jobProfit" : 179,
+    "startTime" : 363,
+    "finishTime" : 542,
+    "jobsOnMachine" : [ 4, 13, 8, 19, 14, 12, 5, 2, 16, 10 ]
+  }, {
+    "jobNumber" : 254,
+    "jobProfit" : 2,
+    "startTime" : 334,
+    "finishTime" : 336,
+    "jobsOnMachine" : [ 12, 16, 18, 15, 1, 17, 9 ]
+  }, {
+    "jobNumber" : 255,
+    "jobProfit" : 128,
+    "startTime" : 243,
+    "finishTime" : 371,
+    "jobsOnMachine" : [ 10, 5, 13, 6, 14, 15, 16, 17, 8, 1 ]
+  }, {
+    "jobNumber" : 256,
+    "jobProfit" : 84,
+    "startTime" : 473,
+    "finishTime" : 557,
+    "jobsOnMachine" : [ 3, 4, 5, 19, 6, 10, 8, 16 ]
+  }, {
+    "jobNumber" : 257,
+    "jobProfit" : 259,
+    "startTime" : 400,
+    "finishTime" : 659,
+    "jobsOnMachine" : [ 4, 6, 20, 14, 16 ]
+  }, {
+    "jobNumber" : 258,
+    "jobProfit" : 40,
+    "startTime" : 947,
+    "finishTime" : 987,
+    "jobsOnMachine" : [ 10, 20 ]
+  }, {
+    "jobNumber" : 259,
+    "jobProfit" : 13,
+    "startTime" : 813,
+    "finishTime" : 826,
+    "jobsOnMachine" : [ 16, 15 ]
+  }, {
+    "jobNumber" : 260,
+    "jobProfit" : 134,
+    "startTime" : 810,
+    "finishTime" : 944,
+    "jobsOnMachine" : [ 17, 18, 3, 11, 12 ]
+  }, {
+    "jobNumber" : 261,
+    "jobProfit" : 56,
+    "startTime" : 630,
+    "finishTime" : 686,
+    "jobsOnMachine" : [ 19, 8, 7, 13, 2 ]
+  }, {
+    "jobNumber" : 262,
+    "jobProfit" : 171,
+    "startTime" : 715,
+    "finishTime" : 886,
+    "jobsOnMachine" : [ 5, 2, 16 ]
+  }, {
+    "jobNumber" : 263,
+    "jobProfit" : 33,
+    "startTime" : 160,
+    "finishTime" : 193,
+    "jobsOnMachine" : [ 13, 5, 20, 3, 15, 12, 16, 9, 2, 7 ]
+  }, {
+    "jobNumber" : 264,
+    "jobProfit" : 31,
+    "startTime" : 637,
+    "finishTime" : 668,
+    "jobsOnMachine" : [ 19, 10, 18, 7, 17, 5, 16 ]
+  }, {
+    "jobNumber" : 265,
+    "jobProfit" : 64,
+    "startTime" : 837,
+    "finishTime" : 901,
+    "jobsOnMachine" : [ 7, 4, 8 ]
+  }, {
+    "jobNumber" : 266,
+    "jobProfit" : 443,
+    "startTime" : 341,
+    "finishTime" : 784,
+    "jobsOnMachine" : [ 11, 19 ]
+  }, {
+    "jobNumber" : 267,
+    "jobProfit" : 46,
+    "startTime" : 945,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 15, 4, 3, 20, 8 ]
+  }, {
+    "jobNumber" : 268,
+    "jobProfit" : 993,
+    "startTime" : 7,
+    "finishTime" : 1000,
+    "jobsOnMachine" : [ 3, 7, 13, 2, 19, 12, 1 ]
+  }, {
+    "jobNumber" : 269,
+    "jobProfit" : 54,
+    "startTime" : 463,
+    "finishTime" : 517,
+    "jobsOnMachine" : [ 1, 19, 16, 9, 20, 5, 13, 11, 8 ]
+  }, {
+    "jobNumber" : 270,
+    "jobProfit" : 141,
+    "startTime" : 435,
+    "finishTime" : 576,
+    "jobsOnMachine" : [ 3, 11, 14, 1, 10, 19, 6, 2 ]
+  }, {
+    "jobNumber" : 271,
+    "jobProfit" : 618,
+    "startTime" : 205,
+    "finishTime" : 823,
+    "jobsOnMachine" : [ 10, 17, 8, 3, 1, 12, 9, 20 ]
+  }, {
+    "jobNumber" : 272,
+    "jobProfit" : 87,
+    "startTime" : 804,
+    "finishTime" : 891,
+    "jobsOnMachine" : [ 5, 14, 12, 17, 6, 1, 3, 2 ]
+  }, {
+    "jobNumber" : 273,
+    "jobProfit" : 114,
+    "startTime" : 882,
+    "finishTime" : 996,
+    "jobsOnMachine" : [ 6, 2, 15, 20, 3, 12, 14 ]
+  }, {
+    "jobNumber" : 274,
+    "jobProfit" : 94,
+    "startTime" : 515,
+    "finishTime" : 609,
+    "jobsOnMachine" : [ 15, 9 ]
+  }, {
+    "jobNumber" : 275,
+    "jobProfit" : 820,
+    "startTime" : 140,
+    "finishTime" : 960,
+    "jobsOnMachine" : [ 17, 14, 6, 3, 18 ]
+  }, {
+    "jobNumber" : 276,
+    "jobProfit" : 308,
+    "startTime" : 104,
+    "finishTime" : 412,
+    "jobsOnMachine" : [ 10, 18 ]
+  }, {
+    "jobNumber" : 277,
+    "jobProfit" : 44,
+    "startTime" : 945,
+    "finishTime" : 989,
+    "jobsOnMachine" : [ 12, 18, 5, 15 ]
+  }, {
+    "jobNumber" : 278,
+    "jobProfit" : 4,
+    "startTime" : 969,
+    "finishTime" : 973,
+    "jobsOnMachine" : [ 17, 20, 2, 6, 11, 13, 16, 4, 5, 14 ]
+  }, {
+    "jobNumber" : 279,
+    "jobProfit" : 89,
+    "startTime" : 813,
+    "finishTime" : 902,
+    "jobsOnMachine" : [ 17, 4, 9, 8, 14 ]
+  }, {
+    "jobNumber" : 280,
+    "jobProfit" : 381,
+    "startTime" : 499,
+    "finishTime" : 880,
+    "jobsOnMachine" : [ 1, 2, 15, 14, 9 ]
+  }, {
+    "jobNumber" : 281,
+    "jobProfit" : 73,
+    "startTime" : 604,
+    "finishTime" : 677,
+    "jobsOnMachine" : [ 5, 16, 7, 15, 12, 11, 4, 9 ]
+  }, {
+    "jobNumber" : 282,
+    "jobProfit" : 543,
+    "startTime" : 168,
+    "finishTime" : 711,
+    "jobsOnMachine" : [ 13, 9, 16 ]
+  }, {
+    "jobNumber" : 283,
+    "jobProfit" : 17,
+    "startTime" : 948,
+    "finishTime" : 965,
+    "jobsOnMachine" : [ 5, 18, 1, 11, 8 ]
+  }, {
+    "jobNumber" : 284,
+    "jobProfit" : 366,
+    "startTime" : 385,
+    "finishTime" : 751,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 285,
+    "jobProfit" : 22,
+    "startTime" : 890,
+    "finishTime" : 912,
+    "jobsOnMachine" : [ 10, 20, 6, 2, 15, 17, 1 ]
+  }, {
+    "jobNumber" : 286,
+    "jobProfit" : 597,
+    "startTime" : 85,
+    "finishTime" : 682,
+    "jobsOnMachine" : [ 6, 3, 12, 2, 1, 18, 5, 8, 14 ]
+  }, {
+    "jobNumber" : 287,
+    "jobProfit" : 94,
+    "startTime" : 794,
+    "finishTime" : 888,
+    "jobsOnMachine" : [ 11, 9, 13, 20, 12, 5, 10, 15, 14, 1 ]
+  }, {
+    "jobNumber" : 288,
+    "jobProfit" : 68,
+    "startTime" : 708,
+    "finishTime" : 776,
+    "jobsOnMachine" : [ 1, 11, 9, 18, 10 ]
+  }, {
+    "jobNumber" : 289,
+    "jobProfit" : 81,
+    "startTime" : 864,
+    "finishTime" : 945,
+    "jobsOnMachine" : [ 18 ]
+  }, {
+    "jobNumber" : 290,
+    "jobProfit" : 147,
+    "startTime" : 431,
+    "finishTime" : 578,
+    "jobsOnMachine" : [ 3, 8, 20, 12, 6, 17, 14, 13, 4, 9 ]
+  }, {
+    "jobNumber" : 291,
+    "jobProfit" : 209,
+    "startTime" : 489,
+    "finishTime" : 698,
+    "jobsOnMachine" : [ 13, 2, 16, 6, 9, 7, 15, 14 ]
+  }, {
+    "jobNumber" : 292,
+    "jobProfit" : 168,
+    "startTime" : 766,
+    "finishTime" : 934,
+    "jobsOnMachine" : [ 15, 14, 9, 10 ]
+  }, {
+    "jobNumber" : 293,
+    "jobProfit" : 306,
+    "startTime" : 617,
+    "finishTime" : 923,
+    "jobsOnMachine" : [ 15, 5, 16, 17, 20, 3 ]
+  }, {
+    "jobNumber" : 294,
+    "jobProfit" : 288,
+    "startTime" : 38,
+    "finishTime" : 326,
+    "jobsOnMachine" : [ 4, 1, 15, 10, 13, 3, 7, 6, 14 ]
+  }, {
+    "jobNumber" : 295,
+    "jobProfit" : 174,
+    "startTime" : 416,
+    "finishTime" : 590,
+    "jobsOnMachine" : [ 14 ]
+  }, {
+    "jobNumber" : 296,
+    "jobProfit" : 257,
+    "startTime" : 345,
+    "finishTime" : 602,
+    "jobsOnMachine" : [ 11, 20, 15, 7, 16, 19, 12, 13, 17, 3 ]
+  }, {
+    "jobNumber" : 297,
+    "jobProfit" : 293,
+    "startTime" : 466,
+    "finishTime" : 759,
+    "jobsOnMachine" : [ 11, 15 ]
+  }, {
+    "jobNumber" : 298,
+    "jobProfit" : 574,
+    "startTime" : 223,
+    "finishTime" : 797,
+    "jobsOnMachine" : [ 12, 16, 11, 7, 19, 13, 4 ]
+  }, {
+    "jobNumber" : 299,
+    "jobProfit" : 16,
+    "startTime" : 973,
+    "finishTime" : 989,
+    "jobsOnMachine" : [ 1, 16, 8, 9, 18, 14, 6, 15, 3, 2 ]
+  }, {
+    "jobNumber" : 300,
+    "jobProfit" : 957,
+    "startTime" : 34,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 9, 6, 8, 13 ]
+  }, {
+    "jobNumber" : 301,
+    "jobProfit" : 230,
+    "startTime" : 713,
+    "finishTime" : 943,
+    "jobsOnMachine" : [ 14, 13, 9, 5, 10 ]
+  }, {
+    "jobNumber" : 302,
+    "jobProfit" : 13,
+    "startTime" : 411,
+    "finishTime" : 424,
+    "jobsOnMachine" : [ 5, 17, 9, 1 ]
+  }, {
+    "jobNumber" : 303,
+    "jobProfit" : 112,
+    "startTime" : 618,
+    "finishTime" : 730,
+    "jobsOnMachine" : [ 6, 15 ]
+  }, {
+    "jobNumber" : 304,
+    "jobProfit" : 421,
+    "startTime" : 424,
+    "finishTime" : 845,
+    "jobsOnMachine" : [ 2, 15, 4 ]
+  }, {
+    "jobNumber" : 305,
+    "jobProfit" : 183,
+    "startTime" : 745,
+    "finishTime" : 928,
+    "jobsOnMachine" : [ 1, 4 ]
+  }, {
+    "jobNumber" : 306,
+    "jobProfit" : 499,
+    "startTime" : 385,
+    "finishTime" : 884,
+    "jobsOnMachine" : [ 9, 12, 6, 4, 20, 16, 15, 7 ]
+  }, {
+    "jobNumber" : 307,
+    "jobProfit" : 6,
+    "startTime" : 992,
+    "finishTime" : 998,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 308,
+    "jobProfit" : 534,
+    "startTime" : 50,
+    "finishTime" : 584,
+    "jobsOnMachine" : [ 3, 18 ]
+  }, {
+    "jobNumber" : 309,
+    "jobProfit" : 720,
+    "startTime" : 110,
+    "finishTime" : 830,
+    "jobsOnMachine" : [ 20, 8, 5, 1, 9, 19, 15 ]
+  }, {
+    "jobNumber" : 310,
+    "jobProfit" : 14,
+    "startTime" : 970,
+    "finishTime" : 984,
+    "jobsOnMachine" : [ 2, 19, 3, 1, 12, 8, 7, 11 ]
+  }, {
+    "jobNumber" : 311,
+    "jobProfit" : 426,
+    "startTime" : 71,
+    "finishTime" : 497,
+    "jobsOnMachine" : [ 16, 17, 6, 8, 1, 18, 11, 3 ]
+  }, {
+    "jobNumber" : 312,
+    "jobProfit" : 134,
+    "startTime" : 849,
+    "finishTime" : 983,
+    "jobsOnMachine" : [ 19, 15, 18, 16, 17, 4, 9, 2 ]
+  }, {
+    "jobNumber" : 313,
+    "jobProfit" : 508,
+    "startTime" : 453,
+    "finishTime" : 961,
+    "jobsOnMachine" : [ 20, 12, 5 ]
+  }, {
+    "jobNumber" : 314,
+    "jobProfit" : 212,
+    "startTime" : 162,
+    "finishTime" : 374,
+    "jobsOnMachine" : [ 9, 15 ]
+  }, {
+    "jobNumber" : 315,
+    "jobProfit" : 111,
+    "startTime" : 579,
+    "finishTime" : 690,
+    "jobsOnMachine" : [ 19, 16, 9, 8 ]
+  }, {
+    "jobNumber" : 316,
+    "jobProfit" : 582,
+    "startTime" : 61,
+    "finishTime" : 643,
+    "jobsOnMachine" : [ 19, 6, 10, 8, 5, 15, 14, 11, 4, 20 ]
+  }, {
+    "jobNumber" : 317,
+    "jobProfit" : 354,
+    "startTime" : 627,
+    "finishTime" : 981,
+    "jobsOnMachine" : [ 19, 13, 20, 16 ]
+  }, {
+    "jobNumber" : 318,
+    "jobProfit" : 192,
+    "startTime" : 566,
+    "finishTime" : 758,
+    "jobsOnMachine" : [ 11, 15, 2 ]
+  }, {
+    "jobNumber" : 319,
+    "jobProfit" : 13,
+    "startTime" : 799,
+    "finishTime" : 812,
+    "jobsOnMachine" : [ 12, 8, 20, 10, 17, 11 ]
+  }, {
+    "jobNumber" : 320,
+    "jobProfit" : 801,
+    "startTime" : 167,
+    "finishTime" : 968,
+    "jobsOnMachine" : [ 19, 2, 6, 1, 14, 13, 11 ]
+  }, {
+    "jobNumber" : 321,
+    "jobProfit" : 19,
+    "startTime" : 973,
+    "finishTime" : 992,
+    "jobsOnMachine" : [ 9, 15, 4, 20 ]
+  }, {
+    "jobNumber" : 322,
+    "jobProfit" : 58,
+    "startTime" : 441,
+    "finishTime" : 499,
+    "jobsOnMachine" : [ 14, 7 ]
+  }, {
+    "jobNumber" : 323,
+    "jobProfit" : 15,
+    "startTime" : 983,
+    "finishTime" : 998,
+    "jobsOnMachine" : [ 8, 6, 15, 14, 17, 11, 13, 19 ]
+  }, {
+    "jobNumber" : 324,
+    "jobProfit" : 786,
+    "startTime" : 213,
+    "finishTime" : 999,
+    "jobsOnMachine" : [ 5, 4, 2 ]
+  }, {
+    "jobNumber" : 325,
+    "jobProfit" : 299,
+    "startTime" : 103,
+    "finishTime" : 402,
+    "jobsOnMachine" : [ 3, 7 ]
+  }, {
+    "jobNumber" : 326,
+    "jobProfit" : 505,
+    "startTime" : 35,
+    "finishTime" : 540,
+    "jobsOnMachine" : [ 7 ]
+  }, {
+    "jobNumber" : 327,
+    "jobProfit" : 127,
+    "startTime" : 238,
+    "finishTime" : 365,
+    "jobsOnMachine" : [ 12, 4, 15, 19, 7, 20 ]
+  }, {
+    "jobNumber" : 328,
+    "jobProfit" : 146,
+    "startTime" : 254,
+    "finishTime" : 400,
+    "jobsOnMachine" : [ 16, 13, 18, 15, 5, 10 ]
+  }, {
+    "jobNumber" : 329,
+    "jobProfit" : 73,
+    "startTime" : 593,
+    "finishTime" : 666,
+    "jobsOnMachine" : [ 8, 1, 7, 6, 17, 14, 16, 15 ]
+  }, {
+    "jobNumber" : 330,
+    "jobProfit" : 201,
+    "startTime" : 756,
+    "finishTime" : 957,
+    "jobsOnMachine" : [ 3, 12, 10, 16, 7, 13, 9, 2, 17, 6 ]
+  }, {
+    "jobNumber" : 331,
+    "jobProfit" : 280,
+    "startTime" : 472,
+    "finishTime" : 752,
+    "jobsOnMachine" : [ 3, 5, 19, 13, 20 ]
+  }, {
+    "jobNumber" : 332,
+    "jobProfit" : 441,
+    "startTime" : 100,
+    "finishTime" : 541,
+    "jobsOnMachine" : [ 3, 12, 2 ]
+  }, {
+    "jobNumber" : 333,
+    "jobProfit" : 186,
+    "startTime" : 121,
+    "finishTime" : 307,
+    "jobsOnMachine" : [ 12, 7, 5, 18, 20, 8 ]
+  }, {
+    "jobNumber" : 334,
+    "jobProfit" : 124,
+    "startTime" : 842,
+    "finishTime" : 966,
+    "jobsOnMachine" : [ 2, 13, 12, 8, 14, 19, 3, 4, 1, 18 ]
+  }, {
+    "jobNumber" : 335,
+    "jobProfit" : 3,
+    "startTime" : 992,
+    "finishTime" : 995,
+    "jobsOnMachine" : [ 3, 6, 8, 5, 20, 10, 16, 19, 17, 13 ]
+  }, {
+    "jobNumber" : 336,
+    "jobProfit" : 816,
+    "startTime" : 45,
+    "finishTime" : 861,
+    "jobsOnMachine" : [ 20, 6, 19, 3, 17, 16 ]
+  }, {
+    "jobNumber" : 337,
+    "jobProfit" : 895,
+    "startTime" : 44,
+    "finishTime" : 939,
+    "jobsOnMachine" : [ 11, 20, 2, 16 ]
+  }, {
+    "jobNumber" : 338,
+    "jobProfit" : 648,
+    "startTime" : 290,
+    "finishTime" : 938,
+    "jobsOnMachine" : [ 2, 12, 3, 19, 16, 5, 8, 6, 7 ]
+  }, {
+    "jobNumber" : 339,
+    "jobProfit" : 453,
+    "startTime" : 174,
+    "finishTime" : 627,
+    "jobsOnMachine" : [ 18, 17, 16, 1, 15 ]
+  }, {
+    "jobNumber" : 340,
+    "jobProfit" : 483,
+    "startTime" : 101,
+    "finishTime" : 584,
+    "jobsOnMachine" : [ 2, 14, 11, 18, 7, 20, 10, 5, 6, 13 ]
+  }, {
+    "jobNumber" : 341,
+    "jobProfit" : 47,
+    "startTime" : 635,
+    "finishTime" : 682,
+    "jobsOnMachine" : [ 20, 18 ]
+  }, {
+    "jobNumber" : 342,
+    "jobProfit" : 22,
+    "startTime" : 907,
+    "finishTime" : 929,
+    "jobsOnMachine" : [ 12, 20, 5, 19, 7, 3, 6, 17 ]
+  }, {
+    "jobNumber" : 343,
+    "jobProfit" : 304,
+    "startTime" : 364,
+    "finishTime" : 668,
+    "jobsOnMachine" : [ 1, 13, 6, 2, 7, 4 ]
+  }, {
+    "jobNumber" : 344,
+    "jobProfit" : 598,
+    "startTime" : 315,
+    "finishTime" : 913,
+    "jobsOnMachine" : [ 19, 1, 4, 18, 2, 10, 5, 9, 13, 11 ]
+  }, {
+    "jobNumber" : 345,
+    "jobProfit" : 57,
+    "startTime" : 925,
+    "finishTime" : 982,
+    "jobsOnMachine" : [ 14, 18, 16, 19, 17, 6, 5 ]
+  }, {
+    "jobNumber" : 346,
+    "jobProfit" : 27,
+    "startTime" : 794,
+    "finishTime" : 821,
+    "jobsOnMachine" : [ 19, 5 ]
+  }, {
+    "jobNumber" : 347,
+    "jobProfit" : 95,
+    "startTime" : 118,
+    "finishTime" : 213,
+    "jobsOnMachine" : [ 5, 11, 17, 9, 13, 14, 15, 19, 8, 10 ]
+  }, {
+    "jobNumber" : 348,
+    "jobProfit" : 147,
+    "startTime" : 813,
+    "finishTime" : 960,
+    "jobsOnMachine" : [ 7, 3, 13, 18, 1, 15, 11, 4 ]
+  }, {
+    "jobNumber" : 349,
+    "jobProfit" : 70,
+    "startTime" : 929,
+    "finishTime" : 999,
+    "jobsOnMachine" : [ 9, 18 ]
+  }, {
+    "jobNumber" : 350,
+    "jobProfit" : 596,
+    "startTime" : 75,
+    "finishTime" : 671,
+    "jobsOnMachine" : [ 4, 8, 1, 15, 16, 11 ]
+  }, {
+    "jobNumber" : 351,
+    "jobProfit" : 14,
+    "startTime" : 721,
+    "finishTime" : 735,
+    "jobsOnMachine" : [ 10, 20, 18, 15, 4, 14, 6 ]
+  }, {
+    "jobNumber" : 352,
+    "jobProfit" : 20,
+    "startTime" : 234,
+    "finishTime" : 254,
+    "jobsOnMachine" : [ 10, 20, 19, 13, 15, 9 ]
+  }, {
+    "jobNumber" : 353,
+    "jobProfit" : 307,
+    "startTime" : 607,
+    "finishTime" : 914,
+    "jobsOnMachine" : [ 8, 18, 1, 17, 15, 11 ]
+  }, {
+    "jobNumber" : 354,
+    "jobProfit" : 30,
+    "startTime" : 914,
+    "finishTime" : 944,
+    "jobsOnMachine" : [ 14, 15 ]
+  }, {
+    "jobNumber" : 355,
+    "jobProfit" : 448,
+    "startTime" : 333,
+    "finishTime" : 781,
+    "jobsOnMachine" : [ 7, 11, 15, 9, 3, 2 ]
+  }, {
+    "jobNumber" : 356,
+    "jobProfit" : 8,
+    "startTime" : 978,
+    "finishTime" : 986,
+    "jobsOnMachine" : [ 14, 2, 1, 11, 8, 20, 7, 15, 5, 10 ]
+  }, {
+    "jobNumber" : 357,
+    "jobProfit" : 207,
+    "startTime" : 582,
+    "finishTime" : 789,
+    "jobsOnMachine" : [ 8, 14, 15, 19, 4, 18, 12, 9 ]
+  }, {
+    "jobNumber" : 358,
+    "jobProfit" : 370,
+    "startTime" : 557,
+    "finishTime" : 927,
+    "jobsOnMachine" : [ 1, 17 ]
+  }, {
+    "jobNumber" : 359,
+    "jobProfit" : 38,
+    "startTime" : 202,
+    "finishTime" : 240,
+    "jobsOnMachine" : [ 2, 10, 17, 12, 11, 4, 5, 6, 19 ]
+  }, {
+    "jobNumber" : 360,
+    "jobProfit" : 742,
+    "startTime" : 190,
+    "finishTime" : 932,
+    "jobsOnMachine" : [ 9, 20, 19, 17, 3, 5, 11, 14, 1, 16 ]
+  }, {
+    "jobNumber" : 361,
+    "jobProfit" : 143,
+    "startTime" : 38,
+    "finishTime" : 181,
+    "jobsOnMachine" : [ 1, 9 ]
+  }, {
+    "jobNumber" : 362,
+    "jobProfit" : 378,
+    "startTime" : 552,
+    "finishTime" : 930,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 363,
+    "jobProfit" : 16,
+    "startTime" : 915,
+    "finishTime" : 931,
+    "jobsOnMachine" : [ 7 ]
+  }, {
+    "jobNumber" : 364,
+    "jobProfit" : 224,
+    "startTime" : 104,
+    "finishTime" : 328,
+    "jobsOnMachine" : [ 15 ]
+  }, {
+    "jobNumber" : 365,
+    "jobProfit" : 184,
+    "startTime" : 760,
+    "finishTime" : 944,
+    "jobsOnMachine" : [ 10, 11, 2, 4, 18, 5 ]
+  }, {
+    "jobNumber" : 366,
+    "jobProfit" : 402,
+    "startTime" : 552,
+    "finishTime" : 954,
+    "jobsOnMachine" : [ 6, 2, 13, 15, 20, 9 ]
+  }, {
+    "jobNumber" : 367,
+    "jobProfit" : 97,
+    "startTime" : 546,
+    "finishTime" : 643,
+    "jobsOnMachine" : [ 2, 9, 4 ]
+  }, {
+    "jobNumber" : 368,
+    "jobProfit" : 107,
+    "startTime" : 647,
+    "finishTime" : 754,
+    "jobsOnMachine" : [ 12, 3, 6, 20, 9, 18, 15, 10, 7, 13 ]
+  }, {
+    "jobNumber" : 369,
+    "jobProfit" : 241,
+    "startTime" : 697,
+    "finishTime" : 938,
+    "jobsOnMachine" : [ 8, 4, 11, 1, 16, 18 ]
+  }, {
+    "jobNumber" : 370,
+    "jobProfit" : 183,
+    "startTime" : 620,
+    "finishTime" : 803,
+    "jobsOnMachine" : [ 5, 15, 12, 19, 17 ]
+  }, {
+    "jobNumber" : 371,
+    "jobProfit" : 114,
+    "startTime" : 546,
+    "finishTime" : 660,
+    "jobsOnMachine" : [ 16, 18, 10, 17, 2, 5, 20, 12, 9 ]
+  }, {
+    "jobNumber" : 372,
+    "jobProfit" : 63,
+    "startTime" : 886,
+    "finishTime" : 949,
+    "jobsOnMachine" : [ 11, 10, 3 ]
+  }, {
+    "jobNumber" : 373,
+    "jobProfit" : 129,
+    "startTime" : 838,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 19, 1 ]
+  }, {
+    "jobNumber" : 374,
+    "jobProfit" : 473,
+    "startTime" : 228,
+    "finishTime" : 701,
+    "jobsOnMachine" : [ 12, 2, 14, 7, 15, 1 ]
+  }, {
+    "jobNumber" : 375,
+    "jobProfit" : 558,
+    "startTime" : 18,
+    "finishTime" : 576,
+    "jobsOnMachine" : [ 12, 19, 10 ]
+  }, {
+    "jobNumber" : 376,
+    "jobProfit" : 12,
+    "startTime" : 981,
+    "finishTime" : 993,
+    "jobsOnMachine" : [ 1 ]
+  }, {
+    "jobNumber" : 377,
+    "jobProfit" : 273,
+    "startTime" : 208,
+    "finishTime" : 481,
+    "jobsOnMachine" : [ 14, 15, 16, 18, 12, 9, 7, 10 ]
+  }, {
+    "jobNumber" : 378,
+    "jobProfit" : 2,
+    "startTime" : 646,
+    "finishTime" : 648,
+    "jobsOnMachine" : [ 15, 12, 7 ]
+  }, {
+    "jobNumber" : 379,
+    "jobProfit" : 227,
+    "startTime" : 102,
+    "finishTime" : 329,
+    "jobsOnMachine" : [ 4 ]
+  }, {
+    "jobNumber" : 380,
+    "jobProfit" : 638,
+    "startTime" : 35,
+    "finishTime" : 673,
+    "jobsOnMachine" : [ 16, 11, 5, 2, 8, 18, 15, 9 ]
+  }, {
+    "jobNumber" : 381,
+    "jobProfit" : 33,
+    "startTime" : 954,
+    "finishTime" : 987,
+    "jobsOnMachine" : [ 14, 19, 20, 11, 18, 12 ]
+  }, {
+    "jobNumber" : 382,
+    "jobProfit" : 338,
+    "startTime" : 604,
+    "finishTime" : 942,
+    "jobsOnMachine" : [ 1, 4, 12, 15, 16 ]
+  }, {
+    "jobNumber" : 383,
+    "jobProfit" : 128,
+    "startTime" : 177,
+    "finishTime" : 305,
+    "jobsOnMachine" : [ 8, 19, 1, 10, 7, 14, 5, 6, 2 ]
+  }, {
+    "jobNumber" : 384,
+    "jobProfit" : 691,
+    "startTime" : 249,
+    "finishTime" : 940,
+    "jobsOnMachine" : [ 1, 18, 3, 7, 9, 15, 19 ]
+  }, {
+    "jobNumber" : 385,
+    "jobProfit" : 4,
+    "startTime" : 993,
+    "finishTime" : 997,
+    "jobsOnMachine" : [ 6, 20, 18, 19, 4 ]
+  }, {
+    "jobNumber" : 386,
+    "jobProfit" : 202,
+    "startTime" : 722,
+    "finishTime" : 924,
+    "jobsOnMachine" : [ 3, 1, 13, 18 ]
+  }, {
+    "jobNumber" : 387,
+    "jobProfit" : 138,
+    "startTime" : 592,
+    "finishTime" : 730,
+    "jobsOnMachine" : [ 12, 4, 3, 2, 14, 20, 7, 18, 10 ]
+  }, {
+    "jobNumber" : 388,
+    "jobProfit" : 47,
+    "startTime" : 898,
+    "finishTime" : 945,
+    "jobsOnMachine" : [ 20, 19, 1 ]
+  }, {
+    "jobNumber" : 389,
+    "jobProfit" : 109,
+    "startTime" : 604,
+    "finishTime" : 713,
+    "jobsOnMachine" : [ 4, 2, 13, 18, 14 ]
+  }, {
+    "jobNumber" : 390,
+    "jobProfit" : 253,
+    "startTime" : 726,
+    "finishTime" : 979,
+    "jobsOnMachine" : [ 3, 8, 9, 12, 10, 20 ]
+  }, {
+    "jobNumber" : 391,
+    "jobProfit" : 133,
+    "startTime" : 253,
+    "finishTime" : 386,
+    "jobsOnMachine" : [ 3, 10 ]
+  }, {
+    "jobNumber" : 392,
+    "jobProfit" : 216,
+    "startTime" : 783,
+    "finishTime" : 999,
+    "jobsOnMachine" : [ 6, 10, 11, 5, 20, 18 ]
+  }, {
+    "jobNumber" : 393,
+    "jobProfit" : 366,
+    "startTime" : 431,
+    "finishTime" : 797,
+    "jobsOnMachine" : [ 3, 15, 14, 20, 8, 19 ]
+  }, {
+    "jobNumber" : 394,
+    "jobProfit" : 259,
+    "startTime" : 563,
+    "finishTime" : 822,
+    "jobsOnMachine" : [ 7, 10, 9, 15, 12, 16, 4, 20, 18, 13 ]
+  }, {
+    "jobNumber" : 395,
+    "jobProfit" : 95,
+    "startTime" : 583,
+    "finishTime" : 678,
+    "jobsOnMachine" : [ 7, 1, 8, 20, 12 ]
+  }, {
+    "jobNumber" : 396,
+    "jobProfit" : 542,
+    "startTime" : 232,
+    "finishTime" : 774,
+    "jobsOnMachine" : [ 16, 18, 1, 4, 6, 2, 8, 12, 13, 14 ]
+  }, {
+    "jobNumber" : 397,
+    "jobProfit" : 374,
+    "startTime" : 229,
+    "finishTime" : 603,
+    "jobsOnMachine" : [ 4 ]
+  }, {
+    "jobNumber" : 398,
+    "jobProfit" : 298,
+    "startTime" : 399,
+    "finishTime" : 697,
+    "jobsOnMachine" : [ 17, 8, 3, 14 ]
+  }, {
+    "jobNumber" : 399,
+    "jobProfit" : 14,
+    "startTime" : 878,
+    "finishTime" : 892,
+    "jobsOnMachine" : [ 1, 9, 2, 14, 8, 17, 11, 15, 19, 5 ]
+  }, {
+    "jobNumber" : 400,
+    "jobProfit" : 208,
+    "startTime" : 703,
+    "finishTime" : 911,
+    "jobsOnMachine" : [ 16, 9, 6, 2, 4, 19, 13, 18, 20 ]
+  }, {
+    "jobNumber" : 401,
+    "jobProfit" : 504,
+    "startTime" : 200,
+    "finishTime" : 704,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 402,
+    "jobProfit" : 194,
+    "startTime" : 644,
+    "finishTime" : 838,
+    "jobsOnMachine" : [ 13, 8, 14, 7, 2 ]
+  }, {
+    "jobNumber" : 403,
+    "jobProfit" : 25,
+    "startTime" : 835,
+    "finishTime" : 860,
+    "jobsOnMachine" : [ 3 ]
+  }, {
+    "jobNumber" : 404,
+    "jobProfit" : 17,
+    "startTime" : 980,
+    "finishTime" : 997,
+    "jobsOnMachine" : [ 16, 20, 10, 9, 14, 11, 4, 18 ]
+  }, {
+    "jobNumber" : 405,
+    "jobProfit" : 536,
+    "startTime" : 365,
+    "finishTime" : 901,
+    "jobsOnMachine" : [ 10, 14, 19, 2, 11 ]
+  }, {
+    "jobNumber" : 406,
+    "jobProfit" : 2,
+    "startTime" : 996,
+    "finishTime" : 998,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 407,
+    "jobProfit" : 113,
+    "startTime" : 513,
+    "finishTime" : 626,
+    "jobsOnMachine" : [ 20, 16, 5, 17, 15, 1, 11, 19, 7 ]
+  }, {
+    "jobNumber" : 408,
+    "jobProfit" : 505,
+    "startTime" : 462,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 13, 5, 3, 19, 14, 2 ]
+  }, {
+    "jobNumber" : 409,
+    "jobProfit" : 57,
+    "startTime" : 88,
+    "finishTime" : 145,
+    "jobsOnMachine" : [ 6, 18, 10, 1, 5, 15, 19 ]
+  }, {
+    "jobNumber" : 410,
+    "jobProfit" : 161,
+    "startTime" : 644,
+    "finishTime" : 805,
+    "jobsOnMachine" : [ 12, 3 ]
+  }, {
+    "jobNumber" : 411,
+    "jobProfit" : 51,
+    "startTime" : 638,
+    "finishTime" : 689,
+    "jobsOnMachine" : [ 5, 13 ]
+  }, {
+    "jobNumber" : 412,
+    "jobProfit" : 265,
+    "startTime" : 726,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 15, 5, 1, 4 ]
+  }, {
+    "jobNumber" : 413,
+    "jobProfit" : 11,
+    "startTime" : 247,
+    "finishTime" : 258,
+    "jobsOnMachine" : [ 9, 13, 15, 2, 16, 3, 19 ]
+  }, {
+    "jobNumber" : 414,
+    "jobProfit" : 598,
+    "startTime" : 285,
+    "finishTime" : 883,
+    "jobsOnMachine" : [ 9, 7 ]
+  }, {
+    "jobNumber" : 415,
+    "jobProfit" : 588,
+    "startTime" : 2,
+    "finishTime" : 590,
+    "jobsOnMachine" : [ 2, 6, 12 ]
+  }, {
+    "jobNumber" : 416,
+    "jobProfit" : 273,
+    "startTime" : 553,
+    "finishTime" : 826,
+    "jobsOnMachine" : [ 20, 14, 8, 10, 4, 18 ]
+  }, {
+    "jobNumber" : 417,
+    "jobProfit" : 182,
+    "startTime" : 803,
+    "finishTime" : 985,
+    "jobsOnMachine" : [ 10, 16, 18, 20, 17, 8, 4 ]
+  }, {
+    "jobNumber" : 418,
+    "jobProfit" : 133,
+    "startTime" : 740,
+    "finishTime" : 873,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 419,
+    "jobProfit" : 4,
+    "startTime" : 993,
+    "finishTime" : 997,
+    "jobsOnMachine" : [ 3, 6, 14, 7, 13 ]
+  }, {
+    "jobNumber" : 420,
+    "jobProfit" : 103,
+    "startTime" : 676,
+    "finishTime" : 779,
+    "jobsOnMachine" : [ 20, 15, 16, 8, 18, 1, 2, 7, 14, 19 ]
+  }, {
+    "jobNumber" : 421,
+    "jobProfit" : 13,
+    "startTime" : 924,
+    "finishTime" : 937,
+    "jobsOnMachine" : [ 15, 12, 17, 1 ]
+  }, {
+    "jobNumber" : 422,
+    "jobProfit" : 193,
+    "startTime" : 674,
+    "finishTime" : 867,
+    "jobsOnMachine" : [ 16, 11, 9 ]
+  }, {
+    "jobNumber" : 423,
+    "jobProfit" : 546,
+    "startTime" : 280,
+    "finishTime" : 826,
+    "jobsOnMachine" : [ 7, 8, 6, 18 ]
+  }, {
+    "jobNumber" : 424,
+    "jobProfit" : 490,
+    "startTime" : 481,
+    "finishTime" : 971,
+    "jobsOnMachine" : [ 12, 18, 19, 3, 8 ]
+  }, {
+    "jobNumber" : 425,
+    "jobProfit" : 271,
+    "startTime" : 578,
+    "finishTime" : 849,
+    "jobsOnMachine" : [ 3, 15, 1, 8 ]
+  }, {
+    "jobNumber" : 426,
+    "jobProfit" : 82,
+    "startTime" : 885,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 6, 20, 7, 8, 4 ]
+  }, {
+    "jobNumber" : 427,
+    "jobProfit" : 901,
+    "startTime" : 34,
+    "finishTime" : 935,
+    "jobsOnMachine" : [ 20, 19, 5, 18, 6, 9, 15, 8, 17 ]
+  }, {
+    "jobNumber" : 428,
+    "jobProfit" : 53,
+    "startTime" : 799,
+    "finishTime" : 852,
+    "jobsOnMachine" : [ 18, 1, 17, 5, 16, 12, 8, 13, 20, 19 ]
+  }, {
+    "jobNumber" : 429,
+    "jobProfit" : 516,
+    "startTime" : 367,
+    "finishTime" : 883,
+    "jobsOnMachine" : [ 11, 9, 3, 17, 20, 7, 15, 13, 12 ]
+  }, {
+    "jobNumber" : 430,
+    "jobProfit" : 773,
+    "startTime" : 112,
+    "finishTime" : 885,
+    "jobsOnMachine" : [ 8, 19, 20, 6, 14, 3, 4, 12, 10, 13 ]
+  }, {
+    "jobNumber" : 431,
+    "jobProfit" : 159,
+    "startTime" : 725,
+    "finishTime" : 884,
+    "jobsOnMachine" : [ 2, 4, 8, 18, 1, 13, 16, 20, 3, 10 ]
+  }, {
+    "jobNumber" : 432,
+    "jobProfit" : 307,
+    "startTime" : 526,
+    "finishTime" : 833,
+    "jobsOnMachine" : [ 9, 15 ]
+  }, {
+    "jobNumber" : 433,
+    "jobProfit" : 171,
+    "startTime" : 41,
+    "finishTime" : 212,
+    "jobsOnMachine" : [ 14, 13, 12, 5, 16, 6, 3 ]
+  }, {
+    "jobNumber" : 434,
+    "jobProfit" : 116,
+    "startTime" : 596,
+    "finishTime" : 712,
+    "jobsOnMachine" : [ 6, 10, 14, 9, 17, 13, 3, 18, 8 ]
+  }, {
+    "jobNumber" : 435,
+    "jobProfit" : 294,
+    "startTime" : 395,
+    "finishTime" : 689,
+    "jobsOnMachine" : [ 6, 3, 17, 9, 8, 2, 13 ]
+  }, {
+    "jobNumber" : 436,
+    "jobProfit" : 41,
+    "startTime" : 628,
+    "finishTime" : 669,
+    "jobsOnMachine" : [ 8, 3, 5, 10 ]
+  }, {
+    "jobNumber" : 437,
+    "jobProfit" : 2,
+    "startTime" : 984,
+    "finishTime" : 986,
+    "jobsOnMachine" : [ 10, 2, 20, 12, 3, 7, 8, 5 ]
+  }, {
+    "jobNumber" : 438,
+    "jobProfit" : 589,
+    "startTime" : 405,
+    "finishTime" : 994,
+    "jobsOnMachine" : [ 10, 19, 13, 5, 9, 1, 7, 12, 15, 2 ]
+  }, {
+    "jobNumber" : 439,
+    "jobProfit" : 2,
+    "startTime" : 981,
+    "finishTime" : 983,
+    "jobsOnMachine" : [ 14, 6 ]
+  }, {
+    "jobNumber" : 440,
+    "jobProfit" : 10,
+    "startTime" : 957,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 13, 20, 16, 10, 6 ]
+  }, {
+    "jobNumber" : 441,
+    "jobProfit" : 1,
+    "startTime" : 902,
+    "finishTime" : 903,
+    "jobsOnMachine" : [ 15, 7, 17, 1, 8, 11, 10, 19, 20, 5 ]
+  }, {
+    "jobNumber" : 442,
+    "jobProfit" : 653,
+    "startTime" : 122,
+    "finishTime" : 775,
+    "jobsOnMachine" : [ 20, 17, 12, 10, 5, 15 ]
+  }, {
+    "jobNumber" : 443,
+    "jobProfit" : 957,
+    "startTime" : 11,
+    "finishTime" : 968,
+    "jobsOnMachine" : [ 3, 18, 17, 20 ]
+  }, {
+    "jobNumber" : 444,
+    "jobProfit" : 43,
+    "startTime" : 807,
+    "finishTime" : 850,
+    "jobsOnMachine" : [ 19, 7, 18, 20, 10, 6, 13, 9, 15 ]
+  }, {
+    "jobNumber" : 445,
+    "jobProfit" : 144,
+    "startTime" : 414,
+    "finishTime" : 558,
+    "jobsOnMachine" : [ 15, 16, 10, 7, 11, 14, 17 ]
+  }, {
+    "jobNumber" : 446,
+    "jobProfit" : 331,
+    "startTime" : 262,
+    "finishTime" : 593,
+    "jobsOnMachine" : [ 11, 16, 10, 7, 1, 9, 18, 20, 14 ]
+  }, {
+    "jobNumber" : 447,
+    "jobProfit" : 413,
+    "startTime" : 241,
+    "finishTime" : 654,
+    "jobsOnMachine" : [ 7, 3, 16, 20, 15, 1, 17 ]
+  }, {
+    "jobNumber" : 448,
+    "jobProfit" : 297,
+    "startTime" : 232,
+    "finishTime" : 529,
+    "jobsOnMachine" : [ 4 ]
+  }, {
+    "jobNumber" : 449,
+    "jobProfit" : 242,
+    "startTime" : 602,
+    "finishTime" : 844,
+    "jobsOnMachine" : [ 5, 19, 18 ]
+  }, {
+    "jobNumber" : 450,
+    "jobProfit" : 436,
+    "startTime" : 437,
+    "finishTime" : 873,
+    "jobsOnMachine" : [ 13, 3, 20, 8, 15, 17, 10, 11, 16, 6 ]
+  }, {
+    "jobNumber" : 451,
+    "jobProfit" : 44,
+    "startTime" : 937,
+    "finishTime" : 981,
+    "jobsOnMachine" : [ 8, 4, 7, 18, 1, 19 ]
+  }, {
+    "jobNumber" : 452,
+    "jobProfit" : 88,
+    "startTime" : 401,
+    "finishTime" : 489,
+    "jobsOnMachine" : [ 10, 6, 3, 18 ]
+  }, {
+    "jobNumber" : 453,
+    "jobProfit" : 3,
+    "startTime" : 997,
+    "finishTime" : 1000,
+    "jobsOnMachine" : [ 17, 10, 16, 20, 7, 15, 13, 3, 14, 9 ]
+  }, {
+    "jobNumber" : 454,
+    "jobProfit" : 457,
+    "startTime" : 465,
+    "finishTime" : 922,
+    "jobsOnMachine" : [ 15, 5, 11, 4, 13, 7 ]
+  }, {
+    "jobNumber" : 455,
+    "jobProfit" : 359,
+    "startTime" : 529,
+    "finishTime" : 888,
+    "jobsOnMachine" : [ 17, 9, 4 ]
+  }, {
+    "jobNumber" : 456,
+    "jobProfit" : 257,
+    "startTime" : 598,
+    "finishTime" : 855,
+    "jobsOnMachine" : [ 5, 14, 15, 19, 3, 18, 6, 1 ]
+  }, {
+    "jobNumber" : 457,
+    "jobProfit" : 480,
+    "startTime" : 295,
+    "finishTime" : 775,
+    "jobsOnMachine" : [ 1, 9, 8, 19, 2, 10, 13 ]
+  }, {
+    "jobNumber" : 458,
+    "jobProfit" : 1,
+    "startTime" : 746,
+    "finishTime" : 747,
+    "jobsOnMachine" : [ 13, 10, 19, 14, 12, 15, 18, 17, 3 ]
+  }, {
+    "jobNumber" : 459,
+    "jobProfit" : 105,
+    "startTime" : 869,
+    "finishTime" : 974,
+    "jobsOnMachine" : [ 20, 17, 19, 13, 14, 15, 18, 4, 9, 1 ]
+  }, {
+    "jobNumber" : 460,
+    "jobProfit" : 10,
+    "startTime" : 979,
+    "finishTime" : 989,
+    "jobsOnMachine" : [ 6 ]
+  }, {
+    "jobNumber" : 461,
+    "jobProfit" : 438,
+    "startTime" : 168,
+    "finishTime" : 606,
+    "jobsOnMachine" : [ 2 ]
+  }, {
+    "jobNumber" : 462,
+    "jobProfit" : 3,
+    "startTime" : 916,
+    "finishTime" : 919,
+    "jobsOnMachine" : [ 5, 20, 4, 8, 18, 2 ]
+  }, {
+    "jobNumber" : 463,
+    "jobProfit" : 530,
+    "startTime" : 233,
+    "finishTime" : 763,
+    "jobsOnMachine" : [ 10, 15, 11, 7, 20, 13, 5, 12 ]
+  }, {
+    "jobNumber" : 464,
+    "jobProfit" : 181,
+    "startTime" : 298,
+    "finishTime" : 479,
+    "jobsOnMachine" : [ 3, 7, 12, 13, 17, 15 ]
+  }, {
+    "jobNumber" : 465,
+    "jobProfit" : 218,
+    "startTime" : 276,
+    "finishTime" : 494,
+    "jobsOnMachine" : [ 16, 8, 7, 4, 10, 12, 3, 6, 9 ]
+  }, {
+    "jobNumber" : 466,
+    "jobProfit" : 461,
+    "startTime" : 185,
+    "finishTime" : 646,
+    "jobsOnMachine" : [ 16, 11, 20, 13, 15 ]
+  }, {
+    "jobNumber" : 467,
+    "jobProfit" : 104,
+    "startTime" : 562,
+    "finishTime" : 666,
+    "jobsOnMachine" : [ 13 ]
+  }, {
+    "jobNumber" : 468,
+    "jobProfit" : 226,
+    "startTime" : 693,
+    "finishTime" : 919,
+    "jobsOnMachine" : [ 6, 11, 5, 20, 3, 17, 7, 13 ]
+  }, {
+    "jobNumber" : 469,
+    "jobProfit" : 95,
+    "startTime" : 689,
+    "finishTime" : 784,
+    "jobsOnMachine" : [ 16, 7, 17, 14, 2, 5, 3, 13 ]
+  }, {
+    "jobNumber" : 470,
+    "jobProfit" : 155,
+    "startTime" : 778,
+    "finishTime" : 933,
+    "jobsOnMachine" : [ 10, 12, 4, 15, 3, 9, 6, 5, 20, 19 ]
+  }, {
+    "jobNumber" : 471,
+    "jobProfit" : 118,
+    "startTime" : 579,
+    "finishTime" : 697,
+    "jobsOnMachine" : [ 6, 18, 11, 4, 20, 15 ]
+  }, {
+    "jobNumber" : 472,
+    "jobProfit" : 870,
+    "startTime" : 83,
+    "finishTime" : 953,
+    "jobsOnMachine" : [ 4, 5, 8, 6 ]
+  }, {
+    "jobNumber" : 473,
+    "jobProfit" : 491,
+    "startTime" : 405,
+    "finishTime" : 896,
+    "jobsOnMachine" : [ 5, 19, 14, 16, 17 ]
+  }, {
+    "jobNumber" : 474,
+    "jobProfit" : 155,
+    "startTime" : 567,
+    "finishTime" : 722,
+    "jobsOnMachine" : [ 4, 12, 2, 18 ]
+  }, {
+    "jobNumber" : 475,
+    "jobProfit" : 100,
+    "startTime" : 871,
+    "finishTime" : 971,
+    "jobsOnMachine" : [ 18, 4, 5 ]
+  }, {
+    "jobNumber" : 476,
+    "jobProfit" : 594,
+    "startTime" : 40,
+    "finishTime" : 634,
+    "jobsOnMachine" : [ 8, 19, 14, 16, 1, 9 ]
+  }, {
+    "jobNumber" : 477,
+    "jobProfit" : 930,
+    "startTime" : 48,
+    "finishTime" : 978,
+    "jobsOnMachine" : [ 17, 3, 19, 15, 11, 9, 10, 16 ]
+  }, {
+    "jobNumber" : 478,
+    "jobProfit" : 778,
+    "startTime" : 185,
+    "finishTime" : 963,
+    "jobsOnMachine" : [ 17, 8, 5 ]
+  }, {
+    "jobNumber" : 479,
+    "jobProfit" : 306,
+    "startTime" : 472,
+    "finishTime" : 778,
+    "jobsOnMachine" : [ 19 ]
+  }, {
+    "jobNumber" : 480,
+    "jobProfit" : 69,
+    "startTime" : 815,
+    "finishTime" : 884,
+    "jobsOnMachine" : [ 20, 5 ]
+  }, {
+    "jobNumber" : 481,
+    "jobProfit" : 209,
+    "startTime" : 33,
+    "finishTime" : 242,
+    "jobsOnMachine" : [ 5, 7, 12, 2, 19, 9, 4, 6, 14, 15 ]
+  }, {
+    "jobNumber" : 482,
+    "jobProfit" : 223,
+    "startTime" : 706,
+    "finishTime" : 929,
+    "jobsOnMachine" : [ 16, 10, 18, 9 ]
+  }, {
+    "jobNumber" : 483,
+    "jobProfit" : 80,
+    "startTime" : 849,
+    "finishTime" : 929,
+    "jobsOnMachine" : [ 19, 6, 8, 15, 13 ]
+  }, {
+    "jobNumber" : 484,
+    "jobProfit" : 353,
+    "startTime" : 302,
+    "finishTime" : 655,
+    "jobsOnMachine" : [ 17, 6, 14, 13, 8 ]
+  }, {
+    "jobNumber" : 485,
+    "jobProfit" : 295,
+    "startTime" : 664,
+    "finishTime" : 959,
+    "jobsOnMachine" : [ 11, 16, 19, 9, 7, 18 ]
+  }, {
+    "jobNumber" : 486,
+    "jobProfit" : 121,
+    "startTime" : 670,
+    "finishTime" : 791,
+    "jobsOnMachine" : [ 15, 8, 6, 11, 16, 2 ]
+  }, {
+    "jobNumber" : 487,
+    "jobProfit" : 104,
+    "startTime" : 502,
+    "finishTime" : 606,
+    "jobsOnMachine" : [ 4, 14, 10, 9, 5, 15 ]
+  }, {
+    "jobNumber" : 488,
+    "jobProfit" : 324,
+    "startTime" : 18,
+    "finishTime" : 342,
+    "jobsOnMachine" : [ 7, 19, 12, 11, 2, 13, 20, 18, 6, 8 ]
+  }, {
+    "jobNumber" : 489,
+    "jobProfit" : 218,
+    "startTime" : 749,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 11, 3, 16 ]
+  }, {
+    "jobNumber" : 490,
+    "jobProfit" : 476,
+    "startTime" : 508,
+    "finishTime" : 984,
+    "jobsOnMachine" : [ 4, 2, 20, 14, 1, 19, 11 ]
+  }, {
+    "jobNumber" : 491,
+    "jobProfit" : 631,
+    "startTime" : 222,
+    "finishTime" : 853,
+    "jobsOnMachine" : [ 18, 15, 8, 7 ]
+  }, {
+    "jobNumber" : 492,
+    "jobProfit" : 255,
+    "startTime" : 732,
+    "finishTime" : 987,
+    "jobsOnMachine" : [ 8, 1 ]
+  }, {
+    "jobNumber" : 493,
+    "jobProfit" : 425,
+    "startTime" : 474,
+    "finishTime" : 899,
+    "jobsOnMachine" : [ 18, 3, 4 ]
+  }, {
+    "jobNumber" : 494,
+    "jobProfit" : 618,
+    "startTime" : 223,
+    "finishTime" : 841,
+    "jobsOnMachine" : [ 17, 16, 7, 11, 9, 5, 10, 15, 12, 8 ]
+  }, {
+    "jobNumber" : 495,
+    "jobProfit" : 249,
+    "startTime" : 164,
+    "finishTime" : 413,
+    "jobsOnMachine" : [ 12, 16, 5 ]
+  }, {
+    "jobNumber" : 496,
+    "jobProfit" : 471,
+    "startTime" : 434,
+    "finishTime" : 905,
+    "jobsOnMachine" : [ 3, 14, 2, 7, 1, 5, 16, 20, 11 ]
+  }, {
+    "jobNumber" : 497,
+    "jobProfit" : 151,
+    "startTime" : 523,
+    "finishTime" : 674,
+    "jobsOnMachine" : [ 20, 14, 9, 12, 2, 3, 15 ]
+  }, {
+    "jobNumber" : 498,
+    "jobProfit" : 109,
+    "startTime" : 771,
+    "finishTime" : 880,
+    "jobsOnMachine" : [ 5, 19, 6, 9, 7, 11, 2, 4 ]
+  }, {
+    "jobNumber" : 499,
+    "jobProfit" : 384,
+    "startTime" : 66,
+    "finishTime" : 450,
+    "jobsOnMachine" : [ 18, 8, 3, 20, 6, 4, 12, 10 ]
+  }, {
+    "jobNumber" : 500,
+    "jobProfit" : 387,
+    "startTime" : 329,
+    "finishTime" : 716,
+    "jobsOnMachine" : [ 3, 13 ]
+  }, {
+    "jobNumber" : 501,
+    "jobProfit" : 94,
+    "startTime" : 533,
+    "finishTime" : 627,
+    "jobsOnMachine" : [ 19, 17, 8, 18, 3, 1, 6, 20, 13 ]
+  }, {
+    "jobNumber" : 502,
+    "jobProfit" : 267,
+    "startTime" : 659,
+    "finishTime" : 926,
+    "jobsOnMachine" : [ 18, 2, 1, 20, 4 ]
+  }, {
+    "jobNumber" : 503,
+    "jobProfit" : 157,
+    "startTime" : 28,
+    "finishTime" : 185,
+    "jobsOnMachine" : [ 8, 12, 16 ]
+  }, {
+    "jobNumber" : 504,
+    "jobProfit" : 349,
+    "startTime" : 109,
+    "finishTime" : 458,
+    "jobsOnMachine" : [ 16, 6, 8, 18, 12, 10, 2 ]
+  }, {
+    "jobNumber" : 505,
+    "jobProfit" : 295,
+    "startTime" : 601,
+    "finishTime" : 896,
+    "jobsOnMachine" : [ 16, 17, 2, 14, 12, 20, 6 ]
+  }, {
+    "jobNumber" : 506,
+    "jobProfit" : 18,
+    "startTime" : 938,
+    "finishTime" : 956,
+    "jobsOnMachine" : [ 3, 9 ]
+  }, {
+    "jobNumber" : 507,
+    "jobProfit" : 460,
+    "startTime" : 220,
+    "finishTime" : 680,
+    "jobsOnMachine" : [ 17, 14, 8, 18, 6, 16, 12 ]
+  }, {
+    "jobNumber" : 508,
+    "jobProfit" : 62,
+    "startTime" : 468,
+    "finishTime" : 530,
+    "jobsOnMachine" : [ 18, 9, 5, 20, 1, 17 ]
+  }, {
+    "jobNumber" : 509,
+    "jobProfit" : 463,
+    "startTime" : 327,
+    "finishTime" : 790,
+    "jobsOnMachine" : [ 7, 14, 13, 1, 19, 9, 16, 10, 15, 17 ]
+  }, {
+    "jobNumber" : 510,
+    "jobProfit" : 517,
+    "startTime" : 294,
+    "finishTime" : 811,
+    "jobsOnMachine" : [ 15, 10, 17 ]
+  }, {
+    "jobNumber" : 511,
+    "jobProfit" : 947,
+    "startTime" : 48,
+    "finishTime" : 995,
+    "jobsOnMachine" : [ 7, 2, 16, 5, 20, 10, 14, 3 ]
+  }, {
+    "jobNumber" : 512,
+    "jobProfit" : 121,
+    "startTime" : 669,
+    "finishTime" : 790,
+    "jobsOnMachine" : [ 15, 20, 3, 1, 9, 8, 19, 10, 7, 18 ]
+  }, {
+    "jobNumber" : 513,
+    "jobProfit" : 520,
+    "startTime" : 38,
+    "finishTime" : 558,
+    "jobsOnMachine" : [ 7, 6, 12 ]
+  }, {
+    "jobNumber" : 514,
+    "jobProfit" : 123,
+    "startTime" : 749,
+    "finishTime" : 872,
+    "jobsOnMachine" : [ 3, 13, 7, 4, 2, 17, 6, 10, 16, 1 ]
+  }, {
+    "jobNumber" : 515,
+    "jobProfit" : 156,
+    "startTime" : 137,
+    "finishTime" : 293,
+    "jobsOnMachine" : [ 3, 15, 13, 8 ]
+  }, {
+    "jobNumber" : 516,
+    "jobProfit" : 48,
+    "startTime" : 434,
+    "finishTime" : 482,
+    "jobsOnMachine" : [ 20, 9, 7, 4, 18, 5, 16 ]
+  }, {
+    "jobNumber" : 517,
+    "jobProfit" : 657,
+    "startTime" : 329,
+    "finishTime" : 986,
+    "jobsOnMachine" : [ 18 ]
+  }, {
+    "jobNumber" : 518,
+    "jobProfit" : 129,
+    "startTime" : 857,
+    "finishTime" : 986,
+    "jobsOnMachine" : [ 11, 1, 12, 16, 5, 7, 4, 20 ]
+  }, {
+    "jobNumber" : 519,
+    "jobProfit" : 152,
+    "startTime" : 781,
+    "finishTime" : 933,
+    "jobsOnMachine" : [ 6, 3, 9 ]
+  }, {
+    "jobNumber" : 520,
+    "jobProfit" : 855,
+    "startTime" : 66,
+    "finishTime" : 921,
+    "jobsOnMachine" : [ 10, 7, 3 ]
+  }, {
+    "jobNumber" : 521,
+    "jobProfit" : 113,
+    "startTime" : 673,
+    "finishTime" : 786,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 522,
+    "jobProfit" : 6,
+    "startTime" : 988,
+    "finishTime" : 994,
+    "jobsOnMachine" : [ 11, 3, 12, 19 ]
+  }, {
+    "jobNumber" : 523,
+    "jobProfit" : 2,
+    "startTime" : 114,
+    "finishTime" : 116,
+    "jobsOnMachine" : [ 15 ]
+  }, {
+    "jobNumber" : 524,
+    "jobProfit" : 251,
+    "startTime" : 271,
+    "finishTime" : 522,
+    "jobsOnMachine" : [ 9, 7, 17, 2, 12, 18 ]
+  }, {
+    "jobNumber" : 525,
+    "jobProfit" : 336,
+    "startTime" : 45,
+    "finishTime" : 381,
+    "jobsOnMachine" : [ 11, 6, 10, 17 ]
+  }, {
+    "jobNumber" : 526,
+    "jobProfit" : 188,
+    "startTime" : 420,
+    "finishTime" : 608,
+    "jobsOnMachine" : [ 18, 10, 12, 13, 15, 17, 5, 16 ]
+  }, {
+    "jobNumber" : 527,
+    "jobProfit" : 457,
+    "startTime" : 373,
+    "finishTime" : 830,
+    "jobsOnMachine" : [ 9, 11, 17, 19 ]
+  }, {
+    "jobNumber" : 528,
+    "jobProfit" : 408,
+    "startTime" : 493,
+    "finishTime" : 901,
+    "jobsOnMachine" : [ 14, 18 ]
+  }, {
+    "jobNumber" : 529,
+    "jobProfit" : 50,
+    "startTime" : 568,
+    "finishTime" : 618,
+    "jobsOnMachine" : [ 2, 17, 10, 1, 13, 7, 15, 5 ]
+  }, {
+    "jobNumber" : 530,
+    "jobProfit" : 21,
+    "startTime" : 973,
+    "finishTime" : 994,
+    "jobsOnMachine" : [ 6, 2 ]
+  }, {
+    "jobNumber" : 531,
+    "jobProfit" : 311,
+    "startTime" : 119,
+    "finishTime" : 430,
+    "jobsOnMachine" : [ 11, 1, 3, 17, 5, 6, 19, 4 ]
+  }, {
+    "jobNumber" : 532,
+    "jobProfit" : 278,
+    "startTime" : 612,
+    "finishTime" : 890,
+    "jobsOnMachine" : [ 7, 2 ]
+  }, {
+    "jobNumber" : 533,
+    "jobProfit" : 130,
+    "startTime" : 27,
+    "finishTime" : 157,
+    "jobsOnMachine" : [ 6, 13, 2, 17, 14 ]
+  }, {
+    "jobNumber" : 534,
+    "jobProfit" : 609,
+    "startTime" : 171,
+    "finishTime" : 780,
+    "jobsOnMachine" : [ 13 ]
+  }, {
+    "jobNumber" : 535,
+    "jobProfit" : 142,
+    "startTime" : 766,
+    "finishTime" : 908,
+    "jobsOnMachine" : [ 9, 20, 15, 8, 2, 6, 10, 17, 14 ]
+  }, {
+    "jobNumber" : 536,
+    "jobProfit" : 203,
+    "startTime" : 148,
+    "finishTime" : 351,
+    "jobsOnMachine" : [ 5, 14, 6, 10, 12, 13 ]
+  }, {
+    "jobNumber" : 537,
+    "jobProfit" : 607,
+    "startTime" : 381,
+    "finishTime" : 988,
+    "jobsOnMachine" : [ 17, 11, 16 ]
+  }, {
+    "jobNumber" : 538,
+    "jobProfit" : 1,
+    "startTime" : 979,
+    "finishTime" : 980,
+    "jobsOnMachine" : [ 15, 16, 18, 3, 19, 10, 1, 5 ]
+  }, {
+    "jobNumber" : 539,
+    "jobProfit" : 663,
+    "startTime" : 125,
+    "finishTime" : 788,
+    "jobsOnMachine" : [ 10, 11, 6, 13 ]
+  }, {
+    "jobNumber" : 540,
+    "jobProfit" : 35,
+    "startTime" : 636,
+    "finishTime" : 671,
+    "jobsOnMachine" : [ 1, 18 ]
+  }, {
+    "jobNumber" : 541,
+    "jobProfit" : 48,
+    "startTime" : 867,
+    "finishTime" : 915,
+    "jobsOnMachine" : [ 13, 10, 3, 20 ]
+  }, {
+    "jobNumber" : 542,
+    "jobProfit" : 128,
+    "startTime" : 598,
+    "finishTime" : 726,
+    "jobsOnMachine" : [ 15, 6, 8, 18, 13, 4, 3, 7 ]
+  }, {
+    "jobNumber" : 543,
+    "jobProfit" : 48,
+    "startTime" : 943,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 9, 13, 7, 19, 15, 1, 16, 5 ]
+  }, {
+    "jobNumber" : 544,
+    "jobProfit" : 331,
+    "startTime" : 509,
+    "finishTime" : 840,
+    "jobsOnMachine" : [ 7, 18, 14, 11, 17, 8, 19 ]
+  }, {
+    "jobNumber" : 545,
+    "jobProfit" : 358,
+    "startTime" : 573,
+    "finishTime" : 931,
+    "jobsOnMachine" : [ 13, 16, 9, 11, 15, 12, 5, 1, 8 ]
+  }, {
+    "jobNumber" : 546,
+    "jobProfit" : 100,
+    "startTime" : 477,
+    "finishTime" : 577,
+    "jobsOnMachine" : [ 3, 12 ]
+  }, {
+    "jobNumber" : 547,
+    "jobProfit" : 279,
+    "startTime" : 490,
+    "finishTime" : 769,
+    "jobsOnMachine" : [ 7, 20, 16, 9, 2, 10 ]
+  }, {
+    "jobNumber" : 548,
+    "jobProfit" : 486,
+    "startTime" : 476,
+    "finishTime" : 962,
+    "jobsOnMachine" : [ 9, 13 ]
+  }, {
+    "jobNumber" : 549,
+    "jobProfit" : 105,
+    "startTime" : 860,
+    "finishTime" : 965,
+    "jobsOnMachine" : [ 12, 19, 10, 11, 18, 2, 4 ]
+  }, {
+    "jobNumber" : 550,
+    "jobProfit" : 39,
+    "startTime" : 826,
+    "finishTime" : 865,
+    "jobsOnMachine" : [ 1, 10, 14, 18, 3, 8, 16, 17 ]
+  }, {
+    "jobNumber" : 551,
+    "jobProfit" : 542,
+    "startTime" : 341,
+    "finishTime" : 883,
+    "jobsOnMachine" : [ 11, 15, 5, 14, 8, 7 ]
+  }, {
+    "jobNumber" : 552,
+    "jobProfit" : 15,
+    "startTime" : 924,
+    "finishTime" : 939,
+    "jobsOnMachine" : [ 7, 14, 9, 3, 15, 17 ]
+  }, {
+    "jobNumber" : 553,
+    "jobProfit" : 81,
+    "startTime" : 420,
+    "finishTime" : 501,
+    "jobsOnMachine" : [ 20, 8, 18, 3, 16 ]
+  }, {
+    "jobNumber" : 554,
+    "jobProfit" : 57,
+    "startTime" : 682,
+    "finishTime" : 739,
+    "jobsOnMachine" : [ 12, 3, 13 ]
+  }, {
+    "jobNumber" : 555,
+    "jobProfit" : 7,
+    "startTime" : 968,
+    "finishTime" : 975,
+    "jobsOnMachine" : [ 13, 19, 4, 16, 10, 2, 3, 11, 15 ]
+  }, {
+    "jobNumber" : 556,
+    "jobProfit" : 25,
+    "startTime" : 956,
+    "finishTime" : 981,
+    "jobsOnMachine" : [ 16, 13, 4, 5, 17, 7, 10, 2, 14 ]
+  }, {
+    "jobNumber" : 557,
+    "jobProfit" : 276,
+    "startTime" : 664,
+    "finishTime" : 940,
+    "jobsOnMachine" : [ 10, 15, 12, 5, 11, 17, 20 ]
+  }, {
+    "jobNumber" : 558,
+    "jobProfit" : 22,
+    "startTime" : 972,
+    "finishTime" : 994,
+    "jobsOnMachine" : [ 20, 19, 17 ]
+  }, {
+    "jobNumber" : 559,
+    "jobProfit" : 318,
+    "startTime" : 625,
+    "finishTime" : 943,
+    "jobsOnMachine" : [ 5, 15, 2, 9, 3, 10, 14, 16 ]
+  }, {
+    "jobNumber" : 560,
+    "jobProfit" : 75,
+    "startTime" : 834,
+    "finishTime" : 909,
+    "jobsOnMachine" : [ 10, 5, 18, 17, 16, 11, 14, 3, 6 ]
+  }, {
+    "jobNumber" : 561,
+    "jobProfit" : 63,
+    "startTime" : 781,
+    "finishTime" : 844,
+    "jobsOnMachine" : [ 3, 9, 19 ]
+  }, {
+    "jobNumber" : 562,
+    "jobProfit" : 43,
+    "startTime" : 928,
+    "finishTime" : 971,
+    "jobsOnMachine" : [ 7, 16, 18, 8 ]
+  }, {
+    "jobNumber" : 563,
+    "jobProfit" : 663,
+    "startTime" : 193,
+    "finishTime" : 856,
+    "jobsOnMachine" : [ 4, 19, 5, 20, 1, 17, 14, 7 ]
+  }, {
+    "jobNumber" : 564,
+    "jobProfit" : 251,
+    "startTime" : 742,
+    "finishTime" : 993,
+    "jobsOnMachine" : [ 5, 1, 3, 13, 18, 8, 2, 12, 15 ]
+  }, {
+    "jobNumber" : 565,
+    "jobProfit" : 179,
+    "startTime" : 579,
+    "finishTime" : 758,
+    "jobsOnMachine" : [ 2, 14, 16, 18, 11 ]
+  }, {
+    "jobNumber" : 566,
+    "jobProfit" : 542,
+    "startTime" : 281,
+    "finishTime" : 823,
+    "jobsOnMachine" : [ 10 ]
+  }, {
+    "jobNumber" : 567,
+    "jobProfit" : 45,
+    "startTime" : 862,
+    "finishTime" : 907,
+    "jobsOnMachine" : [ 4, 18 ]
+  }, {
+    "jobNumber" : 568,
+    "jobProfit" : 274,
+    "startTime" : 724,
+    "finishTime" : 998,
+    "jobsOnMachine" : [ 14, 9, 11, 15, 7 ]
+  }, {
+    "jobNumber" : 569,
+    "jobProfit" : 477,
+    "startTime" : 254,
+    "finishTime" : 731,
+    "jobsOnMachine" : [ 3, 7 ]
+  }, {
+    "jobNumber" : 570,
+    "jobProfit" : 223,
+    "startTime" : 663,
+    "finishTime" : 886,
+    "jobsOnMachine" : [ 17, 9, 12, 3, 20 ]
+  }, {
+    "jobNumber" : 571,
+    "jobProfit" : 298,
+    "startTime" : 509,
+    "finishTime" : 807,
+    "jobsOnMachine" : [ 15, 11 ]
+  }, {
+    "jobNumber" : 572,
+    "jobProfit" : 117,
+    "startTime" : 879,
+    "finishTime" : 996,
+    "jobsOnMachine" : [ 19, 5, 7, 10, 2, 8, 12, 13 ]
+  }, {
+    "jobNumber" : 573,
+    "jobProfit" : 25,
+    "startTime" : 815,
+    "finishTime" : 840,
+    "jobsOnMachine" : [ 1 ]
+  }, {
+    "jobNumber" : 574,
+    "jobProfit" : 707,
+    "startTime" : 142,
+    "finishTime" : 849,
+    "jobsOnMachine" : [ 1, 20, 14, 4, 13, 16, 19, 15, 18 ]
+  }, {
+    "jobNumber" : 575,
+    "jobProfit" : 60,
+    "startTime" : 568,
+    "finishTime" : 628,
+    "jobsOnMachine" : [ 6, 8, 4, 19, 14 ]
+  }, {
+    "jobNumber" : 576,
+    "jobProfit" : 539,
+    "startTime" : 2,
+    "finishTime" : 541,
+    "jobsOnMachine" : [ 5, 7, 18, 13, 12, 6, 8, 16, 20, 19 ]
+  }, {
+    "jobNumber" : 577,
+    "jobProfit" : 531,
+    "startTime" : 196,
+    "finishTime" : 727,
+    "jobsOnMachine" : [ 18, 4, 6, 5, 19, 9 ]
+  }, {
+    "jobNumber" : 578,
+    "jobProfit" : 2,
+    "startTime" : 756,
+    "finishTime" : 758,
+    "jobsOnMachine" : [ 12, 20, 13 ]
+  }, {
+    "jobNumber" : 579,
+    "jobProfit" : 26,
+    "startTime" : 379,
+    "finishTime" : 405,
+    "jobsOnMachine" : [ 6, 10, 8, 7, 2 ]
+  }, {
+    "jobNumber" : 580,
+    "jobProfit" : 102,
+    "startTime" : 718,
+    "finishTime" : 820,
+    "jobsOnMachine" : [ 1, 7, 11 ]
+  }, {
+    "jobNumber" : 581,
+    "jobProfit" : 297,
+    "startTime" : 455,
+    "finishTime" : 752,
+    "jobsOnMachine" : [ 14, 12, 4, 16, 1, 3 ]
+  }, {
+    "jobNumber" : 582,
+    "jobProfit" : 406,
+    "startTime" : 343,
+    "finishTime" : 749,
+    "jobsOnMachine" : [ 9, 12, 15, 8, 19, 18 ]
+  }, {
+    "jobNumber" : 583,
+    "jobProfit" : 230,
+    "startTime" : 258,
+    "finishTime" : 488,
+    "jobsOnMachine" : [ 20, 11, 19 ]
+  }, {
+    "jobNumber" : 584,
+    "jobProfit" : 190,
+    "startTime" : 643,
+    "finishTime" : 833,
+    "jobsOnMachine" : [ 8, 15, 4, 17, 11, 12, 13, 2, 20, 18 ]
+  }, {
+    "jobNumber" : 585,
+    "jobProfit" : 622,
+    "startTime" : 282,
+    "finishTime" : 904,
+    "jobsOnMachine" : [ 5, 6, 15, 4, 3, 7, 16 ]
+  }, {
+    "jobNumber" : 586,
+    "jobProfit" : 72,
+    "startTime" : 841,
+    "finishTime" : 913,
+    "jobsOnMachine" : [ 11 ]
+  }, {
+    "jobNumber" : 587,
+    "jobProfit" : 453,
+    "startTime" : 416,
+    "finishTime" : 869,
+    "jobsOnMachine" : [ 17, 12, 18, 20, 14, 4, 16, 5 ]
+  }, {
+    "jobNumber" : 588,
+    "jobProfit" : 423,
+    "startTime" : 254,
+    "finishTime" : 677,
+    "jobsOnMachine" : [ 13, 5, 17 ]
+  }, {
+    "jobNumber" : 589,
+    "jobProfit" : 335,
+    "startTime" : 65,
+    "finishTime" : 400,
+    "jobsOnMachine" : [ 15, 16, 14, 9, 8, 7, 5 ]
+  }, {
+    "jobNumber" : 590,
+    "jobProfit" : 99,
+    "startTime" : 667,
+    "finishTime" : 766,
+    "jobsOnMachine" : [ 8, 6, 1, 12, 14, 13, 11 ]
+  }, {
+    "jobNumber" : 591,
+    "jobProfit" : 317,
+    "startTime" : 652,
+    "finishTime" : 969,
+    "jobsOnMachine" : [ 5, 8, 11, 9, 19, 18, 15 ]
+  }, {
+    "jobNumber" : 592,
+    "jobProfit" : 80,
+    "startTime" : 821,
+    "finishTime" : 901,
+    "jobsOnMachine" : [ 17, 6, 18 ]
+  }, {
+    "jobNumber" : 593,
+    "jobProfit" : 31,
+    "startTime" : 573,
+    "finishTime" : 604,
+    "jobsOnMachine" : [ 9, 16, 12, 14 ]
+  }, {
+    "jobNumber" : 594,
+    "jobProfit" : 50,
+    "startTime" : 709,
+    "finishTime" : 759,
+    "jobsOnMachine" : [ 5, 2, 18, 9, 8, 15, 7, 10, 6, 4 ]
+  }, {
+    "jobNumber" : 595,
+    "jobProfit" : 302,
+    "startTime" : 441,
+    "finishTime" : 743,
+    "jobsOnMachine" : [ 3, 7 ]
+  }, {
+    "jobNumber" : 596,
+    "jobProfit" : 175,
+    "startTime" : 489,
+    "finishTime" : 664,
+    "jobsOnMachine" : [ 7, 11 ]
+  }, {
+    "jobNumber" : 597,
+    "jobProfit" : 268,
+    "startTime" : 355,
+    "finishTime" : 623,
+    "jobsOnMachine" : [ 5, 8, 18, 16, 19, 20, 15, 3, 2, 7 ]
+  }, {
+    "jobNumber" : 598,
+    "jobProfit" : 49,
+    "startTime" : 775,
+    "finishTime" : 824,
+    "jobsOnMachine" : [ 15, 2, 17, 6, 12, 14, 11 ]
+  }, {
+    "jobNumber" : 599,
+    "jobProfit" : 395,
+    "startTime" : 247,
+    "finishTime" : 642,
+    "jobsOnMachine" : [ 3, 1, 2, 17 ]
+  }, {
+    "jobNumber" : 600,
+    "jobProfit" : 281,
+    "startTime" : 703,
+    "finishTime" : 984,
+    "jobsOnMachine" : [ 8, 19, 4, 13, 14, 18 ]
+  }, {
+    "jobNumber" : 601,
+    "jobProfit" : 428,
+    "startTime" : 466,
+    "finishTime" : 894,
+    "jobsOnMachine" : [ 2, 5, 16 ]
+  }, {
+    "jobNumber" : 602,
+    "jobProfit" : 50,
+    "startTime" : 923,
+    "finishTime" : 973,
+    "jobsOnMachine" : [ 10, 12, 13, 5, 1, 14, 11, 20, 8, 9 ]
+  }, {
+    "jobNumber" : 603,
+    "jobProfit" : 684,
+    "startTime" : 92,
+    "finishTime" : 776,
+    "jobsOnMachine" : [ 6, 14, 7, 13 ]
+  }, {
+    "jobNumber" : 604,
+    "jobProfit" : 187,
+    "startTime" : 513,
+    "finishTime" : 700,
+    "jobsOnMachine" : [ 12, 19, 14 ]
+  }, {
+    "jobNumber" : 605,
+    "jobProfit" : 238,
+    "startTime" : 188,
+    "finishTime" : 426,
+    "jobsOnMachine" : [ 5, 3 ]
+  }, {
+    "jobNumber" : 606,
+    "jobProfit" : 36,
+    "startTime" : 138,
+    "finishTime" : 174,
+    "jobsOnMachine" : [ 17 ]
+  }, {
+    "jobNumber" : 607,
+    "jobProfit" : 453,
+    "startTime" : 110,
+    "finishTime" : 563,
+    "jobsOnMachine" : [ 10 ]
+  }, {
+    "jobNumber" : 608,
+    "jobProfit" : 33,
+    "startTime" : 959,
+    "finishTime" : 992,
+    "jobsOnMachine" : [ 16, 17, 18 ]
+  }, {
+    "jobNumber" : 609,
+    "jobProfit" : 268,
+    "startTime" : 275,
+    "finishTime" : 543,
+    "jobsOnMachine" : [ 2, 3, 10, 15, 12, 20, 5, 13 ]
+  }, {
+    "jobNumber" : 610,
+    "jobProfit" : 56,
+    "startTime" : 793,
+    "finishTime" : 849,
+    "jobsOnMachine" : [ 7, 8 ]
+  }, {
+    "jobNumber" : 611,
+    "jobProfit" : 912,
+    "startTime" : 38,
+    "finishTime" : 950,
+    "jobsOnMachine" : [ 4, 10, 9, 3 ]
+  }, {
+    "jobNumber" : 612,
+    "jobProfit" : 10,
+    "startTime" : 621,
+    "finishTime" : 631,
+    "jobsOnMachine" : [ 10, 3, 7, 17, 6 ]
+  }, {
+    "jobNumber" : 613,
+    "jobProfit" : 83,
+    "startTime" : 790,
+    "finishTime" : 873,
+    "jobsOnMachine" : [ 6, 11, 5, 7, 15 ]
+  }, {
+    "jobNumber" : 614,
+    "jobProfit" : 238,
+    "startTime" : 224,
+    "finishTime" : 462,
+    "jobsOnMachine" : [ 6, 1, 19, 2, 5, 12 ]
+  }, {
+    "jobNumber" : 615,
+    "jobProfit" : 147,
+    "startTime" : 716,
+    "finishTime" : 863,
+    "jobsOnMachine" : [ 2, 18, 6, 4 ]
+  }, {
+    "jobNumber" : 616,
+    "jobProfit" : 123,
+    "startTime" : 768,
+    "finishTime" : 891,
+    "jobsOnMachine" : [ 19, 11, 14, 9 ]
+  }, {
+    "jobNumber" : 617,
+    "jobProfit" : 482,
+    "startTime" : 510,
+    "finishTime" : 992,
+    "jobsOnMachine" : [ 1, 17, 6, 14, 20, 11, 8, 7 ]
+  }, {
+    "jobNumber" : 618,
+    "jobProfit" : 34,
+    "startTime" : 472,
+    "finishTime" : 506,
+    "jobsOnMachine" : [ 3, 8, 10, 11, 17, 12, 15 ]
+  }, {
+    "jobNumber" : 619,
+    "jobProfit" : 107,
+    "startTime" : 811,
+    "finishTime" : 918,
+    "jobsOnMachine" : [ 12, 8, 11, 5 ]
+  }, {
+    "jobNumber" : 620,
+    "jobProfit" : 10,
+    "startTime" : 957,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 20, 6 ]
+  }, {
+    "jobNumber" : 621,
+    "jobProfit" : 268,
+    "startTime" : 443,
+    "finishTime" : 711,
+    "jobsOnMachine" : [ 3, 9, 17 ]
+  }, {
+    "jobNumber" : 622,
+    "jobProfit" : 3,
+    "startTime" : 997,
+    "finishTime" : 1000,
+    "jobsOnMachine" : [ 12, 3, 6, 20, 1, 14, 5, 9 ]
+  }, {
+    "jobNumber" : 623,
+    "jobProfit" : 206,
+    "startTime" : 12,
+    "finishTime" : 218,
+    "jobsOnMachine" : [ 7, 19, 18, 5, 20, 15, 14 ]
+  }, {
+    "jobNumber" : 624,
+    "jobProfit" : 150,
+    "startTime" : 642,
+    "finishTime" : 792,
+    "jobsOnMachine" : [ 13, 14, 6, 2, 20, 17 ]
+  }, {
+    "jobNumber" : 625,
+    "jobProfit" : 730,
+    "startTime" : 138,
+    "finishTime" : 868,
+    "jobsOnMachine" : [ 11, 16, 5, 1, 2 ]
+  }, {
+    "jobNumber" : 626,
+    "jobProfit" : 120,
+    "startTime" : 838,
+    "finishTime" : 958,
+    "jobsOnMachine" : [ 15 ]
+  }, {
+    "jobNumber" : 627,
+    "jobProfit" : 192,
+    "startTime" : 807,
+    "finishTime" : 999,
+    "jobsOnMachine" : [ 19, 4, 7, 9, 6, 2, 12, 8, 11, 1 ]
+  }, {
+    "jobNumber" : 628,
+    "jobProfit" : 76,
+    "startTime" : 792,
+    "finishTime" : 868,
+    "jobsOnMachine" : [ 13, 11, 19, 6, 12, 8, 15, 14, 3, 7 ]
+  }, {
+    "jobNumber" : 629,
+    "jobProfit" : 161,
+    "startTime" : 33,
+    "finishTime" : 194,
+    "jobsOnMachine" : [ 11, 16, 15, 20, 13, 12, 8, 9, 19 ]
+  }, {
+    "jobNumber" : 630,
+    "jobProfit" : 89,
+    "startTime" : 846,
+    "finishTime" : 935,
+    "jobsOnMachine" : [ 12, 3, 19, 7, 6 ]
+  }, {
+    "jobNumber" : 631,
+    "jobProfit" : 375,
+    "startTime" : 396,
+    "finishTime" : 771,
+    "jobsOnMachine" : [ 1, 14, 8, 7, 19, 10, 4, 16, 2 ]
+  }, {
+    "jobNumber" : 632,
+    "jobProfit" : 620,
+    "startTime" : 377,
+    "finishTime" : 997,
+    "jobsOnMachine" : [ 13, 10, 20, 6, 3 ]
+  }, {
+    "jobNumber" : 633,
+    "jobProfit" : 161,
+    "startTime" : 343,
+    "finishTime" : 504,
+    "jobsOnMachine" : [ 12, 9, 14 ]
+  }, {
+    "jobNumber" : 634,
+    "jobProfit" : 135,
+    "startTime" : 660,
+    "finishTime" : 795,
+    "jobsOnMachine" : [ 8, 17 ]
+  }, {
+    "jobNumber" : 635,
+    "jobProfit" : 26,
+    "startTime" : 696,
+    "finishTime" : 722,
+    "jobsOnMachine" : [ 10, 4, 20, 11, 9, 5, 15, 8 ]
+  }, {
+    "jobNumber" : 636,
+    "jobProfit" : 266,
+    "startTime" : 602,
+    "finishTime" : 868,
+    "jobsOnMachine" : [ 18 ]
+  }, {
+    "jobNumber" : 637,
+    "jobProfit" : 165,
+    "startTime" : 297,
+    "finishTime" : 462,
+    "jobsOnMachine" : [ 12, 10, 19, 11, 13, 4 ]
+  }, {
+    "jobNumber" : 638,
+    "jobProfit" : 189,
+    "startTime" : 736,
+    "finishTime" : 925,
+    "jobsOnMachine" : [ 8, 14, 1, 5, 19, 9 ]
+  }, {
+    "jobNumber" : 639,
+    "jobProfit" : 49,
+    "startTime" : 629,
+    "finishTime" : 678,
+    "jobsOnMachine" : [ 17 ]
+  }, {
+    "jobNumber" : 640,
+    "jobProfit" : 489,
+    "startTime" : 163,
+    "finishTime" : 652,
+    "jobsOnMachine" : [ 16, 15, 7, 3, 13, 9, 6 ]
+  }, {
+    "jobNumber" : 641,
+    "jobProfit" : 208,
+    "startTime" : 668,
+    "finishTime" : 876,
+    "jobsOnMachine" : [ 19, 15, 14, 1, 3, 10 ]
+  }, {
+    "jobNumber" : 642,
+    "jobProfit" : 17,
+    "startTime" : 263,
+    "finishTime" : 280,
+    "jobsOnMachine" : [ 18, 17, 10, 2, 7, 8 ]
+  }, {
+    "jobNumber" : 643,
+    "jobProfit" : 362,
+    "startTime" : 534,
+    "finishTime" : 896,
+    "jobsOnMachine" : [ 2, 20, 15, 13, 8 ]
+  }, {
+    "jobNumber" : 644,
+    "jobProfit" : 70,
+    "startTime" : 413,
+    "finishTime" : 483,
+    "jobsOnMachine" : [ 5, 10, 15, 17, 18, 12 ]
+  }, {
+    "jobNumber" : 645,
+    "jobProfit" : 173,
+    "startTime" : 258,
+    "finishTime" : 431,
+    "jobsOnMachine" : [ 10, 4, 5, 16, 17 ]
+  }, {
+    "jobNumber" : 646,
+    "jobProfit" : 295,
+    "startTime" : 321,
+    "finishTime" : 616,
+    "jobsOnMachine" : [ 8, 10, 7, 18, 17, 13, 6, 1, 19, 14 ]
+  }, {
+    "jobNumber" : 647,
+    "jobProfit" : 64,
+    "startTime" : 730,
+    "finishTime" : 794,
+    "jobsOnMachine" : [ 2, 9, 18, 16, 12, 5, 13, 7, 3 ]
+  }, {
+    "jobNumber" : 648,
+    "jobProfit" : 898,
+    "startTime" : 78,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 10, 12, 20, 6 ]
+  }, {
+    "jobNumber" : 649,
+    "jobProfit" : 536,
+    "startTime" : 353,
+    "finishTime" : 889,
+    "jobsOnMachine" : [ 1, 2, 8, 17, 16, 15, 5, 6, 13 ]
+  }, {
+    "jobNumber" : 650,
+    "jobProfit" : 694,
+    "startTime" : 64,
+    "finishTime" : 758,
+    "jobsOnMachine" : [ 17, 1, 16 ]
+  }, {
+    "jobNumber" : 651,
+    "jobProfit" : 24,
+    "startTime" : 931,
+    "finishTime" : 955,
+    "jobsOnMachine" : [ 7 ]
+  }, {
+    "jobNumber" : 652,
+    "jobProfit" : 18,
+    "startTime" : 520,
+    "finishTime" : 538,
+    "jobsOnMachine" : [ 9, 12, 10 ]
+  }, {
+    "jobNumber" : 653,
+    "jobProfit" : 173,
+    "startTime" : 796,
+    "finishTime" : 969,
+    "jobsOnMachine" : [ 19, 2, 1, 3, 8 ]
+  }, {
+    "jobNumber" : 654,
+    "jobProfit" : 1,
+    "startTime" : 981,
+    "finishTime" : 982,
+    "jobsOnMachine" : [ 5, 11, 19, 6, 2, 18, 9, 1, 8, 12 ]
+  }, {
+    "jobNumber" : 655,
+    "jobProfit" : 636,
+    "startTime" : 350,
+    "finishTime" : 986,
+    "jobsOnMachine" : [ 9, 18, 14 ]
+  }, {
+    "jobNumber" : 656,
+    "jobProfit" : 420,
+    "startTime" : 249,
+    "finishTime" : 669,
+    "jobsOnMachine" : [ 20, 19 ]
+  }, {
+    "jobNumber" : 657,
+    "jobProfit" : 60,
+    "startTime" : 918,
+    "finishTime" : 978,
+    "jobsOnMachine" : [ 17, 14 ]
+  }, {
+    "jobNumber" : 658,
+    "jobProfit" : 269,
+    "startTime" : 509,
+    "finishTime" : 778,
+    "jobsOnMachine" : [ 3, 11, 9, 15, 8, 10, 1 ]
+  }, {
+    "jobNumber" : 659,
+    "jobProfit" : 832,
+    "startTime" : 93,
+    "finishTime" : 925,
+    "jobsOnMachine" : [ 10, 20, 14, 6, 1, 18, 7, 12, 16, 8 ]
+  }, {
+    "jobNumber" : 660,
+    "jobProfit" : 82,
+    "startTime" : 872,
+    "finishTime" : 954,
+    "jobsOnMachine" : [ 6, 20 ]
+  }, {
+    "jobNumber" : 661,
+    "jobProfit" : 66,
+    "startTime" : 238,
+    "finishTime" : 304,
+    "jobsOnMachine" : [ 18 ]
+  }, {
+    "jobNumber" : 662,
+    "jobProfit" : 185,
+    "startTime" : 680,
+    "finishTime" : 865,
+    "jobsOnMachine" : [ 19, 8 ]
+  }, {
+    "jobNumber" : 663,
+    "jobProfit" : 276,
+    "startTime" : 344,
+    "finishTime" : 620,
+    "jobsOnMachine" : [ 18, 10, 13 ]
+  }, {
+    "jobNumber" : 664,
+    "jobProfit" : 179,
+    "startTime" : 3,
+    "finishTime" : 182,
+    "jobsOnMachine" : [ 19, 5, 10, 4, 20, 3, 18, 6, 14 ]
+  }, {
+    "jobNumber" : 665,
+    "jobProfit" : 530,
+    "startTime" : 303,
+    "finishTime" : 833,
+    "jobsOnMachine" : [ 9, 2, 14, 20, 6, 13, 16, 12 ]
+  }, {
+    "jobNumber" : 666,
+    "jobProfit" : 119,
+    "startTime" : 605,
+    "finishTime" : 724,
+    "jobsOnMachine" : [ 16, 14, 11, 2 ]
+  }, {
+    "jobNumber" : 667,
+    "jobProfit" : 145,
+    "startTime" : 718,
+    "finishTime" : 863,
+    "jobsOnMachine" : [ 7, 13, 1, 4, 15, 17, 12, 6, 8, 19 ]
+  }, {
+    "jobNumber" : 668,
+    "jobProfit" : 223,
+    "startTime" : 252,
+    "finishTime" : 475,
+    "jobsOnMachine" : [ 7, 6, 10, 8, 3, 5, 12 ]
+  }, {
+    "jobNumber" : 669,
+    "jobProfit" : 100,
+    "startTime" : 617,
+    "finishTime" : 717,
+    "jobsOnMachine" : [ 9, 10, 4, 17, 14, 18, 15, 8, 1, 2 ]
+  }, {
+    "jobNumber" : 670,
+    "jobProfit" : 56,
+    "startTime" : 802,
+    "finishTime" : 858,
+    "jobsOnMachine" : [ 5, 8 ]
+  }, {
+    "jobNumber" : 671,
+    "jobProfit" : 87,
+    "startTime" : 500,
+    "finishTime" : 587,
+    "jobsOnMachine" : [ 15, 11, 4, 3, 1, 6, 20, 10, 18 ]
+  }, {
+    "jobNumber" : 672,
+    "jobProfit" : 89,
+    "startTime" : 483,
+    "finishTime" : 572,
+    "jobsOnMachine" : [ 12, 3, 19, 4, 13, 9, 11, 15, 20, 18 ]
+  }, {
+    "jobNumber" : 673,
+    "jobProfit" : 73,
+    "startTime" : 175,
+    "finishTime" : 248,
+    "jobsOnMachine" : [ 13 ]
+  }, {
+    "jobNumber" : 674,
+    "jobProfit" : 353,
+    "startTime" : 177,
+    "finishTime" : 530,
+    "jobsOnMachine" : [ 10, 2, 15, 17, 6, 5, 20, 3 ]
+  }, {
+    "jobNumber" : 675,
+    "jobProfit" : 470,
+    "startTime" : 445,
+    "finishTime" : 915,
+    "jobsOnMachine" : [ 5, 10, 20 ]
+  }, {
+    "jobNumber" : 676,
+    "jobProfit" : 67,
+    "startTime" : 227,
+    "finishTime" : 294,
+    "jobsOnMachine" : [ 11, 14, 17, 1, 3, 18, 12, 15, 7, 5 ]
+  }, {
+    "jobNumber" : 677,
+    "jobProfit" : 29,
+    "startTime" : 928,
+    "finishTime" : 957,
+    "jobsOnMachine" : [ 6, 15, 7, 2, 18, 11, 10, 9 ]
+  }, {
+    "jobNumber" : 678,
+    "jobProfit" : 699,
+    "startTime" : 295,
+    "finishTime" : 994,
+    "jobsOnMachine" : [ 6, 1, 18, 13, 5, 20 ]
+  }, {
+    "jobNumber" : 679,
+    "jobProfit" : 789,
+    "startTime" : 154,
+    "finishTime" : 943,
+    "jobsOnMachine" : [ 18, 19, 16, 17, 10, 11, 12, 13, 8, 14 ]
+  }, {
+    "jobNumber" : 680,
+    "jobProfit" : 165,
+    "startTime" : 777,
+    "finishTime" : 942,
+    "jobsOnMachine" : [ 16, 19, 15 ]
+  }, {
+    "jobNumber" : 681,
+    "jobProfit" : 128,
+    "startTime" : 25,
+    "finishTime" : 153,
+    "jobsOnMachine" : [ 5, 7, 18, 20, 6, 17, 14, 10, 9 ]
+  }, {
+    "jobNumber" : 682,
+    "jobProfit" : 347,
+    "startTime" : 38,
+    "finishTime" : 385,
+    "jobsOnMachine" : [ 20, 4, 15, 9 ]
+  }, {
+    "jobNumber" : 683,
+    "jobProfit" : 20,
+    "startTime" : 941,
+    "finishTime" : 961,
+    "jobsOnMachine" : [ 11, 16, 6 ]
+  }, {
+    "jobNumber" : 684,
+    "jobProfit" : 65,
+    "startTime" : 922,
+    "finishTime" : 987,
+    "jobsOnMachine" : [ 9, 19, 12, 6, 15 ]
+  }, {
+    "jobNumber" : 685,
+    "jobProfit" : 229,
+    "startTime" : 758,
+    "finishTime" : 987,
+    "jobsOnMachine" : [ 4, 15, 12, 10, 20, 3, 17 ]
+  }, {
+    "jobNumber" : 686,
+    "jobProfit" : 618,
+    "startTime" : 278,
+    "finishTime" : 896,
+    "jobsOnMachine" : [ 11, 15, 10, 19, 1 ]
+  }, {
+    "jobNumber" : 687,
+    "jobProfit" : 178,
+    "startTime" : 0,
+    "finishTime" : 178,
+    "jobsOnMachine" : [ 12, 7, 11, 5, 3, 1, 18 ]
+  }, {
+    "jobNumber" : 688,
+    "jobProfit" : 112,
+    "startTime" : 748,
+    "finishTime" : 860,
+    "jobsOnMachine" : [ 9, 4, 16, 18, 2, 11, 1, 17 ]
+  }, {
+    "jobNumber" : 689,
+    "jobProfit" : 135,
+    "startTime" : 764,
+    "finishTime" : 899,
+    "jobsOnMachine" : [ 12 ]
+  }, {
+    "jobNumber" : 690,
+    "jobProfit" : 131,
+    "startTime" : 751,
+    "finishTime" : 882,
+    "jobsOnMachine" : [ 20, 9, 15, 17, 16 ]
+  }, {
+    "jobNumber" : 691,
+    "jobProfit" : 689,
+    "startTime" : 238,
+    "finishTime" : 927,
+    "jobsOnMachine" : [ 12, 7 ]
+  }, {
+    "jobNumber" : 692,
+    "jobProfit" : 616,
+    "startTime" : 76,
+    "finishTime" : 692,
+    "jobsOnMachine" : [ 17, 19, 16, 5, 2, 9, 14, 7, 1 ]
+  }, {
+    "jobNumber" : 693,
+    "jobProfit" : 247,
+    "startTime" : 358,
+    "finishTime" : 605,
+    "jobsOnMachine" : [ 1, 20, 18, 10, 17, 5, 8, 3, 16 ]
+  }, {
+    "jobNumber" : 694,
+    "jobProfit" : 537,
+    "startTime" : 93,
+    "finishTime" : 630,
+    "jobsOnMachine" : [ 13, 9 ]
+  }, {
+    "jobNumber" : 695,
+    "jobProfit" : 129,
+    "startTime" : 328,
+    "finishTime" : 457,
+    "jobsOnMachine" : [ 9, 20, 12, 4, 16 ]
+  }, {
+    "jobNumber" : 696,
+    "jobProfit" : 265,
+    "startTime" : 477,
+    "finishTime" : 742,
+    "jobsOnMachine" : [ 12, 20, 3 ]
+  }, {
+    "jobNumber" : 697,
+    "jobProfit" : 132,
+    "startTime" : 405,
+    "finishTime" : 537,
+    "jobsOnMachine" : [ 8, 4, 12, 10, 6, 3, 5 ]
+  }, {
+    "jobNumber" : 698,
+    "jobProfit" : 331,
+    "startTime" : 300,
+    "finishTime" : 631,
+    "jobsOnMachine" : [ 3, 11, 13, 14 ]
+  }, {
+    "jobNumber" : 699,
+    "jobProfit" : 76,
+    "startTime" : 531,
+    "finishTime" : 607,
+    "jobsOnMachine" : [ 1, 19 ]
+  }, {
+    "jobNumber" : 700,
+    "jobProfit" : 85,
+    "startTime" : 786,
+    "finishTime" : 871,
+    "jobsOnMachine" : [ 4, 16, 15 ]
+  }, {
+    "jobNumber" : 701,
+    "jobProfit" : 799,
+    "startTime" : 107,
+    "finishTime" : 906,
+    "jobsOnMachine" : [ 6, 7, 20, 14, 10, 12, 5, 15, 17 ]
+  }, {
+    "jobNumber" : 702,
+    "jobProfit" : 42,
+    "startTime" : 895,
+    "finishTime" : 937,
+    "jobsOnMachine" : [ 14, 2, 6, 13, 11, 9, 18, 12, 1, 8 ]
+  }, {
+    "jobNumber" : 703,
+    "jobProfit" : 141,
+    "startTime" : 592,
+    "finishTime" : 733,
+    "jobsOnMachine" : [ 19, 18, 16, 14 ]
+  }, {
+    "jobNumber" : 704,
+    "jobProfit" : 216,
+    "startTime" : 666,
+    "finishTime" : 882,
+    "jobsOnMachine" : [ 13, 8, 9, 1 ]
+  }, {
+    "jobNumber" : 705,
+    "jobProfit" : 173,
+    "startTime" : 548,
+    "finishTime" : 721,
+    "jobsOnMachine" : [ 10, 20, 15, 7, 11, 9, 2, 3, 1 ]
+  }, {
+    "jobNumber" : 706,
+    "jobProfit" : 45,
+    "startTime" : 275,
+    "finishTime" : 320,
+    "jobsOnMachine" : [ 2, 10, 15, 8, 3, 20, 4, 18, 7, 17 ]
+  }, {
+    "jobNumber" : 707,
+    "jobProfit" : 901,
+    "startTime" : 52,
+    "finishTime" : 953,
+    "jobsOnMachine" : [ 20, 12, 14, 3, 16, 5 ]
+  }, {
+    "jobNumber" : 708,
+    "jobProfit" : 622,
+    "startTime" : 179,
+    "finishTime" : 801,
+    "jobsOnMachine" : [ 19, 16, 7, 1, 4 ]
+  }, {
+    "jobNumber" : 709,
+    "jobProfit" : 3,
+    "startTime" : 190,
+    "finishTime" : 193,
+    "jobsOnMachine" : [ 4, 10, 15, 9, 16, 20, 13, 5 ]
+  }, {
+    "jobNumber" : 710,
+    "jobProfit" : 717,
+    "startTime" : 257,
+    "finishTime" : 974,
+    "jobsOnMachine" : [ 19, 1, 5, 12, 14, 7, 3, 18, 11 ]
+  }, {
+    "jobNumber" : 711,
+    "jobProfit" : 479,
+    "startTime" : 253,
+    "finishTime" : 732,
+    "jobsOnMachine" : [ 9, 18, 8 ]
+  }, {
+    "jobNumber" : 712,
+    "jobProfit" : 77,
+    "startTime" : 736,
+    "finishTime" : 813,
+    "jobsOnMachine" : [ 6, 14, 10, 8, 16, 13, 11 ]
+  }, {
+    "jobNumber" : 713,
+    "jobProfit" : 158,
+    "startTime" : 705,
+    "finishTime" : 863,
+    "jobsOnMachine" : [ 11 ]
+  }, {
+    "jobNumber" : 714,
+    "jobProfit" : 490,
+    "startTime" : 283,
+    "finishTime" : 773,
+    "jobsOnMachine" : [ 6, 12 ]
+  }, {
+    "jobNumber" : 715,
+    "jobProfit" : 286,
+    "startTime" : 512,
+    "finishTime" : 798,
+    "jobsOnMachine" : [ 3, 1, 5 ]
+  }, {
+    "jobNumber" : 716,
+    "jobProfit" : 125,
+    "startTime" : 495,
+    "finishTime" : 620,
+    "jobsOnMachine" : [ 3, 5, 17, 4, 10, 20, 19 ]
+  }, {
+    "jobNumber" : 717,
+    "jobProfit" : 89,
+    "startTime" : 34,
+    "finishTime" : 123,
+    "jobsOnMachine" : [ 2, 11, 7, 15, 1, 16, 12, 3 ]
+  }, {
+    "jobNumber" : 718,
+    "jobProfit" : 150,
+    "startTime" : 133,
+    "finishTime" : 283,
+    "jobsOnMachine" : [ 13, 12, 3, 14 ]
+  }, {
+    "jobNumber" : 719,
+    "jobProfit" : 91,
+    "startTime" : 688,
+    "finishTime" : 779,
+    "jobsOnMachine" : [ 4, 16, 18, 5, 7, 12, 10, 20, 13 ]
+  }, {
+    "jobNumber" : 720,
+    "jobProfit" : 469,
+    "startTime" : 225,
+    "finishTime" : 694,
+    "jobsOnMachine" : [ 18, 4, 11, 6, 5, 1 ]
+  }, {
+    "jobNumber" : 721,
+    "jobProfit" : 220,
+    "startTime" : 561,
+    "finishTime" : 781,
+    "jobsOnMachine" : [ 11, 17, 6, 2, 5, 1, 8, 7, 16 ]
+  }, {
+    "jobNumber" : 722,
+    "jobProfit" : 144,
+    "startTime" : 191,
+    "finishTime" : 335,
+    "jobsOnMachine" : [ 14, 6, 2, 15, 18, 9, 8, 1, 11 ]
+  }, {
+    "jobNumber" : 723,
+    "jobProfit" : 82,
+    "startTime" : 474,
+    "finishTime" : 556,
+    "jobsOnMachine" : [ 16, 9, 17, 19, 5, 14, 8, 1, 2 ]
+  }, {
+    "jobNumber" : 724,
+    "jobProfit" : 91,
+    "startTime" : 824,
+    "finishTime" : 915,
+    "jobsOnMachine" : [ 2, 3 ]
+  }, {
+    "jobNumber" : 725,
+    "jobProfit" : 79,
+    "startTime" : 287,
+    "finishTime" : 366,
+    "jobsOnMachine" : [ 1, 15, 16, 4, 9, 10, 14, 18 ]
+  }, {
+    "jobNumber" : 726,
+    "jobProfit" : 131,
+    "startTime" : 851,
+    "finishTime" : 982,
+    "jobsOnMachine" : [ 12, 3, 19, 18, 16, 2 ]
+  }, {
+    "jobNumber" : 727,
+    "jobProfit" : 10,
+    "startTime" : 848,
+    "finishTime" : 858,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 728,
+    "jobProfit" : 129,
+    "startTime" : 826,
+    "finishTime" : 955,
+    "jobsOnMachine" : [ 14, 10, 9 ]
+  }, {
+    "jobNumber" : 729,
+    "jobProfit" : 270,
+    "startTime" : 689,
+    "finishTime" : 959,
+    "jobsOnMachine" : [ 10, 3, 17 ]
+  }, {
+    "jobNumber" : 730,
+    "jobProfit" : 10,
+    "startTime" : 965,
+    "finishTime" : 975,
+    "jobsOnMachine" : [ 16, 11, 12, 19, 6, 7, 14, 13, 20 ]
+  }, {
+    "jobNumber" : 731,
+    "jobProfit" : 458,
+    "startTime" : 442,
+    "finishTime" : 900,
+    "jobsOnMachine" : [ 12, 20, 6, 13 ]
+  }, {
+    "jobNumber" : 732,
+    "jobProfit" : 133,
+    "startTime" : 802,
+    "finishTime" : 935,
+    "jobsOnMachine" : [ 15, 6, 9, 5, 20, 16 ]
+  }, {
+    "jobNumber" : 733,
+    "jobProfit" : 1,
+    "startTime" : 997,
+    "finishTime" : 998,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 734,
+    "jobProfit" : 323,
+    "startTime" : 14,
+    "finishTime" : 337,
+    "jobsOnMachine" : [ 7, 6 ]
+  }, {
+    "jobNumber" : 735,
+    "jobProfit" : 96,
+    "startTime" : 874,
+    "finishTime" : 970,
+    "jobsOnMachine" : [ 20, 8, 16, 2, 7, 4, 12, 13, 5 ]
+  }, {
+    "jobNumber" : 736,
+    "jobProfit" : 424,
+    "startTime" : 240,
+    "finishTime" : 664,
+    "jobsOnMachine" : [ 8, 9, 1, 20, 7 ]
+  }, {
+    "jobNumber" : 737,
+    "jobProfit" : 513,
+    "startTime" : 480,
+    "finishTime" : 993,
+    "jobsOnMachine" : [ 16, 4 ]
+  }, {
+    "jobNumber" : 738,
+    "jobProfit" : 416,
+    "startTime" : 98,
+    "finishTime" : 514,
+    "jobsOnMachine" : [ 17, 4, 15, 7, 11, 6, 13, 2 ]
+  }, {
+    "jobNumber" : 739,
+    "jobProfit" : 135,
+    "startTime" : 865,
+    "finishTime" : 1000,
+    "jobsOnMachine" : [ 20, 5, 2, 18, 14, 10, 7, 9, 6, 19 ]
+  }, {
+    "jobNumber" : 740,
+    "jobProfit" : 293,
+    "startTime" : 116,
+    "finishTime" : 409,
+    "jobsOnMachine" : [ 9, 5, 6, 13, 8, 20, 11, 16 ]
+  }, {
+    "jobNumber" : 741,
+    "jobProfit" : 462,
+    "startTime" : 210,
+    "finishTime" : 672,
+    "jobsOnMachine" : [ 3, 7, 10 ]
+  }, {
+    "jobNumber" : 742,
+    "jobProfit" : 729,
+    "startTime" : 261,
+    "finishTime" : 990,
+    "jobsOnMachine" : [ 2 ]
+  }, {
+    "jobNumber" : 743,
+    "jobProfit" : 64,
+    "startTime" : 570,
+    "finishTime" : 634,
+    "jobsOnMachine" : [ 18, 7, 13, 15, 20, 4, 3 ]
+  }, {
+    "jobNumber" : 744,
+    "jobProfit" : 981,
+    "startTime" : 1,
+    "finishTime" : 982,
+    "jobsOnMachine" : [ 2, 17, 13, 18, 6 ]
+  }, {
+    "jobNumber" : 745,
+    "jobProfit" : 17,
+    "startTime" : 950,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 13, 9, 14, 1, 4 ]
+  }, {
+    "jobNumber" : 746,
+    "jobProfit" : 448,
+    "startTime" : 93,
+    "finishTime" : 541,
+    "jobsOnMachine" : [ 4, 14, 20, 7, 17 ]
+  }, {
+    "jobNumber" : 747,
+    "jobProfit" : 251,
+    "startTime" : 701,
+    "finishTime" : 952,
+    "jobsOnMachine" : [ 2, 4 ]
+  }, {
+    "jobNumber" : 748,
+    "jobProfit" : 11,
+    "startTime" : 121,
+    "finishTime" : 132,
+    "jobsOnMachine" : [ 2, 4, 14, 19, 3, 12, 17 ]
+  }, {
+    "jobNumber" : 749,
+    "jobProfit" : 45,
+    "startTime" : 928,
+    "finishTime" : 973,
+    "jobsOnMachine" : [ 20, 18 ]
+  }, {
+    "jobNumber" : 750,
+    "jobProfit" : 869,
+    "startTime" : 98,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 18, 2, 20, 7 ]
+  }, {
+    "jobNumber" : 751,
+    "jobProfit" : 246,
+    "startTime" : 190,
+    "finishTime" : 436,
+    "jobsOnMachine" : [ 17, 18, 2, 7, 8 ]
+  }, {
+    "jobNumber" : 752,
+    "jobProfit" : 512,
+    "startTime" : 429,
+    "finishTime" : 941,
+    "jobsOnMachine" : [ 18, 15, 13 ]
+  }, {
+    "jobNumber" : 753,
+    "jobProfit" : 222,
+    "startTime" : 403,
+    "finishTime" : 625,
+    "jobsOnMachine" : [ 9, 5, 7 ]
+  }, {
+    "jobNumber" : 754,
+    "jobProfit" : 824,
+    "startTime" : 15,
+    "finishTime" : 839,
+    "jobsOnMachine" : [ 13, 11, 6, 15, 5, 12 ]
+  }, {
+    "jobNumber" : 755,
+    "jobProfit" : 211,
+    "startTime" : 628,
+    "finishTime" : 839,
+    "jobsOnMachine" : [ 13, 12, 18, 1, 3, 8, 11 ]
+  }, {
+    "jobNumber" : 756,
+    "jobProfit" : 56,
+    "startTime" : 687,
+    "finishTime" : 743,
+    "jobsOnMachine" : [ 7, 17, 13, 15, 12, 14 ]
+  }, {
+    "jobNumber" : 757,
+    "jobProfit" : 131,
+    "startTime" : 670,
+    "finishTime" : 801,
+    "jobsOnMachine" : [ 20 ]
+  }, {
+    "jobNumber" : 758,
+    "jobProfit" : 10,
+    "startTime" : 676,
+    "finishTime" : 686,
+    "jobsOnMachine" : [ 2, 1, 5, 12, 13, 4, 19, 9 ]
+  }, {
+    "jobNumber" : 759,
+    "jobProfit" : 75,
+    "startTime" : 815,
+    "finishTime" : 890,
+    "jobsOnMachine" : [ 20 ]
+  }, {
+    "jobNumber" : 760,
+    "jobProfit" : 47,
+    "startTime" : 776,
+    "finishTime" : 823,
+    "jobsOnMachine" : [ 16, 13 ]
+  }, {
+    "jobNumber" : 761,
+    "jobProfit" : 119,
+    "startTime" : 622,
+    "finishTime" : 741,
+    "jobsOnMachine" : [ 2, 1, 14, 6, 20, 11, 4, 8, 10 ]
+  }, {
+    "jobNumber" : 762,
+    "jobProfit" : 439,
+    "startTime" : 459,
+    "finishTime" : 898,
+    "jobsOnMachine" : [ 5, 11, 10, 8, 2, 18, 19, 3 ]
+  }, {
+    "jobNumber" : 763,
+    "jobProfit" : 152,
+    "startTime" : 785,
+    "finishTime" : 937,
+    "jobsOnMachine" : [ 17 ]
+  }, {
+    "jobNumber" : 764,
+    "jobProfit" : 230,
+    "startTime" : 165,
+    "finishTime" : 395,
+    "jobsOnMachine" : [ 17, 15, 14, 3, 4, 13, 18 ]
+  }, {
+    "jobNumber" : 765,
+    "jobProfit" : 154,
+    "startTime" : 764,
+    "finishTime" : 918,
+    "jobsOnMachine" : [ 6, 18, 5, 19, 8, 1 ]
+  }, {
+    "jobNumber" : 766,
+    "jobProfit" : 380,
+    "startTime" : 472,
+    "finishTime" : 852,
+    "jobsOnMachine" : [ 14, 16, 7, 2, 9, 19, 18, 20, 15, 11 ]
+  }, {
+    "jobNumber" : 767,
+    "jobProfit" : 338,
+    "startTime" : 499,
+    "finishTime" : 837,
+    "jobsOnMachine" : [ 1, 17, 5, 16, 14, 9 ]
+  }, {
+    "jobNumber" : 768,
+    "jobProfit" : 16,
+    "startTime" : 974,
+    "finishTime" : 990,
+    "jobsOnMachine" : [ 8, 19, 2, 11, 3 ]
+  }, {
+    "jobNumber" : 769,
+    "jobProfit" : 271,
+    "startTime" : 105,
+    "finishTime" : 376,
+    "jobsOnMachine" : [ 3, 15, 16 ]
+  }, {
+    "jobNumber" : 770,
+    "jobProfit" : 302,
+    "startTime" : 384,
+    "finishTime" : 686,
+    "jobsOnMachine" : [ 2, 14, 8, 4, 7, 13, 16 ]
+  }, {
+    "jobNumber" : 771,
+    "jobProfit" : 60,
+    "startTime" : 920,
+    "finishTime" : 980,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 772,
+    "jobProfit" : 681,
+    "startTime" : 117,
+    "finishTime" : 798,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 773,
+    "jobProfit" : 165,
+    "startTime" : 417,
+    "finishTime" : 582,
+    "jobsOnMachine" : [ 14, 12, 8 ]
+  }, {
+    "jobNumber" : 774,
+    "jobProfit" : 571,
+    "startTime" : 45,
+    "finishTime" : 616,
+    "jobsOnMachine" : [ 8 ]
+  }, {
+    "jobNumber" : 775,
+    "jobProfit" : 434,
+    "startTime" : 226,
+    "finishTime" : 660,
+    "jobsOnMachine" : [ 2, 12, 13, 19, 15, 11 ]
+  }, {
+    "jobNumber" : 776,
+    "jobProfit" : 406,
+    "startTime" : 126,
+    "finishTime" : 532,
+    "jobsOnMachine" : [ 19, 9, 20, 14, 17, 13 ]
+  }, {
+    "jobNumber" : 777,
+    "jobProfit" : 107,
+    "startTime" : 792,
+    "finishTime" : 899,
+    "jobsOnMachine" : [ 4, 20, 13, 8, 1 ]
+  }, {
+    "jobNumber" : 778,
+    "jobProfit" : 179,
+    "startTime" : 721,
+    "finishTime" : 900,
+    "jobsOnMachine" : [ 5, 2 ]
+  }, {
+    "jobNumber" : 779,
+    "jobProfit" : 435,
+    "startTime" : 211,
+    "finishTime" : 646,
+    "jobsOnMachine" : [ 16, 11, 4, 6, 10, 3 ]
+  }, {
+    "jobNumber" : 780,
+    "jobProfit" : 46,
+    "startTime" : 861,
+    "finishTime" : 907,
+    "jobsOnMachine" : [ 18, 1, 10, 11, 3, 8, 13 ]
+  }, {
+    "jobNumber" : 781,
+    "jobProfit" : 645,
+    "startTime" : 260,
+    "finishTime" : 905,
+    "jobsOnMachine" : [ 13, 18, 4, 15, 16, 12, 3, 20, 14 ]
+  }, {
+    "jobNumber" : 782,
+    "jobProfit" : 314,
+    "startTime" : 244,
+    "finishTime" : 558,
+    "jobsOnMachine" : [ 14, 16, 15, 2, 1, 12, 18, 5, 6 ]
+  }, {
+    "jobNumber" : 783,
+    "jobProfit" : 43,
+    "startTime" : 516,
+    "finishTime" : 559,
+    "jobsOnMachine" : [ 11, 10, 16, 9, 8, 5, 20, 13, 4 ]
+  }, {
+    "jobNumber" : 784,
+    "jobProfit" : 139,
+    "startTime" : 46,
+    "finishTime" : 185,
+    "jobsOnMachine" : [ 9, 14, 10, 6, 13, 12, 1, 5 ]
+  }, {
+    "jobNumber" : 785,
+    "jobProfit" : 19,
+    "startTime" : 948,
+    "finishTime" : 967,
+    "jobsOnMachine" : [ 19, 13, 12, 20 ]
+  }, {
+    "jobNumber" : 786,
+    "jobProfit" : 8,
+    "startTime" : 981,
+    "finishTime" : 989,
+    "jobsOnMachine" : [ 10, 12, 6, 11, 4, 20, 14, 16, 1 ]
+  }, {
+    "jobNumber" : 787,
+    "jobProfit" : 149,
+    "startTime" : 354,
+    "finishTime" : 503,
+    "jobsOnMachine" : [ 3, 4, 18, 19, 11, 10, 6, 2 ]
+  }, {
+    "jobNumber" : 788,
+    "jobProfit" : 28,
+    "startTime" : 574,
+    "finishTime" : 602,
+    "jobsOnMachine" : [ 17, 10, 3 ]
+  }, {
+    "jobNumber" : 789,
+    "jobProfit" : 578,
+    "startTime" : 414,
+    "finishTime" : 992,
+    "jobsOnMachine" : [ 10, 7, 19, 14, 18, 16 ]
+  }, {
+    "jobNumber" : 790,
+    "jobProfit" : 94,
+    "startTime" : 853,
+    "finishTime" : 947,
+    "jobsOnMachine" : [ 13, 1, 2, 3, 19, 4, 20, 5 ]
+  }, {
+    "jobNumber" : 791,
+    "jobProfit" : 2,
+    "startTime" : 968,
+    "finishTime" : 970,
+    "jobsOnMachine" : [ 7, 11, 1, 18, 4, 9, 2, 15, 17 ]
+  }, {
+    "jobNumber" : 792,
+    "jobProfit" : 396,
+    "startTime" : 413,
+    "finishTime" : 809,
+    "jobsOnMachine" : [ 10, 1, 12, 7, 14, 8, 3, 4, 16 ]
+  }, {
+    "jobNumber" : 793,
+    "jobProfit" : 176,
+    "startTime" : 50,
+    "finishTime" : 226,
+    "jobsOnMachine" : [ 8, 18, 9, 14, 4, 12, 7 ]
+  }, {
+    "jobNumber" : 794,
+    "jobProfit" : 90,
+    "startTime" : 704,
+    "finishTime" : 794,
+    "jobsOnMachine" : [ 13, 6, 8, 11, 10, 5, 14, 17, 2 ]
+  }, {
+    "jobNumber" : 795,
+    "jobProfit" : 183,
+    "startTime" : 690,
+    "finishTime" : 873,
+    "jobsOnMachine" : [ 1, 19, 14, 12, 10, 11, 3 ]
+  }, {
+    "jobNumber" : 796,
+    "jobProfit" : 82,
+    "startTime" : 908,
+    "finishTime" : 990,
+    "jobsOnMachine" : [ 8, 12, 16, 14, 10, 17, 20, 4, 3, 15 ]
+  }, {
+    "jobNumber" : 797,
+    "jobProfit" : 78,
+    "startTime" : 379,
+    "finishTime" : 457,
+    "jobsOnMachine" : [ 4, 14, 8, 19, 9, 2, 12, 13 ]
+  }, {
+    "jobNumber" : 798,
+    "jobProfit" : 145,
+    "startTime" : 172,
+    "finishTime" : 317,
+    "jobsOnMachine" : [ 18 ]
+  }, {
+    "jobNumber" : 799,
+    "jobProfit" : 27,
+    "startTime" : 688,
+    "finishTime" : 715,
+    "jobsOnMachine" : [ 19 ]
+  }, {
+    "jobNumber" : 800,
+    "jobProfit" : 15,
+    "startTime" : 722,
+    "finishTime" : 737,
+    "jobsOnMachine" : [ 18, 4, 1 ]
+  }, {
+    "jobNumber" : 801,
+    "jobProfit" : 115,
+    "startTime" : 664,
+    "finishTime" : 779,
+    "jobsOnMachine" : [ 9, 15, 20, 1, 17, 11, 3 ]
+  }, {
+    "jobNumber" : 802,
+    "jobProfit" : 119,
+    "startTime" : 879,
+    "finishTime" : 998,
+    "jobsOnMachine" : [ 17, 5, 15, 4 ]
+  }, {
+    "jobNumber" : 803,
+    "jobProfit" : 521,
+    "startTime" : 181,
+    "finishTime" : 702,
+    "jobsOnMachine" : [ 12, 5 ]
+  }, {
+    "jobNumber" : 804,
+    "jobProfit" : 184,
+    "startTime" : 752,
+    "finishTime" : 936,
+    "jobsOnMachine" : [ 3 ]
+  }, {
+    "jobNumber" : 805,
+    "jobProfit" : 42,
+    "startTime" : 770,
+    "finishTime" : 812,
+    "jobsOnMachine" : [ 2, 14, 9, 13 ]
+  }, {
+    "jobNumber" : 806,
+    "jobProfit" : 164,
+    "startTime" : 330,
+    "finishTime" : 494,
+    "jobsOnMachine" : [ 5, 2, 16, 18, 4 ]
+  }, {
+    "jobNumber" : 807,
+    "jobProfit" : 81,
+    "startTime" : 350,
+    "finishTime" : 431,
+    "jobsOnMachine" : [ 10, 3, 7, 8 ]
+  }, {
+    "jobNumber" : 808,
+    "jobProfit" : 496,
+    "startTime" : 228,
+    "finishTime" : 724,
+    "jobsOnMachine" : [ 20, 19, 9, 3, 2 ]
+  }, {
+    "jobNumber" : 809,
+    "jobProfit" : 18,
+    "startTime" : 958,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 10, 3, 7, 19, 11, 16, 4, 12 ]
+  }, {
+    "jobNumber" : 810,
+    "jobProfit" : 7,
+    "startTime" : 278,
+    "finishTime" : 285,
+    "jobsOnMachine" : [ 9, 15, 11 ]
+  }, {
+    "jobNumber" : 811,
+    "jobProfit" : 479,
+    "startTime" : 433,
+    "finishTime" : 912,
+    "jobsOnMachine" : [ 10, 4, 19 ]
+  }, {
+    "jobNumber" : 812,
+    "jobProfit" : 207,
+    "startTime" : 373,
+    "finishTime" : 580,
+    "jobsOnMachine" : [ 7, 18 ]
+  }, {
+    "jobNumber" : 813,
+    "jobProfit" : 97,
+    "startTime" : 830,
+    "finishTime" : 927,
+    "jobsOnMachine" : [ 8, 13, 7, 12, 4 ]
+  }, {
+    "jobNumber" : 814,
+    "jobProfit" : 518,
+    "startTime" : 477,
+    "finishTime" : 995,
+    "jobsOnMachine" : [ 3, 11, 5, 17 ]
+  }, {
+    "jobNumber" : 815,
+    "jobProfit" : 241,
+    "startTime" : 421,
+    "finishTime" : 662,
+    "jobsOnMachine" : [ 12 ]
+  }, {
+    "jobNumber" : 816,
+    "jobProfit" : 4,
+    "startTime" : 953,
+    "finishTime" : 957,
+    "jobsOnMachine" : [ 3, 17, 5, 16 ]
+  }, {
+    "jobNumber" : 817,
+    "jobProfit" : 91,
+    "startTime" : 884,
+    "finishTime" : 975,
+    "jobsOnMachine" : [ 18, 19, 6, 20 ]
+  }, {
+    "jobNumber" : 818,
+    "jobProfit" : 501,
+    "startTime" : 327,
+    "finishTime" : 828,
+    "jobsOnMachine" : [ 10 ]
+  }, {
+    "jobNumber" : 819,
+    "jobProfit" : 214,
+    "startTime" : 762,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 4 ]
+  }, {
+    "jobNumber" : 820,
+    "jobProfit" : 700,
+    "startTime" : 214,
+    "finishTime" : 914,
+    "jobsOnMachine" : [ 14, 10, 7 ]
+  }, {
+    "jobNumber" : 821,
+    "jobProfit" : 278,
+    "startTime" : 528,
+    "finishTime" : 806,
+    "jobsOnMachine" : [ 14, 6, 17, 11, 4 ]
+  }, {
+    "jobNumber" : 822,
+    "jobProfit" : 662,
+    "startTime" : 6,
+    "finishTime" : 668,
+    "jobsOnMachine" : [ 11, 2, 16 ]
+  }, {
+    "jobNumber" : 823,
+    "jobProfit" : 755,
+    "startTime" : 113,
+    "finishTime" : 868,
+    "jobsOnMachine" : [ 2, 6, 4, 18 ]
+  }, {
+    "jobNumber" : 824,
+    "jobProfit" : 203,
+    "startTime" : 122,
+    "finishTime" : 325,
+    "jobsOnMachine" : [ 14, 13, 19, 1, 6, 18, 12, 3 ]
+  }, {
+    "jobNumber" : 825,
+    "jobProfit" : 324,
+    "startTime" : 557,
+    "finishTime" : 881,
+    "jobsOnMachine" : [ 3, 16, 4, 20, 6 ]
+  }, {
+    "jobNumber" : 826,
+    "jobProfit" : 761,
+    "startTime" : 220,
+    "finishTime" : 981,
+    "jobsOnMachine" : [ 15 ]
+  }, {
+    "jobNumber" : 827,
+    "jobProfit" : 6,
+    "startTime" : 101,
+    "finishTime" : 107,
+    "jobsOnMachine" : [ 19, 9, 17 ]
+  }, {
+    "jobNumber" : 828,
+    "jobProfit" : 285,
+    "startTime" : 400,
+    "finishTime" : 685,
+    "jobsOnMachine" : [ 12, 17, 19, 2, 15, 8, 14 ]
+  }, {
+    "jobNumber" : 829,
+    "jobProfit" : 1,
+    "startTime" : 671,
+    "finishTime" : 672,
+    "jobsOnMachine" : [ 9, 8, 4, 11, 18, 14, 3, 17 ]
+  }, {
+    "jobNumber" : 830,
+    "jobProfit" : 7,
+    "startTime" : 840,
+    "finishTime" : 847,
+    "jobsOnMachine" : [ 7, 1, 2, 15, 4 ]
+  }, {
+    "jobNumber" : 831,
+    "jobProfit" : 141,
+    "startTime" : 227,
+    "finishTime" : 368,
+    "jobsOnMachine" : [ 18, 20, 9, 2, 15, 10, 6, 17, 14, 12 ]
+  }, {
+    "jobNumber" : 832,
+    "jobProfit" : 373,
+    "startTime" : 98,
+    "finishTime" : 471,
+    "jobsOnMachine" : [ 7, 12, 2, 10, 14 ]
+  }, {
+    "jobNumber" : 833,
+    "jobProfit" : 91,
+    "startTime" : 71,
+    "finishTime" : 162,
+    "jobsOnMachine" : [ 19, 3, 5, 15, 20, 8, 10, 11 ]
+  }, {
+    "jobNumber" : 834,
+    "jobProfit" : 72,
+    "startTime" : 777,
+    "finishTime" : 849,
+    "jobsOnMachine" : [ 15, 17, 18, 6, 10, 11, 7, 13, 2 ]
+  }, {
+    "jobNumber" : 835,
+    "jobProfit" : 54,
+    "startTime" : 929,
+    "finishTime" : 983,
+    "jobsOnMachine" : [ 16, 4, 15, 1, 10, 9 ]
+  }, {
+    "jobNumber" : 836,
+    "jobProfit" : 14,
+    "startTime" : 446,
+    "finishTime" : 460,
+    "jobsOnMachine" : [ 2, 16, 15, 20, 17, 3, 1, 12, 6 ]
+  }, {
+    "jobNumber" : 837,
+    "jobProfit" : 499,
+    "startTime" : 310,
+    "finishTime" : 809,
+    "jobsOnMachine" : [ 16, 14, 15, 4, 8, 5, 18, 9 ]
+  }, {
+    "jobNumber" : 838,
+    "jobProfit" : 108,
+    "startTime" : 5,
+    "finishTime" : 113,
+    "jobsOnMachine" : [ 9, 8, 3, 6 ]
+  }, {
+    "jobNumber" : 839,
+    "jobProfit" : 34,
+    "startTime" : 952,
+    "finishTime" : 986,
+    "jobsOnMachine" : [ 16, 15, 17, 18, 5, 6, 4, 12 ]
+  }, {
+    "jobNumber" : 840,
+    "jobProfit" : 314,
+    "startTime" : 311,
+    "finishTime" : 625,
+    "jobsOnMachine" : [ 9, 1 ]
+  }, {
+    "jobNumber" : 841,
+    "jobProfit" : 16,
+    "startTime" : 980,
+    "finishTime" : 996,
+    "jobsOnMachine" : [ 11, 15, 5, 2, 4, 19, 17, 3, 7 ]
+  }, {
+    "jobNumber" : 842,
+    "jobProfit" : 211,
+    "startTime" : 620,
+    "finishTime" : 831,
+    "jobsOnMachine" : [ 19 ]
+  }, {
+    "jobNumber" : 843,
+    "jobProfit" : 39,
+    "startTime" : 722,
+    "finishTime" : 761,
+    "jobsOnMachine" : [ 3, 14, 10, 15, 1, 9, 12 ]
+  }, {
+    "jobNumber" : 844,
+    "jobProfit" : 663,
+    "startTime" : 306,
+    "finishTime" : 969,
+    "jobsOnMachine" : [ 7, 14, 17, 3, 8, 5, 4, 18 ]
+  }, {
+    "jobNumber" : 845,
+    "jobProfit" : 217,
+    "startTime" : 621,
+    "finishTime" : 838,
+    "jobsOnMachine" : [ 13 ]
+  }, {
+    "jobNumber" : 846,
+    "jobProfit" : 126,
+    "startTime" : 319,
+    "finishTime" : 445,
+    "jobsOnMachine" : [ 17, 11, 4, 13, 6 ]
+  }, {
+    "jobNumber" : 847,
+    "jobProfit" : 106,
+    "startTime" : 370,
+    "finishTime" : 476,
+    "jobsOnMachine" : [ 4 ]
+  }, {
+    "jobNumber" : 848,
+    "jobProfit" : 97,
+    "startTime" : 822,
+    "finishTime" : 919,
+    "jobsOnMachine" : [ 16, 13, 12, 14, 17, 8 ]
+  }, {
+    "jobNumber" : 849,
+    "jobProfit" : 531,
+    "startTime" : 136,
+    "finishTime" : 667,
+    "jobsOnMachine" : [ 3, 10, 1, 5, 2, 12, 19 ]
+  }, {
+    "jobNumber" : 850,
+    "jobProfit" : 16,
+    "startTime" : 9,
+    "finishTime" : 25,
+    "jobsOnMachine" : [ 5, 18, 20, 8, 14, 3, 6, 13, 4 ]
+  }, {
+    "jobNumber" : 851,
+    "jobProfit" : 609,
+    "startTime" : 279,
+    "finishTime" : 888,
+    "jobsOnMachine" : [ 7, 1, 14, 9, 16 ]
+  }, {
+    "jobNumber" : 852,
+    "jobProfit" : 467,
+    "startTime" : 158,
+    "finishTime" : 625,
+    "jobsOnMachine" : [ 9, 17, 7 ]
+  }, {
+    "jobNumber" : 853,
+    "jobProfit" : 42,
+    "startTime" : 940,
+    "finishTime" : 982,
+    "jobsOnMachine" : [ 7, 9, 18, 3, 12, 10, 1, 20, 13 ]
+  }, {
+    "jobNumber" : 854,
+    "jobProfit" : 105,
+    "startTime" : 883,
+    "finishTime" : 988,
+    "jobsOnMachine" : [ 9 ]
+  }, {
+    "jobNumber" : 855,
+    "jobProfit" : 374,
+    "startTime" : 158,
+    "finishTime" : 532,
+    "jobsOnMachine" : [ 11, 13, 1, 19, 6, 8, 5 ]
+  }, {
+    "jobNumber" : 856,
+    "jobProfit" : 26,
+    "startTime" : 701,
+    "finishTime" : 727,
+    "jobsOnMachine" : [ 15, 5, 6, 3 ]
+  }, {
+    "jobNumber" : 857,
+    "jobProfit" : 9,
+    "startTime" : 888,
+    "finishTime" : 897,
+    "jobsOnMachine" : [ 10, 12, 5, 17 ]
+  }, {
+    "jobNumber" : 858,
+    "jobProfit" : 306,
+    "startTime" : 367,
+    "finishTime" : 673,
+    "jobsOnMachine" : [ 5, 7, 17 ]
+  }, {
+    "jobNumber" : 859,
+    "jobProfit" : 361,
+    "startTime" : 204,
+    "finishTime" : 565,
+    "jobsOnMachine" : [ 9, 11, 1, 16 ]
+  }, {
+    "jobNumber" : 860,
+    "jobProfit" : 604,
+    "startTime" : 372,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 8, 20 ]
+  }, {
+    "jobNumber" : 861,
+    "jobProfit" : 304,
+    "startTime" : 326,
+    "finishTime" : 630,
+    "jobsOnMachine" : [ 1, 16, 7, 3, 17, 9, 12, 18, 2 ]
+  }, {
+    "jobNumber" : 862,
+    "jobProfit" : 382,
+    "startTime" : 209,
+    "finishTime" : 591,
+    "jobsOnMachine" : [ 20, 7, 5, 15, 11, 9, 2 ]
+  }, {
+    "jobNumber" : 863,
+    "jobProfit" : 383,
+    "startTime" : 566,
+    "finishTime" : 949,
+    "jobsOnMachine" : [ 2, 12, 8, 20, 7, 4, 9 ]
+  }, {
+    "jobNumber" : 864,
+    "jobProfit" : 3,
+    "startTime" : 994,
+    "finishTime" : 997,
+    "jobsOnMachine" : [ 20, 9, 13, 11, 3 ]
+  }, {
+    "jobNumber" : 865,
+    "jobProfit" : 697,
+    "startTime" : 222,
+    "finishTime" : 919,
+    "jobsOnMachine" : [ 20, 2, 14, 12, 18, 1, 19 ]
+  }, {
+    "jobNumber" : 866,
+    "jobProfit" : 592,
+    "startTime" : 228,
+    "finishTime" : 820,
+    "jobsOnMachine" : [ 20, 10, 2, 15, 11, 3, 16 ]
+  }, {
+    "jobNumber" : 867,
+    "jobProfit" : 121,
+    "startTime" : 299,
+    "finishTime" : 420,
+    "jobsOnMachine" : [ 10, 17, 18, 16, 13, 15, 19, 12, 11 ]
+  }, {
+    "jobNumber" : 868,
+    "jobProfit" : 91,
+    "startTime" : 187,
+    "finishTime" : 278,
+    "jobsOnMachine" : [ 17, 9, 3, 8, 15, 4, 7, 19, 2 ]
+  }, {
+    "jobNumber" : 869,
+    "jobProfit" : 145,
+    "startTime" : 572,
+    "finishTime" : 717,
+    "jobsOnMachine" : [ 16, 13, 4, 7, 2, 18, 14, 10 ]
+  }, {
+    "jobNumber" : 870,
+    "jobProfit" : 38,
+    "startTime" : 491,
+    "finishTime" : 529,
+    "jobsOnMachine" : [ 11, 9 ]
+  }, {
+    "jobNumber" : 871,
+    "jobProfit" : 237,
+    "startTime" : 211,
+    "finishTime" : 448,
+    "jobsOnMachine" : [ 7, 18, 17, 8, 14, 19, 13 ]
+  }, {
+    "jobNumber" : 872,
+    "jobProfit" : 306,
+    "startTime" : 452,
+    "finishTime" : 758,
+    "jobsOnMachine" : [ 16 ]
+  }, {
+    "jobNumber" : 873,
+    "jobProfit" : 20,
+    "startTime" : 941,
+    "finishTime" : 961,
+    "jobsOnMachine" : [ 6 ]
+  }, {
+    "jobNumber" : 874,
+    "jobProfit" : 46,
+    "startTime" : 858,
+    "finishTime" : 904,
+    "jobsOnMachine" : [ 20, 3, 15, 1, 16, 17, 7, 19 ]
+  }, {
+    "jobNumber" : 875,
+    "jobProfit" : 90,
+    "startTime" : 890,
+    "finishTime" : 980,
+    "jobsOnMachine" : [ 11, 16, 10, 4, 8, 9 ]
+  }, {
+    "jobNumber" : 876,
+    "jobProfit" : 139,
+    "startTime" : 360,
+    "finishTime" : 499,
+    "jobsOnMachine" : [ 9, 20, 13 ]
+  }, {
+    "jobNumber" : 877,
+    "jobProfit" : 3,
+    "startTime" : 996,
+    "finishTime" : 999,
+    "jobsOnMachine" : [ 8, 11, 10 ]
+  }, {
+    "jobNumber" : 878,
+    "jobProfit" : 90,
+    "startTime" : 208,
+    "finishTime" : 298,
+    "jobsOnMachine" : [ 18, 11, 9, 15, 5, 13 ]
+  }, {
+    "jobNumber" : 879,
+    "jobProfit" : 323,
+    "startTime" : 240,
+    "finishTime" : 563,
+    "jobsOnMachine" : [ 13, 1, 15, 11, 6, 5, 8, 2 ]
+  }, {
+    "jobNumber" : 880,
+    "jobProfit" : 325,
+    "startTime" : 225,
+    "finishTime" : 550,
+    "jobsOnMachine" : [ 2, 10, 13, 12, 15, 3, 9, 11 ]
+  }, {
+    "jobNumber" : 881,
+    "jobProfit" : 289,
+    "startTime" : 214,
+    "finishTime" : 503,
+    "jobsOnMachine" : [ 1, 6, 11, 16, 19, 18, 14, 15, 7 ]
+  }, {
+    "jobNumber" : 882,
+    "jobProfit" : 418,
+    "startTime" : 436,
+    "finishTime" : 854,
+    "jobsOnMachine" : [ 2, 20, 16, 13, 4, 5, 1 ]
+  }, {
+    "jobNumber" : 883,
+    "jobProfit" : 114,
+    "startTime" : 786,
+    "finishTime" : 900,
+    "jobsOnMachine" : [ 13, 14, 19, 18 ]
+  }, {
+    "jobNumber" : 884,
+    "jobProfit" : 301,
+    "startTime" : 71,
+    "finishTime" : 372,
+    "jobsOnMachine" : [ 18, 6, 8, 16, 2, 4, 13 ]
+  }, {
+    "jobNumber" : 885,
+    "jobProfit" : 10,
+    "startTime" : 943,
+    "finishTime" : 953,
+    "jobsOnMachine" : [ 4, 17, 10, 8, 15 ]
+  }, {
+    "jobNumber" : 886,
+    "jobProfit" : 71,
+    "startTime" : 767,
+    "finishTime" : 838,
+    "jobsOnMachine" : [ 1, 5, 6, 3, 9, 17, 8, 4, 20, 2 ]
+  }, {
+    "jobNumber" : 887,
+    "jobProfit" : 101,
+    "startTime" : 875,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 18, 20, 1, 2, 19, 14 ]
+  }, {
+    "jobNumber" : 888,
+    "jobProfit" : 10,
+    "startTime" : 506,
+    "finishTime" : 516,
+    "jobsOnMachine" : [ 17, 5, 15, 10, 16, 20, 13, 9, 7 ]
+  }, {
+    "jobNumber" : 889,
+    "jobProfit" : 526,
+    "startTime" : 225,
+    "finishTime" : 751,
+    "jobsOnMachine" : [ 10, 1, 4 ]
+  }, {
+    "jobNumber" : 890,
+    "jobProfit" : 379,
+    "startTime" : 600,
+    "finishTime" : 979,
+    "jobsOnMachine" : [ 11, 10, 19, 16, 6, 9 ]
+  }, {
+    "jobNumber" : 891,
+    "jobProfit" : 147,
+    "startTime" : 844,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 7, 8, 12, 18 ]
+  }, {
+    "jobNumber" : 892,
+    "jobProfit" : 539,
+    "startTime" : 63,
+    "finishTime" : 602,
+    "jobsOnMachine" : [ 19, 7, 5, 10, 14, 15, 8 ]
+  }, {
+    "jobNumber" : 893,
+    "jobProfit" : 49,
+    "startTime" : 889,
+    "finishTime" : 938,
+    "jobsOnMachine" : [ 12, 15, 14, 20, 2, 16, 3 ]
+  }, {
+    "jobNumber" : 894,
+    "jobProfit" : 761,
+    "startTime" : 88,
+    "finishTime" : 849,
+    "jobsOnMachine" : [ 1, 7, 9, 20, 2, 18, 11, 17 ]
+  }, {
+    "jobNumber" : 895,
+    "jobProfit" : 103,
+    "startTime" : 877,
+    "finishTime" : 980,
+    "jobsOnMachine" : [ 18, 11 ]
+  }, {
+    "jobNumber" : 896,
+    "jobProfit" : 548,
+    "startTime" : 47,
+    "finishTime" : 595,
+    "jobsOnMachine" : [ 16, 19 ]
+  }, {
+    "jobNumber" : 897,
+    "jobProfit" : 29,
+    "startTime" : 963,
+    "finishTime" : 992,
+    "jobsOnMachine" : [ 20, 12, 18, 15, 17, 2, 14, 3, 16, 1 ]
+  }, {
+    "jobNumber" : 898,
+    "jobProfit" : 235,
+    "startTime" : 416,
+    "finishTime" : 651,
+    "jobsOnMachine" : [ 6, 20, 17, 9, 5, 15, 18, 16, 11 ]
+  }, {
+    "jobNumber" : 899,
+    "jobProfit" : 628,
+    "startTime" : 113,
+    "finishTime" : 741,
+    "jobsOnMachine" : [ 2, 3, 5, 15, 4, 8, 16, 6, 9 ]
+  }, {
+    "jobNumber" : 900,
+    "jobProfit" : 79,
+    "startTime" : 526,
+    "finishTime" : 605,
+    "jobsOnMachine" : [ 16, 1, 11, 14, 19, 7, 4 ]
+  }, {
+    "jobNumber" : 901,
+    "jobProfit" : 21,
+    "startTime" : 920,
+    "finishTime" : 941,
+    "jobsOnMachine" : [ 11 ]
+  }, {
+    "jobNumber" : 902,
+    "jobProfit" : 251,
+    "startTime" : 638,
+    "finishTime" : 889,
+    "jobsOnMachine" : [ 4, 14, 7, 5, 11, 12, 8, 9, 6, 10 ]
+  }, {
+    "jobNumber" : 903,
+    "jobProfit" : 136,
+    "startTime" : 626,
+    "finishTime" : 762,
+    "jobsOnMachine" : [ 3, 20, 9, 12, 13 ]
+  }, {
+    "jobNumber" : 904,
+    "jobProfit" : 24,
+    "startTime" : 945,
+    "finishTime" : 969,
+    "jobsOnMachine" : [ 2, 13, 5, 6, 17, 12, 3, 19, 4 ]
+  }, {
+    "jobNumber" : 905,
+    "jobProfit" : 49,
+    "startTime" : 274,
+    "finishTime" : 323,
+    "jobsOnMachine" : [ 12, 8, 4 ]
+  }, {
+    "jobNumber" : 906,
+    "jobProfit" : 98,
+    "startTime" : 893,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 2, 18, 14 ]
+  }, {
+    "jobNumber" : 907,
+    "jobProfit" : 176,
+    "startTime" : 801,
+    "finishTime" : 977,
+    "jobsOnMachine" : [ 4, 11, 7 ]
+  }, {
+    "jobNumber" : 908,
+    "jobProfit" : 278,
+    "startTime" : 464,
+    "finishTime" : 742,
+    "jobsOnMachine" : [ 1, 16, 7 ]
+  }, {
+    "jobNumber" : 909,
+    "jobProfit" : 10,
+    "startTime" : 871,
+    "finishTime" : 881,
+    "jobsOnMachine" : [ 1, 20 ]
+  }, {
+    "jobNumber" : 910,
+    "jobProfit" : 374,
+    "startTime" : 194,
+    "finishTime" : 568,
+    "jobsOnMachine" : [ 7, 8, 10 ]
+  }, {
+    "jobNumber" : 911,
+    "jobProfit" : 215,
+    "startTime" : 710,
+    "finishTime" : 925,
+    "jobsOnMachine" : [ 7, 10, 5, 6, 9, 2, 11, 13 ]
+  }, {
+    "jobNumber" : 912,
+    "jobProfit" : 637,
+    "startTime" : 85,
+    "finishTime" : 722,
+    "jobsOnMachine" : [ 13 ]
+  }, {
+    "jobNumber" : 913,
+    "jobProfit" : 424,
+    "startTime" : 437,
+    "finishTime" : 861,
+    "jobsOnMachine" : [ 4, 13, 19, 6, 18, 8 ]
+  }, {
+    "jobNumber" : 914,
+    "jobProfit" : 125,
+    "startTime" : 796,
+    "finishTime" : 921,
+    "jobsOnMachine" : [ 2, 4, 1, 6, 14, 8, 17, 15 ]
+  }, {
+    "jobNumber" : 915,
+    "jobProfit" : 11,
+    "startTime" : 626,
+    "finishTime" : 637,
+    "jobsOnMachine" : [ 16, 14, 6, 12, 7, 8 ]
+  }, {
+    "jobNumber" : 916,
+    "jobProfit" : 58,
+    "startTime" : 271,
+    "finishTime" : 329,
+    "jobsOnMachine" : [ 17, 1, 18, 16, 11, 7, 2, 12, 9 ]
+  }, {
+    "jobNumber" : 917,
+    "jobProfit" : 402,
+    "startTime" : 179,
+    "finishTime" : 581,
+    "jobsOnMachine" : [ 14, 10, 19, 11, 2, 18, 5, 17 ]
+  }, {
+    "jobNumber" : 918,
+    "jobProfit" : 355,
+    "startTime" : 285,
+    "finishTime" : 640,
+    "jobsOnMachine" : [ 7, 16, 5, 6, 17, 20, 15 ]
+  }, {
+    "jobNumber" : 919,
+    "jobProfit" : 8,
+    "startTime" : 992,
+    "finishTime" : 1000,
+    "jobsOnMachine" : [ 15, 10, 4, 5, 11, 16, 14, 12, 17, 3 ]
+  }, {
+    "jobNumber" : 920,
+    "jobProfit" : 13,
+    "startTime" : 616,
+    "finishTime" : 629,
+    "jobsOnMachine" : [ 3, 17, 19, 9, 6, 10, 15, 11 ]
+  }, {
+    "jobNumber" : 921,
+    "jobProfit" : 286,
+    "startTime" : 341,
+    "finishTime" : 627,
+    "jobsOnMachine" : [ 5, 3, 7, 20, 8, 1, 12, 11, 13, 9 ]
+  }, {
+    "jobNumber" : 922,
+    "jobProfit" : 3,
+    "startTime" : 849,
+    "finishTime" : 852,
+    "jobsOnMachine" : [ 1, 18 ]
+  }, {
+    "jobNumber" : 923,
+    "jobProfit" : 474,
+    "startTime" : 177,
+    "finishTime" : 651,
+    "jobsOnMachine" : [ 13, 15, 9 ]
+  }, {
+    "jobNumber" : 924,
+    "jobProfit" : 38,
+    "startTime" : 687,
+    "finishTime" : 725,
+    "jobsOnMachine" : [ 6, 20, 4 ]
+  }, {
+    "jobNumber" : 925,
+    "jobProfit" : 233,
+    "startTime" : 695,
+    "finishTime" : 928,
+    "jobsOnMachine" : [ 16, 6 ]
+  }, {
+    "jobNumber" : 926,
+    "jobProfit" : 272,
+    "startTime" : 314,
+    "finishTime" : 586,
+    "jobsOnMachine" : [ 2, 14 ]
+  }, {
+    "jobNumber" : 927,
+    "jobProfit" : 4,
+    "startTime" : 814,
+    "finishTime" : 818,
+    "jobsOnMachine" : [ 3, 8, 16, 5, 6 ]
+  }, {
+    "jobNumber" : 928,
+    "jobProfit" : 10,
+    "startTime" : 667,
+    "finishTime" : 677,
+    "jobsOnMachine" : [ 13, 15, 7 ]
+  }, {
+    "jobNumber" : 929,
+    "jobProfit" : 130,
+    "startTime" : 588,
+    "finishTime" : 718,
+    "jobsOnMachine" : [ 17, 6, 4 ]
+  }, {
+    "jobNumber" : 930,
+    "jobProfit" : 21,
+    "startTime" : 927,
+    "finishTime" : 948,
+    "jobsOnMachine" : [ 8, 10, 3, 9 ]
+  }, {
+    "jobNumber" : 931,
+    "jobProfit" : 560,
+    "startTime" : 195,
+    "finishTime" : 755,
+    "jobsOnMachine" : [ 12, 8, 18, 6, 17 ]
+  }, {
+    "jobNumber" : 932,
+    "jobProfit" : 513,
+    "startTime" : 0,
+    "finishTime" : 513,
+    "jobsOnMachine" : [ 10, 16, 12, 19, 11, 8, 1, 15, 17, 18 ]
+  }, {
+    "jobNumber" : 933,
+    "jobProfit" : 758,
+    "startTime" : 218,
+    "finishTime" : 976,
+    "jobsOnMachine" : [ 15, 10, 18, 14, 6, 16, 4, 11, 1, 20 ]
+  }, {
+    "jobNumber" : 934,
+    "jobProfit" : 444,
+    "startTime" : 350,
+    "finishTime" : 794,
+    "jobsOnMachine" : [ 10, 16, 6, 3, 2 ]
+  }, {
+    "jobNumber" : 935,
+    "jobProfit" : 628,
+    "startTime" : 198,
+    "finishTime" : 826,
+    "jobsOnMachine" : [ 9, 17, 4, 5, 12, 7 ]
+  }, {
+    "jobNumber" : 936,
+    "jobProfit" : 195,
+    "startTime" : 738,
+    "finishTime" : 933,
+    "jobsOnMachine" : [ 9, 7 ]
+  }, {
+    "jobNumber" : 937,
+    "jobProfit" : 386,
+    "startTime" : 202,
+    "finishTime" : 588,
+    "jobsOnMachine" : [ 12, 6, 2, 7, 20, 16, 13, 9 ]
+  }, {
+    "jobNumber" : 938,
+    "jobProfit" : 79,
+    "startTime" : 699,
+    "finishTime" : 778,
+    "jobsOnMachine" : [ 4, 16, 7, 6, 3, 13, 9, 12 ]
+  }, {
+    "jobNumber" : 939,
+    "jobProfit" : 243,
+    "startTime" : 725,
+    "finishTime" : 968,
+    "jobsOnMachine" : [ 12, 2, 20, 4, 15, 8, 6, 9 ]
+  }, {
+    "jobNumber" : 940,
+    "jobProfit" : 51,
+    "startTime" : 760,
+    "finishTime" : 811,
+    "jobsOnMachine" : [ 9, 1, 2, 7, 18, 11 ]
+  }, {
+    "jobNumber" : 941,
+    "jobProfit" : 154,
+    "startTime" : 762,
+    "finishTime" : 916,
+    "jobsOnMachine" : [ 1, 8, 19, 15, 10 ]
+  }, {
+    "jobNumber" : 942,
+    "jobProfit" : 41,
+    "startTime" : 775,
+    "finishTime" : 816,
+    "jobsOnMachine" : [ 7, 16, 3, 1, 6, 12, 9, 17, 11 ]
+  }, {
+    "jobNumber" : 943,
+    "jobProfit" : 285,
+    "startTime" : 169,
+    "finishTime" : 454,
+    "jobsOnMachine" : [ 5, 2, 4, 7 ]
+  }, {
+    "jobNumber" : 944,
+    "jobProfit" : 115,
+    "startTime" : 712,
+    "finishTime" : 827,
+    "jobsOnMachine" : [ 11, 5, 18, 8, 6 ]
+  }, {
+    "jobNumber" : 945,
+    "jobProfit" : 232,
+    "startTime" : 570,
+    "finishTime" : 802,
+    "jobsOnMachine" : [ 2 ]
+  }, {
+    "jobNumber" : 946,
+    "jobProfit" : 108,
+    "startTime" : 597,
+    "finishTime" : 705,
+    "jobsOnMachine" : [ 4, 7, 6, 19 ]
+  }, {
+    "jobNumber" : 947,
+    "jobProfit" : 9,
+    "startTime" : 264,
+    "finishTime" : 273,
+    "jobsOnMachine" : [ 9, 3, 2, 14, 1, 11, 6 ]
+  }, {
+    "jobNumber" : 948,
+    "jobProfit" : 79,
+    "startTime" : 855,
+    "finishTime" : 934,
+    "jobsOnMachine" : [ 8, 1, 5, 11, 12, 3, 2, 15, 7 ]
+  }, {
+    "jobNumber" : 949,
+    "jobProfit" : 69,
+    "startTime" : 691,
+    "finishTime" : 760,
+    "jobsOnMachine" : [ 7, 8, 9, 20, 3 ]
+  }, {
+    "jobNumber" : 950,
+    "jobProfit" : 477,
+    "startTime" : 266,
+    "finishTime" : 743,
+    "jobsOnMachine" : [ 6, 15, 8, 3, 11, 1 ]
+  }, {
+    "jobNumber" : 951,
+    "jobProfit" : 694,
+    "startTime" : 36,
+    "finishTime" : 730,
+    "jobsOnMachine" : [ 18 ]
+  }, {
+    "jobNumber" : 952,
+    "jobProfit" : 354,
+    "startTime" : 432,
+    "finishTime" : 786,
+    "jobsOnMachine" : [ 14, 19, 8 ]
+  }, {
+    "jobNumber" : 953,
+    "jobProfit" : 12,
+    "startTime" : 933,
+    "finishTime" : 945,
+    "jobsOnMachine" : [ 20, 18, 2, 3, 6, 16, 1, 9, 13 ]
+  }, {
+    "jobNumber" : 954,
+    "jobProfit" : 261,
+    "startTime" : 176,
+    "finishTime" : 437,
+    "jobsOnMachine" : [ 17, 18, 6 ]
+  }, {
+    "jobNumber" : 955,
+    "jobProfit" : 69,
+    "startTime" : 162,
+    "finishTime" : 231,
+    "jobsOnMachine" : [ 14, 5, 9, 17 ]
+  }, {
+    "jobNumber" : 956,
+    "jobProfit" : 39,
+    "startTime" : 589,
+    "finishTime" : 628,
+    "jobsOnMachine" : [ 6, 4, 2, 8, 7, 3, 17, 20, 12 ]
+  }, {
+    "jobNumber" : 957,
+    "jobProfit" : 126,
+    "startTime" : 767,
+    "finishTime" : 893,
+    "jobsOnMachine" : [ 13, 4, 19, 9, 10, 3, 18, 5, 14 ]
+  }, {
+    "jobNumber" : 958,
+    "jobProfit" : 374,
+    "startTime" : 606,
+    "finishTime" : 980,
+    "jobsOnMachine" : [ 10 ]
+  }, {
+    "jobNumber" : 959,
+    "jobProfit" : 312,
+    "startTime" : 132,
+    "finishTime" : 444,
+    "jobsOnMachine" : [ 14, 7, 15, 2 ]
+  }, {
+    "jobNumber" : 960,
+    "jobProfit" : 786,
+    "startTime" : 38,
+    "finishTime" : 824,
+    "jobsOnMachine" : [ 10, 16, 20 ]
+  }, {
+    "jobNumber" : 961,
+    "jobProfit" : 621,
+    "startTime" : 42,
+    "finishTime" : 663,
+    "jobsOnMachine" : [ 9, 6, 19, 12, 14, 5, 2, 17, 20, 4 ]
+  }, {
+    "jobNumber" : 962,
+    "jobProfit" : 465,
+    "startTime" : 406,
+    "finishTime" : 871,
+    "jobsOnMachine" : [ 4, 9, 1, 5, 15, 11, 18, 17, 8, 3 ]
+  }, {
+    "jobNumber" : 963,
+    "jobProfit" : 417,
+    "startTime" : 526,
+    "finishTime" : 943,
+    "jobsOnMachine" : [ 9, 5, 18, 7, 4, 12, 1 ]
+  }, {
+    "jobNumber" : 964,
+    "jobProfit" : 357,
+    "startTime" : 323,
+    "finishTime" : 680,
+    "jobsOnMachine" : [ 19, 7, 6, 5, 3, 11, 17, 1 ]
+  }, {
+    "jobNumber" : 965,
+    "jobProfit" : 35,
+    "startTime" : 833,
+    "finishTime" : 868,
+    "jobsOnMachine" : [ 17, 14 ]
+  }, {
+    "jobNumber" : 966,
+    "jobProfit" : 342,
+    "startTime" : 415,
+    "finishTime" : 757,
+    "jobsOnMachine" : [ 7, 16, 18 ]
+  }, {
+    "jobNumber" : 967,
+    "jobProfit" : 25,
+    "startTime" : 960,
+    "finishTime" : 985,
+    "jobsOnMachine" : [ 6, 1, 13, 4, 10, 18, 2 ]
+  }, {
+    "jobNumber" : 968,
+    "jobProfit" : 90,
+    "startTime" : 454,
+    "finishTime" : 544,
+    "jobsOnMachine" : [ 12 ]
+  }, {
+    "jobNumber" : 969,
+    "jobProfit" : 270,
+    "startTime" : 69,
+    "finishTime" : 339,
+    "jobsOnMachine" : [ 17, 12, 14, 8, 18, 1, 3, 19, 15 ]
+  }, {
+    "jobNumber" : 970,
+    "jobProfit" : 15,
+    "startTime" : 346,
+    "finishTime" : 361,
+    "jobsOnMachine" : [ 3 ]
+  }, {
+    "jobNumber" : 971,
+    "jobProfit" : 716,
+    "startTime" : 224,
+    "finishTime" : 940,
+    "jobsOnMachine" : [ 2, 4, 7 ]
+  }, {
+    "jobNumber" : 972,
+    "jobProfit" : 83,
+    "startTime" : 429,
+    "finishTime" : 512,
+    "jobsOnMachine" : [ 14, 13, 3, 15, 4, 17, 8, 18, 20 ]
+  }, {
+    "jobNumber" : 973,
+    "jobProfit" : 38,
+    "startTime" : 960,
+    "finishTime" : 998,
+    "jobsOnMachine" : [ 13, 16, 1 ]
+  }, {
+    "jobNumber" : 974,
+    "jobProfit" : 7,
+    "startTime" : 887,
+    "finishTime" : 894,
+    "jobsOnMachine" : [ 14, 10 ]
+  }, {
+    "jobNumber" : 975,
+    "jobProfit" : 212,
+    "startTime" : 433,
+    "finishTime" : 645,
+    "jobsOnMachine" : [ 14, 17, 1, 9, 16, 10, 3, 12, 7 ]
+  }, {
+    "jobNumber" : 976,
+    "jobProfit" : 639,
+    "startTime" : 230,
+    "finishTime" : 869,
+    "jobsOnMachine" : [ 8, 11, 14, 4, 1, 5, 20, 18, 9, 6 ]
+  }, {
+    "jobNumber" : 977,
+    "jobProfit" : 293,
+    "startTime" : 618,
+    "finishTime" : 911,
+    "jobsOnMachine" : [ 20, 2, 3, 19, 12, 13, 1, 11, 10 ]
+  }, {
+    "jobNumber" : 978,
+    "jobProfit" : 209,
+    "startTime" : 525,
+    "finishTime" : 734,
+    "jobsOnMachine" : [ 11, 7 ]
+  }, {
+    "jobNumber" : 979,
+    "jobProfit" : 1,
+    "startTime" : 776,
+    "finishTime" : 777,
+    "jobsOnMachine" : [ 17 ]
+  }, {
+    "jobNumber" : 980,
+    "jobProfit" : 418,
+    "startTime" : 305,
+    "finishTime" : 723,
+    "jobsOnMachine" : [ 4, 8, 20, 5, 16, 19 ]
+  }, {
+    "jobNumber" : 981,
+    "jobProfit" : 72,
+    "startTime" : 928,
+    "finishTime" : 1000,
+    "jobsOnMachine" : [ 16, 20, 4, 8, 10, 12, 11, 18 ]
+  }, {
+    "jobNumber" : 982,
+    "jobProfit" : 314,
+    "startTime" : 72,
+    "finishTime" : 386,
+    "jobsOnMachine" : [ 3, 19, 9 ]
+  }, {
+    "jobNumber" : 983,
+    "jobProfit" : 249,
+    "startTime" : 638,
+    "finishTime" : 887,
+    "jobsOnMachine" : [ 10, 1, 6, 2, 17, 18 ]
+  }, {
+    "jobNumber" : 984,
+    "jobProfit" : 832,
+    "startTime" : 84,
+    "finishTime" : 916,
+    "jobsOnMachine" : [ 19, 11, 7, 18, 2, 3, 17 ]
+  }, {
+    "jobNumber" : 985,
+    "jobProfit" : 6,
+    "startTime" : 982,
+    "finishTime" : 988,
+    "jobsOnMachine" : [ 20, 6, 3, 12, 18, 4, 17, 8 ]
+  }, {
+    "jobNumber" : 986,
+    "jobProfit" : 332,
+    "startTime" : 569,
+    "finishTime" : 901,
+    "jobsOnMachine" : [ 6, 10, 9, 12, 19, 20 ]
+  }, {
+    "jobNumber" : 987,
+    "jobProfit" : 339,
+    "startTime" : 624,
+    "finishTime" : 963,
+    "jobsOnMachine" : [ 6, 13, 3 ]
+  }, {
+    "jobNumber" : 988,
+    "jobProfit" : 556,
+    "startTime" : 256,
+    "finishTime" : 812,
+    "jobsOnMachine" : [ 7, 5, 9 ]
+  }, {
+    "jobNumber" : 989,
+    "jobProfit" : 257,
+    "startTime" : 142,
+    "finishTime" : 399,
+    "jobsOnMachine" : [ 16, 10 ]
+  }, {
+    "jobNumber" : 990,
+    "jobProfit" : 331,
+    "startTime" : 596,
+    "finishTime" : 927,
+    "jobsOnMachine" : [ 2, 11, 20, 14, 9, 16, 6, 1 ]
+  }, {
+    "jobNumber" : 991,
+    "jobProfit" : 12,
+    "startTime" : 973,
+    "finishTime" : 985,
+    "jobsOnMachine" : [ 9, 13, 8, 4, 17, 5, 15, 19, 1 ]
+  }, {
+    "jobNumber" : 992,
+    "jobProfit" : 75,
+    "startTime" : 492,
+    "finishTime" : 567,
+    "jobsOnMachine" : [ 8, 5, 12, 15, 1, 17, 16, 11 ]
+  }, {
+    "jobNumber" : 993,
+    "jobProfit" : 141,
+    "startTime" : 786,
+    "finishTime" : 927,
+    "jobsOnMachine" : [ 9, 5, 16, 17 ]
+  }, {
+    "jobNumber" : 994,
+    "jobProfit" : 8,
+    "startTime" : 987,
+    "finishTime" : 995,
+    "jobsOnMachine" : [ 14, 18, 10, 6, 5, 4, 7, 16, 3 ]
+  }, {
+    "jobNumber" : 995,
+    "jobProfit" : 177,
+    "startTime" : 814,
+    "finishTime" : 991,
+    "jobsOnMachine" : [ 20, 6, 17, 10 ]
+  }, {
+    "jobNumber" : 996,
+    "jobProfit" : 4,
+    "startTime" : 856,
+    "finishTime" : 860,
+    "jobsOnMachine" : [ 17, 11, 9, 10, 4, 15, 3 ]
+  }, {
+    "jobNumber" : 997,
+    "jobProfit" : 123,
+    "startTime" : 815,
+    "finishTime" : 938,
+    "jobsOnMachine" : [ 13, 15, 3, 17, 4 ]
+  }, {
+    "jobNumber" : 998,
+    "jobProfit" : 6,
+    "startTime" : 850,
+    "finishTime" : 856,
+    "jobsOnMachine" : [ 4, 3, 10, 20, 18, 11, 2, 9, 17 ]
+  }, {
+    "jobNumber" : 999,
+    "jobProfit" : 300,
+    "startTime" : 477,
+    "finishTime" : 777,
+    "jobsOnMachine" : [ 13, 10, 17, 2 ]
+  }, {
+    "jobNumber" : 1000,
+    "jobProfit" : 495,
+    "startTime" : 203,
+    "finishTime" : 698,
+    "jobsOnMachine" : [ 6, 17, 13, 1, 9, 5 ]
+  } ]
+}
