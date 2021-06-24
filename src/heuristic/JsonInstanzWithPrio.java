@@ -7,7 +7,7 @@ public class JsonInstanzWithPrio {
 
 	int numberOfJobs;
 	int numberOfMachines;
-	int intervallLenghts;
+	int intervalLenghts;
 	String type;
 	String description;
 	List<JobWithPrio> listOfJobs = new ArrayList<JobWithPrio>();
@@ -23,7 +23,7 @@ public class JsonInstanzWithPrio {
 	super();
 	this.numberOfJobs = numberOfJobs;
 	this.numberOfMachines = numberOfMachines;
-	this.intervallLenghts = intervallLenghts;
+	this.intervalLenghts = intervallLenghts;
 	this.type = type;
 	this.description = description;
 	this.listOfJobs = listOfJobs;
@@ -47,12 +47,12 @@ public class JsonInstanzWithPrio {
 		this.numberOfMachines = numberOfMachines;
 	}
 
-	public int getIntervallLenghts() {
-		return intervallLenghts;
+	public int getIntervalLenghts() {
+		return intervalLenghts;
 	}
 
-	public void setIntervallLenghts(int intervallLenghts) {
-		this.intervallLenghts = intervallLenghts;
+	public void setIntervalLenghts(int intervallLenghts) {
+		this.intervalLenghts = intervallLenghts;
 	}
 
 	

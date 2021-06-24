@@ -54,7 +54,7 @@ public class OFISP_Calculator {
 			 Map<Integer, ArrayList<GRBVar>> objectiveVariables = new LinkedHashMap<Integer, ArrayList<GRBVar>>();
 			 Map<Integer, Map<Integer, ArrayList<GRBVar>>> jobOverlaping = new LinkedHashMap<Integer, Map<Integer, ArrayList<GRBVar>>>();
 			 //Initialize the joboverlaping map
-			 for (int i =0; i < numberOfJobs; ++i) {
+			 for (int i =0; i <= numberOfJobs; ++i) {
 				 objectiveVariables.put(i, new ArrayList<GRBVar>());
 				}
 			for (int i =1; i <=numberOfMachines; ++i) {

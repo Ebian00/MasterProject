@@ -7,7 +7,7 @@ public class JobWithPrio {
 	
 	@Override
 	public String toString() {
-		return "JobWithPrio [jobNumber=" + jobNumber + ", jobWeight=" + jobWeight + ", startTime=" + startTime
+		return "JobWithPrio [jobNumber=" + jobNumber + ", jobWeight=" + jobProfit + ", startTime=" + startTime
 				+ ", finishTime=" + finishTime + ", jobPrio=" + jobPrio + ", jobsOnMachine="
 				+ Arrays.toString(jobsOnMachine) + "]";
 	}
@@ -18,13 +18,13 @@ public class JobWithPrio {
 	public JobWithPrio(int jobNumber, int jobProfit, int startTime, int finishTime, int jobPrio, Integer[] jobsOnMachine) {
 		super();
 		this.jobNumber = jobNumber;
-		this.jobWeight = jobProfit;
+		this.jobProfit = jobProfit;
 		this.startTime = startTime;
 		this.finishTime = finishTime;
 		this.jobPrio = jobPrio;
 		this.jobsOnMachine = jobsOnMachine;
 	}
-	int jobWeight;
+	int jobProfit;
 	int startTime;
 	int finishTime;
 	int jobPrio;
@@ -43,11 +43,11 @@ public class JobWithPrio {
 	public void setJobNumber(int jobNumber) {
 		this.jobNumber = jobNumber;
 	}
-	public int getJobWeight() {
-		return jobWeight;
+	public int getJobProfit() {
+		return jobProfit;
 	}
-	public void setJobWeight(int jobWeight) {
-		this.jobWeight = jobWeight;
+	public void setJobProfit(int jobWeight) {
+		this.jobProfit = jobWeight;
 	}
 	public int getStartTime() {
 		return startTime;

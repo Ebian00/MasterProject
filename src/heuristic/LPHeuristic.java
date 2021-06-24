@@ -159,7 +159,7 @@ public class LPHeuristic {
 						if (java.lang.Double.compare(var.get(GRB.DoubleAttr.X), 1) == 0) {
 							choosenJobs.add(var);
 						} else {
-							System.out.println(var.get(GRB.DoubleAttr.X));
+							//System.out.println(var.get(GRB.DoubleAttr.X));
 							brockenJobs.add(var);
 						}
 					}
@@ -207,7 +207,9 @@ public class LPHeuristic {
 			System.out.println("Error code: " + e.getErrorCode() + ". " + e.getMessage());
 		}
 		Instant finish = Instant.now();
-		System.out.println(Duration.between(start, finish).toMillis()); // in millis
+		 double time = Duration.between(start, finish).toMillis();
+		System.out.println("time in seconds = " + time/(1000));
+
 	}
 
 	public static int calculateInstance(int numberOfJobs, int numberOfMashines, int intevallLength,
@@ -223,12 +225,12 @@ public class LPHeuristic {
 		}
 		// Set the choosen variable by the lp relaxation
 		for (GRBVar grbVar : choosenJobs) {
-			try {
+		/*	try {
 				System.out.println(grbVar.get(GRB.StringAttr.VarName));
 			} catch (GRBException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
-			}
+			}*/
 			String[] variable = null;
 			try {
 				variable = grbVar.get(GRB.StringAttr.VarName).substring(1, grbVar.get(GRB.StringAttr.VarName).length())
@@ -262,12 +264,12 @@ public class LPHeuristic {
 			listOfCalculatedJobs.put(i, false);
 		}
 		for (GRBVar grbVar : brockenJobs) {
-			try {
+			/*try {
 				System.out.println(grbVar.get(GRB.StringAttr.VarName));
 			} catch (GRBException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
-			}
+			}*/
 			String[] variable = null;
 			try {
 				variable = grbVar.get(GRB.StringAttr.VarName).substring(1, grbVar.get(GRB.StringAttr.VarName).length())

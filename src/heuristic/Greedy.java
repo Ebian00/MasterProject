@@ -55,11 +55,11 @@ public class Greedy {
 		Instant start = Instant.now();
 		int numberOfJobs = jsonInstanz.getNumberOfJobs();
 		 int numberOfMachines= jsonInstanz.getNumberOfMachines();
-		 int numberOfInterval= jsonInstanz.getIntervallLenghts();
+		 int numberOfInterval= jsonInstanz.getIntervalLenghts();
 		 int Objective =0;
 		List<JobWithPrio> listOfJobs = jsonInstanz.getListOfJobs();
 		for (JobWithPrio job : listOfJobs) {
-			job.setJobPrio(job.getJobWeight());
+			job.setJobPrio(job.getJobProfit());
 		}
 		Map<Integer, Integer> machineConflict = null;
 		if(calculateMashineConflict) {
@@ -75,16 +75,16 @@ public class Greedy {
 		}
 		if(calculateMaxJobConflict) {
 			jsonInstanz.setListOfJobs(calculateMaxJobConflict(jsonInstanz.getNumberOfJobs(), jsonInstanz.numberOfMachines,
-					jsonInstanz.getIntervallLenghts(), jsonInstanz.getListOfJobs()));
+					jsonInstanz.getIntervalLenghts(), jsonInstanz.getListOfJobs()));
 			listOfJobs.sort(Comparator.comparing(JobWithPrio::getJobPrio).reversed());
 		}
 		if(calculateMashineConflict) {
 			Objective = calculateInstanceWithMachineConflict(jsonInstanz.getNumberOfJobs(), jsonInstanz.numberOfMachines,
-					jsonInstanz.getIntervallLenghts(), listOfJobs, machineConflict,listOfJobsOutput);
+					jsonInstanz.getIntervalLenghts(), listOfJobs, machineConflict,listOfJobsOutput);
 		}
 		else {
 			Objective = calculateInstance(jsonInstanz.getNumberOfJobs(), jsonInstanz.numberOfMachines,
-					jsonInstanz.getIntervallLenghts(),listOfJobs,listOfJobsOutput);
+					jsonInstanz.getIntervalLenghts(),listOfJobs,listOfJobsOutput);
 		}
 
 		
@@ -108,7 +108,9 @@ public class Greedy {
 		
 
 	Instant finish = Instant.now();
-	System.out.println(Duration.between(start, finish).toMillis()); // in millis
+	 double time = Duration.between(start, finish).toMillis();
+	System.out.println("time in seconds = " + time/(1000));
+
 	}
 
 	public static Map<Integer, Integer> calculateMashineConflict(List<JobWithPrio> jobs, int numberOfMashines) {
@@ -225,10 +227,10 @@ public class Greedy {
 				jobOutput.setFinishTime(job.getFinishTime());
 				jobOutput.setStartTime(job.getStartTime());
 				jobOutput.setJobNumber(job.getJobNumber());
-				jobOutput.setJobProfit(job.getJobWeight());
+				jobOutput.setJobProfit(job.getJobProfit());
 				jobOutput.setMachine(machineNumber);
 				listOfJobsOutput.add(jobOutput);
-				objective += job.getJobWeight();
+				objective += job.getJobProfit();
 			}
 		}
 		return objective;
@@ -280,10 +282,10 @@ public class Greedy {
 				jobOutput.setFinishTime(job.getFinishTime());
 				jobOutput.setStartTime(job.getStartTime());
 				jobOutput.setJobNumber(job.getJobNumber());
-				jobOutput.setJobProfit(job.getJobWeight());
+				jobOutput.setJobProfit(job.getJobProfit());
 				jobOutput.setMachine(currentMachine);
 				listOfJobsOutput.add(jobOutput);
-				objective += job.getJobWeight();
+				objective += job.getJobProfit();
 				for (Integer m : machineSorted) {
 					machineConflict.put(m, sorted.get(m) - 1);
 				}
