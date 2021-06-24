@@ -45,20 +45,19 @@ public class OFISP implements Runnable {
 			"--instanceType" }, description = "instance type to be generated, the options are rp for random instance"
 					+ " ip for the interval profit and ipc for interval profit with correlation and ipp for interval profit prozent")
 	String instanceType;
-	@Option(names = { "-nm", "--numberOfMachines" }, description = "file to be generated or to be read")
+	@Option(names = { "-nm", "--numberOfMachines" },defaultValue = "0", description = "file to be generated or to be read")
 	int numberOfMachines;
-	@Option(names = { "-ni", "--numberOfIntervals" }, description = "number of machine to be generated")
+	@Option(names = { "-ni", "--numberOfIntervals" },defaultValue = "0", description = "number of machine to be generated")
 	int numberOfIntervals;
-	@Option(names = { "-nj", "--numberOfJobs" }, description = "number of intervals to be generated")
+	@Option(names = { "-nj", "--numberOfJobs" },defaultValue = "0", description = "number of intervals to be generated")
 	int numberOfJobs;
-	@Option(names = { "-nmm", "--jobOnMaxMachines" }, description = "number of jobs to be generated")
+	@Option(names = { "-nmm", "--jobOnMaxMachines" },defaultValue = "0", description = "number of jobs to be generated")
 	int jobOnMaxMachines;
-	@Option(names = { "-cor",
-			"--correlation" }, defaultValue = "10", description = " defines the correlation for a job weight")
+	@Option(names = { "-cor","--correlation" }, defaultValue = "0", description = " defines the correlation for a job weight")
 	int correlation;
-	@Option(names = { "-mw", "--maxProfit" }, description = "max weight which a job can have ")
+	@Option(names = { "-mw", "--maxProfit" }, defaultValue = "0",description = "max weight which a job can have ")
 	int maxProfit;
-	@Option(names = { "-p", "--precentage" }, description = "precentage that a Job is assigned to a machine, it should be an integer between 1 and 100")
+	@Option(names = { "-p", "--precentage" }, defaultValue = "0",description = "precentage that a Job is assigned to a machine, it should be an integer between 1 and 100")
 	int precentage;
 	@Option(names = { "-grp",
 			"--generateRandomProfit" }, arity = "7", description = "this is the command to generate an instance with random weight. 7 parameter in the following sequence are needed"
@@ -427,18 +426,30 @@ public class OFISP implements Runnable {
 			String outputPath = "";
 			String inputPath = "";
 			try {
+				if(pathOfTheInstanceToBeRead.equals(null) ) {
+					System.out.println("Error: no path has been selected to read from!");
+					return;
+				}
 				inputPath = pathOfTheInstanceToBeRead;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the input path, please give a valid path");
 				return;
 			}
 			try {
+				if(pathOfTheInstanceToBesSavedTo.equals(null) ) {
+					System.out.println("Error: no path has been selected to save the file!");
+					return;
+				}
 				outputPath = pathOfTheInstanceToBesSavedTo;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the output path, please give a output path as string");
 				return;
 			}
 			try {
+				if(fileName.equals(null) ) {
+					System.out.println("Error: no file name has been selected!");
+					return;
+				}
 				file = fileName;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the filename, please give a filename as string");
@@ -453,18 +464,30 @@ public class OFISP implements Runnable {
 			boolean prioWithJobOnMachine;
 			boolean maxJobConflict;
 			try {
+				if(pathOfTheInstanceToBeRead.equals(null) ) {
+					System.out.println("Error: no path has been selected to read from!");
+					return;
+				}
 				inputPath = pathOfTheInstanceToBeRead;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the input path, please give a valid path");
 				return;
 			}
 			try {
+				if(pathOfTheInstanceToBesSavedTo.equals(null) ) {
+					System.out.println("Error: no path has been selected to save the file!");
+					return;
+				}
 				outputPath = pathOfTheInstanceToBesSavedTo;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the output path, please give a output path as string");
 				return;
 			}
 			try {
+				if(fileName.equals(null) ) {
+					System.out.println("Error: no file name has been selected!");
+					return;
+				}
 				file = fileName;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the filename, please give a filename as string");
@@ -499,18 +522,31 @@ public class OFISP implements Runnable {
 			String outputPath = "";
 			String inputPath = "";
 			try {
+				if(pathOfTheInstanceToBeRead.equals(null) ) {
+					System.out.println("Error: the input path is null!");
+					return;
+				}
 				inputPath = pathOfTheInstanceToBeRead;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the input path, please give a valid path");
 				return;
 			}
 			try {
+				if(pathOfTheInstanceToBesSavedTo.equals(null) ) {
+					System.out.println("Error: the output path is null!");
+					return;
+				}
 				outputPath = pathOfTheInstanceToBesSavedTo;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the output path, please give a output path as string");
 				return;
 			}
 			try {
+				
+				if(fileName.equals(null) ) {
+					System.out.println("Error: no file name has been selected!");
+					return;
+				}
 				file = fileName;
 			} catch (Exception e) {
 				System.out.println("Error: could not parse the filename, please give a filename as string");
@@ -532,6 +568,10 @@ public class OFISP implements Runnable {
 			
 				try {
 					jobs = numberOfJobs;
+					if(jobs==0 ) {
+						System.out.println("Error: the number of jobs can not be 0!");
+						return;
+					}
 				} catch (Exception e) {
 					System.out
 							.println("Error: could not convert the number of jobs, please give a positive integer number");
@@ -539,6 +579,10 @@ public class OFISP implements Runnable {
 				}
 				try {
 					machines =numberOfMachines ;
+					if(machines==0 ) {
+						System.out.println("Error: the number of machines can not be 0!");
+						return;
+					}
 				} catch (Exception e) {
 					System.out.println(
 							"Error: could not convert the number of machines, please give a positive integer number");
@@ -546,6 +590,10 @@ public class OFISP implements Runnable {
 				}
 				try {
 					intervals = numberOfIntervals;
+					if(intervals==0 ) {
+						System.out.println("Error: the number of intervals can not be 0!");
+						return;
+					}
 				} catch (Exception e) {
 					System.out.println(
 							"Error: could not convert the number of Intervals, please give a positive integer number");
@@ -553,12 +601,20 @@ public class OFISP implements Runnable {
 				}
 				
 				try {
+					if(fileName.equals(null) ) {
+					System.out.println("Error: no file name has been selected!");
+					return;
+				}
 					fileNameTemp = fileName ;
 				} catch (Exception e) {
 					System.out.println("Error: could not parse the filename, please give a filename as string");
 					return;
 				}
 				try {
+					if(pathOfTheInstanceToBesSavedTo.equals(null) ) {
+						System.out.println("Error: no path has been selected to save the file!");
+						return;
+					}
 					outputPath = pathOfTheInstanceToBesSavedTo;
 				} catch (Exception e) {
 					System.out.println("Error: could not parse the outputPath, please give a valid path");
@@ -566,6 +622,10 @@ public class OFISP implements Runnable {
 				}
 				if(instanceType.equals("ip")) {
 					try {
+						if(jobOnMaxMachines==0 ) {
+							System.out.println("Error: the number of jobOnMaxMachines can not be 0!");
+							return;
+						}
 						jobOnMachine = jobOnMaxMachines ;
 					} catch (Exception e) {
 						System.out.println(
@@ -582,6 +642,10 @@ public class OFISP implements Runnable {
 				}
 				else if(instanceType.equals("ipc")) {
 					try {
+						if(jobOnMaxMachines==0 ) {
+						System.out.println("Error: the number of jobOnMaxMachines can not be 0!");
+						return;
+					}
 						jobOnMachine = jobOnMaxMachines ;
 					} catch (Exception e) {
 						System.out.println(
@@ -589,6 +653,10 @@ public class OFISP implements Runnable {
 						return;
 					}
 					try {
+						if(correlation==0 ) {
+							System.out.println("Error: the number of correlation can not be 0!");
+							return;
+						}
 						cor = correlation ;
 					} catch (Exception e) {
 						System.out.println(
@@ -600,6 +668,10 @@ public class OFISP implements Runnable {
 				}
 				else if(instanceType.equals("ipp")) {
 					try {
+						if(precentage==0 ) {
+							System.out.println("Error: the number of precentage can not be 0!");
+							return;
+						}
 						percent = precentage ;
 					} catch (Exception e) {
 						System.out.println(
@@ -611,6 +683,10 @@ public class OFISP implements Runnable {
 				}
 				else if(instanceType.equals("rp")) {
 					try {
+						if(jobOnMaxMachines==0 ) {
+							System.out.println("Error: the number of jobOnMaxMachines can not be 0!");
+							return;
+						}
 						jobOnMachine = jobOnMaxMachines ;
 					} catch (Exception e) {
 						System.out.println(
@@ -618,6 +694,10 @@ public class OFISP implements Runnable {
 						return;
 					}
 					try {
+						if(maxProfit==0 ) {
+							System.out.println("Error: the number of maxProfit can not be 0!");
+							return;
+						}
 						maxProfitTemp = maxProfit ;
 					} catch (Exception e) {
 						System.out.println(
