@@ -29,7 +29,7 @@ public class IGIntervalProfitPrecent {
 		 
 		 String type = "Interval-Profit-Precentage instance";
 		 String description = "this is an interval profit job on machine with precentage instance with " + numberOfJobs+ " jobs and "+ numberOfMachines 
-				 +" machines and an interval lenght of" + numberOfIntervals+ ". The precentage of assigning a job to a machine is " + precentage+ ".";
+				 +" machines and an interval lenght of " + numberOfIntervals+ ". The precentage of assigning a job to a machine is " + precentage+ ".";
 		 	
 		 Random random = new Random();
 		 List<JobInput> listOfJobs = new ArrayList<JobInput>();

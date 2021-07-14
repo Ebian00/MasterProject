@@ -23,7 +23,7 @@ public class IGIntervalProfitCor {
 		 
 		 String type = "Interval-Corrolation-Profit instance ";
 		 String description = "this is an Interval corrolation profit instance with " + numberOfJobs+ " jobs and "+ numberOfMachines 
-				 +" machines and an interval lenght of" + numberOfIntervals+  ". The maximum job on a mashine is " + jobOnMaxMachines + ". The corrolation for this instance is " + correlation + ".";
+				 +" machines and an interval lenght of " + numberOfIntervals+  ". The maximum job on a mashine is " + jobOnMaxMachines + ". The corrolation for this instance is " + correlation + ".";
 		 Random random = new Random();
 		
 		 List<JobInput> listOfJobs = new ArrayList<JobInput>();

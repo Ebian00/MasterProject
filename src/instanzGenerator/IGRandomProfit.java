@@ -24,7 +24,7 @@ public class IGRandomProfit {
 		 
 		 String type = "Random-Profit instance";
 		 String description = "this is an random  profit instance with " + numberOfJobs+ " jobs and "+ numberOfMachines 
-				 +" machines and an interval lenght of" + numberOfIntervals+ ". the maximum profit for a job is  " + maxProfit + "." +
+				 +" machines and an interval lenght of " + numberOfIntervals+ ". the maximum profit for a job is  " + maxProfit + "." +
 				 ". The maximum job on a mashine is " + jobOnMaxMachines;
 		 Random random = new Random();
 		 List<JobInput> listOfJobs = new ArrayList<JobInput>();
