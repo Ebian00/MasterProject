@@ -185,7 +185,7 @@ public class LPHeuristic {
 					jsonInstanz.getIntervalLenghts(), choosenJobs, brockenJobs, jsonInstanz, listOfJobsOutput);
 
 			JsonOutput jsonOutput = new JsonOutput(numberOfJobs, numberOfMachines, numberOfInterval,
-					Objective, jsonInstanz.getType(),jsonInstanz.getDescription(),listOfJobsOutput);
+					Objective, jsonInstanz.getType(),jsonInstanz.getDescription(),listOfJobsOutput,"LPH");
 			ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 			try {
 				writer.writeValue(Paths
@@ -208,7 +208,8 @@ public class LPHeuristic {
 		}
 		Instant finish = Instant.now();
 		 double time = Duration.between(start, finish).toMillis();
-		System.out.println("time in seconds = " + time/(1000));
+			System.out.println("calculation time in seconds = " + time/(1000));
+
 
 	}
 

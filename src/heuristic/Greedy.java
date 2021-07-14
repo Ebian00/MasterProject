@@ -57,6 +57,7 @@ public class Greedy {
 		 int numberOfMachines= jsonInstanz.getNumberOfMachines();
 		 int numberOfInterval= jsonInstanz.getIntervalLenghts();
 		 int Objective =0;
+			String calculatedBy = "Greedy";
 		List<JobWithPrio> listOfJobs = jsonInstanz.getListOfJobs();
 		for (JobWithPrio job : listOfJobs) {
 			job.setJobPrio(job.getJobProfit());
@@ -67,20 +68,25 @@ public class Greedy {
 			 machineConflict = machineConflict.entrySet().stream()
 						.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
 						.collect(Collectors.toMap(Entry::getKey, Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+			 
+			
 		}
 		
 		if(calculatePrioWithJobOnMashine) {
 			jsonInstanz.setListOfJobs(calculatePrioWithJobOnMashine(jsonInstanz.getListOfJobs(), jsonInstanz.getNumberOfMachines()));
 			listOfJobs.sort(Comparator.comparing(JobWithPrio::getJobPrio).reversed());
+			 calculatedBy += "--jm";
 		}
 		if(calculateMaxJobConflict) {
 			jsonInstanz.setListOfJobs(calculateMaxJobConflict(jsonInstanz.getNumberOfJobs(), jsonInstanz.numberOfMachines,
 					jsonInstanz.getIntervalLenghts(), jsonInstanz.getListOfJobs()));
 			listOfJobs.sort(Comparator.comparing(JobWithPrio::getJobPrio).reversed());
+			 calculatedBy += "--jc";
 		}
 		if(calculateMashineConflict) {
 			Objective = calculateInstanceWithMachineConflict(jsonInstanz.getNumberOfJobs(), jsonInstanz.numberOfMachines,
 					jsonInstanz.getIntervalLenghts(), listOfJobs, machineConflict,listOfJobsOutput);
+			 calculatedBy += "--mc";
 		}
 		else {
 			Objective = calculateInstance(jsonInstanz.getNumberOfJobs(), jsonInstanz.numberOfMachines,
@@ -93,7 +99,7 @@ public class Greedy {
 		
 	
 		JsonOutput jsonOutput = new JsonOutput(numberOfJobs, numberOfMachines, numberOfInterval,
-				Objective,jsonInstanz.getType(),jsonInstanz.getDescription(), listOfJobsOutput);
+				Objective,jsonInstanz.getType(),jsonInstanz.getDescription(), listOfJobsOutput,calculatedBy);
 		ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 		try {
 			writer.writeValue(Paths.get(outputPath+outputName+ ".json").toFile(), jsonOutput);
@@ -109,7 +115,8 @@ public class Greedy {
 
 	Instant finish = Instant.now();
 	 double time = Duration.between(start, finish).toMillis();
-	System.out.println("time in seconds = " + time/(1000));
+		System.out.println("calculation time in seconds = " + time/(1000));
+
 
 	}
 

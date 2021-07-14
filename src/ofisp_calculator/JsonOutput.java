@@ -11,6 +11,8 @@ public class JsonOutput {
 	int numberOfMachines;
 	int intervallLenghts;
 	double objective;
+	String calculatedBy;
+
 	String type;
 	String description;
 	List<JobOutput> listOfJobs = new ArrayList<JobOutput>();
@@ -22,7 +24,7 @@ public class JsonOutput {
 	
 
 	public JsonOutput(int numberOfJobs, int numberOfMachines, int intervallLenghts, double objective, String type,
-		String description, List<JobOutput> listOfJobs) {
+		String description, List<JobOutput> listOfJobs, String calculatedBy) {
 	super();
 	this.numberOfJobs = numberOfJobs;
 	this.numberOfMachines = numberOfMachines;
@@ -31,14 +33,25 @@ public class JsonOutput {
 	this.type = type;
 	this.description = description;
 	this.listOfJobs = listOfJobs;
+	this.calculatedBy = calculatedBy;
 }
 
+	public String getType() {
+		return type;
+	}
 
-
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
 	public int getNumberOfJobs() {
 		return numberOfJobs;
 	}
-
 	public void setNumberOfJobs(int numberOfJobs) {
 		this.numberOfJobs = numberOfJobs;
 	}
@@ -73,5 +86,17 @@ public class JsonOutput {
 
 	public void setListOfJobs(List<JobOutput> listOfJobs) {
 		this.listOfJobs = listOfJobs;
+	}
+
+
+
+	public String getCalculatedBy() {
+		return calculatedBy;
+	}
+
+
+
+	public void setCalculatedBy(String calculatedBy) {
+		this.calculatedBy = calculatedBy;
 	}
 }

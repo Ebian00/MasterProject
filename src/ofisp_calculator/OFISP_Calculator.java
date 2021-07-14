@@ -25,7 +25,7 @@ public class OFISP_Calculator {
 	public static void calculateInstance(String instancePath, String outputPath, String outputName) {
 		
 		JsonInstanz jsonInstanz = null;
-		System.out.println("we are in the gurobi and the variables are :" + instancePath + " and " + outputPath + " and " +outputName);
+		//System.out.println("we are in the gurobi and the variables are :" + instancePath + " and " + outputPath + " and " +outputName);
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			 jsonInstanz = mapper.readValue(new File(instancePath), JsonInstanz.class);
@@ -37,7 +37,7 @@ public class OFISP_Calculator {
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
-		//Instant start = Instant.now();
+		Instant start = Instant.now();
 		try {
 			int numberOfJobs = jsonInstanz.getNumberOfJobs();
 			 int numberOfMachines= jsonInstanz.getNumberOfMachines();
@@ -162,7 +162,7 @@ public class OFISP_Calculator {
 			
 			}
 			 
-		 JsonOutput jsonOutput = new JsonOutput(numberOfJobs,numberOfMachines,numberOfInterval,model.get(GRB.DoubleAttr.ObjVal),jsonInstanz.getType(),jsonInstanz.getDescription(),listOfJobsOutput);
+		 JsonOutput jsonOutput = new JsonOutput(numberOfJobs,numberOfMachines,numberOfInterval,model.get(GRB.DoubleAttr.ObjVal),jsonInstanz.getType(),jsonInstanz.getDescription(),listOfJobsOutput,"Gurobi-Solver");
 		    ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 		    try {
 		    	writer.writeValue(Paths.get(outputPath+outputName+ ".json").toFile(), jsonOutput);
@@ -183,7 +183,9 @@ public class OFISP_Calculator {
 		} catch (GRBException e) {
 			System.out.println("Error code: " + e.getErrorCode() + ". " + e.getMessage());
 		}
-		//Instant finish = Instant.now();
-		//System.out.println(Duration.between(start, finish).toMillis());  //in millis
+		Instant finish = Instant.now();
+		 double time = Duration.between(start, finish).toMillis();
+		System.out.println("calculation time in seconds = " + time/(1000));
+
 	}
 }
